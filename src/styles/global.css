@@ -48,7 +48,7 @@ h1 { font-weight: 800}
 
 .button:hover {background-color: #0446ecc6}
 
-.button2 { background-color: #00c715; color: white; font-size: 15px; padding: 0.75rem 1.25rem; border-radius: 0.5rem; font-weight: 600; display: inline-block; transition: all 0.3s}
+.button2 { background-color: #00c715; color: white; font-size: 20px; padding: 0.75rem 1.25rem; border-radius: 0.5rem; font-weight: 600; display: flex; align-items: center; transition: all 0.3s}
 
 .button2:hover {background-color: #00c714c6}
 
