@@ -1,0 +1,38 @@
+---
+import { ShieldCheck, PhoneCall, Wrench, Wallet } from '@lucide/astro';
+const features = [
+  { text: 'Sistemas Antiasalto efectivo', icon: 'shield'},
+  { text: 'Instalación de GPS con apagado desde el celular', icon: 'phone' },
+  { text: 'Mano de obra experta y garantizada', icon: 'wrench' },
+  { text: 'Precios justos que cuidan tu bolsillo', icon: 'wallet' }
+];
+---
+    <section class="bg-white flex flex-col items-center justify-center p-4 mt-3 md:p-8">
+        <div class="max-w-7xl w-full flex flex-col lg:flex-row gap-10 items-center">
+          <article class="flex-1">
+            <header>
+              <h3 class="text-3xl md:text-4xl lg:text-4xl font-bold mb-4">PROTEGE TU HERRAMIENTA DE TRABAJO: SEGURIDAD <br /><span class="text-[#0445ec]">REAL Y AL ALCANCE</span></h3>
+            <p class="mb-6 text-lg leading-relaxed">Sabemos cuánto te ha costado tener tu vehiculo. Tu auto es tu patrimonio y no podemos dejar que nadie te lo quite. </p>
+          </header>
+          <p class="mb-8 text-lg">En Security Cars instalamos lo que tu vehiculo necesita . Somos especialistas en sistema de seguridad que si funciona , nos aseguramos de que cada equipo quede bien instalado y de esta manera responda cuando más lo necesites.</p>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+          {features.map((item) => (
+            <li class="flex bg-gray-300 rounded-4xl p-5 items-center gap-3 text-[#0445ec]">
+              <!-- ICONOS -->
+              {item.icon === 'shield' && <ShieldCheck className="w-6 h-6" />}
+              {item.icon === 'phone' && <PhoneCall className="w-6 h-6" />}
+              {item.icon === 'wrench' && <Wrench className="w-6 h-6" />}
+              {item.icon === 'wallet' && <Wallet className="w-6 h-6" />}
+              <p class="text-black font-medium">{item.text}</p>
+            </li>
+            ))}
+        </ul>
+      </article>
+      <!-- Contenedor de img -->
+      <figure class="flex-1 flex justify-center">
+        <div class="w-full max-w-lg">
+            <img src="/mecanico.webp" alt="Mecánico instalando sistema de seguridad en un vehículo" class="w-full h-full object-cover rounded-xl"/>
+        </div>
+      </figure>
+    </div>
+</section>

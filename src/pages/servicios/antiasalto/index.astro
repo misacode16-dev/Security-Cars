@@ -1,0 +1,105 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { ChevronDown } from '@lucide/astro';
+import { getServiceSchemasByKey } from '../../../data/services-data.js';
+import { getLocalBusinessSchema } from '../../../data/schemas.js';
+const serviceSchemas = [
+  getLocalBusinessSchema(),
+  ...getServiceSchemasByKey('antiasalto')
+];
+const features = [
+  { title: "Inmovilización del vehículo por estacionamiento", desc: "Al momento de estacionar su vehículo, el sistema se activa automáticamente después del minuto y medio bloqueando el motor. Esto garantiza que incluso si un ladrón logra ingresar al vehículo, no podrá arrancarlo sin su autorización."},
+  { title: "Protección modo anti a atraco", desc: "Si lo bajan forzosamente del vehículo, el ladrón podrá llevarse el vehículo pero al minuto y medio se bloqueará el motor automáticamente, aumentando las posibilidades de recuperación y reduciendo el riesgo para el conductor."},
+  { title: "Modo Valet Inteligente", desc: "Entrega tu auto para mantenimiento sin revelar tu sistema de seguridad. El sistema permanece oculto y bajo tu control absoluto y lo activas al momento de que usted sale del mantenimiento de su vehículo"},
+  { title: "Bloqueo electrónico con código (muy pronto)", desc: "",},
+];
+const stats = [
+  { value: "+3000", label: "Vehículos" },
+  { value: "+20", label: "Años" },
+  { value: "+4000", label: "Clientes" },
+  { value: "24/7", label: "Soporte" },
+];
+const faqs = [
+  { q: "¿Afecta la garantía de mi auto nuevo?", a: "No. No afecta la garantía la instalación se hace con técnicos especializados.",},
+  { q: "¿Es peligroso que el auto se detenga en marcha?", a: "En absoluto. El protocolo de apagado es progresivo y emite alertas sonoras previas, permitiendo una detención segura que prioriza tanto la seguridad vial como la integridad del conductor.",},
+  { q: "¿Qué sucede si pierdo mi chip o control de proximidad?", a: "El sistema cuenta con un método de desactivación de emergencia el cual el técnico le va a enseñar a la hora de la instalación.",},]
+  const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const whatsappText = encodeURIComponent("Hola estoy interesado en el Anti-asalto");
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+const seo = {
+  title: "Antiasalto para Auto en Lima | Security Cars",
+  description: "Sistema antiasalto con corta corriente inteligente. Si te bajan del auto, el motor se apaga solo al minuto y medio. Bloqueo por estacionamiento y modo Valet. Garantizado.",
+  keywords: ["antiasalto para auto", "corta corriente para auto", "corta corriente auto", "antiasalto por proximidad", "corta corriente a distancia para auto", "corta corriente automotriz", "corta corriente auto instalado", "cortacorriente para auto", "corta corriente antirrobo", "sistema antiasalto vehicular lima"],
+  image: "/og-antiasalto.webp",
+  alt: "Instalación de sistema antiasalto con corta corriente",
+  url: "https://securitycars.com/antiasalto",
+  ogTitle: "Si te asaltan, el auto no se lo llevan — Antiasalto Security Cars",
+  ogDescription: "Corta corriente inteligente en . El motor se apaga solo si te bajan del vehículo. Protección real para taxistas y propietarios de flota.",
+  twitterTitle: "Antiasalto para Auto en Lima | Security Cars ",
+  twitterDescription: "Corta corriente inteligente: si te bajan del auto, el motor se apaga solo. , Lima. WhatsApp: 934 306 764",
+};
+const layoutProps = {
+  ...seo,
+  structuredData: serviceSchemas,
+  preloadImage: seo.image,
+};
+---
+<Layout {...layoutProps}>
+    <section class="relative flex flex-col justify-center items-center">
+        <img src="/antiasaltohero.webp" alt="Antiasalto para auto" class="w-full object-cover h-[720px]" />
+        <div class="absolute inset-0 bg-black/80"></div>
+      <div class="absolute z-10 max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl text-white">
+          <header><h1 class="text-4xl md:text-5xl leading-11 md:leading-14  mb-6">Sistemas Anti-asalto de Última Generación</h1>
+          <p class="text-xl mb-10">Implementamos sistema de antirrobo</p>
+          </header>
+          <div class="flex gap-4 flex-col sm:flex-row">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-green-500 text-center rounded-lg">Enviar mensaje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="py-24 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+        <figure class="flex flex-col justify-center">
+          <h2 class="text-4xl font-bold mb-6">¿Por qué instalar un <strong>Anti-asalto</strong> a tu vehículo?</h2>
+          <p class="mb-8 text-gray-600">Este sistema es 100% efectivo ya que es sumamente discreto no emite ningún sonido ni luz que delate su presencia.</p>
+        </figure>
+          <img src="/antiasalto.webp" alt="Equipo del Antiasalto"  class=" w-[400px] h-full object-cover mx-auto" />
+      </div>
+    </section>
+        <section class="py-10">
+      <div class="max-w-4xl mx-auto space-y-6 px-6">
+                <header>
+          <h3 class="text-3xl font-bold mb-12 text-center">Ingeniería de Seguridad diseñada para tu Tranquilidad</h3>
+        </header>
+        {features.map((f) => (
+          <article>
+            <div class="p-8 transition border-l-2 hover:border-blue-600"> <h2 class="text-xl font-bold mb-2">{f.title}</h2> <p class="text-gray-600">{f.desc}</p></div>
+          </article>
+        ))}
+      </div>
+    </section>
+        <section class="py-12 ">
+      <div class="grid grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto px-6 text-center gap-6">
+        {stats.map((s) => (
+          <div> <p class="text-3xl font-bold text-blue-600">{s.value}</p> <p class="text-xs uppercase">{s.label}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+            <section class="py-24 mx-auto">
+            <div class="container mx-auto w-[clamp(300px,90vw,700px)] px-4">
+                <h3 class="text-3xl font-bold text-center mb-12">Preguntas Frecuentes</h3>
+                <div class="space-y-4">{faqs.map((f) => (
+                <details class="details group">
+                    <summary class="flex justify-between p-3 items-center cursor-pointer text-[12px] md:text-[16px] font-medium list-none">
+                        {f.q}
+                        <div><ChevronDown className="transition-transform group-open:rotate-180 md:w-8 md:h-8 w-4 h-4" /></div>
+                    </summary>
+                    <div class="px-6 pb-4 text-[13px] md:text-[16px] text-gray-700">{f.a}</div>
+                </details>))}
+                </div>
+            </div>
+        </section>
+      </Layout>

@@ -1,0 +1,124 @@
+---
+import { Menu, X } from '@lucide/astro';
+---
+
+<header role="banner">
+  <nav id="inicio" class="bg-white w-full shadow-sm z-50">
+    <section class="max-w-7xl mx-auto flex justify-between items-center h-16 px-6">
+      <!-- Logo -->
+      <div class="flex items-center">
+        <a href="/#inicio">
+          <img src="/logo.webp" alt="Security Cars" width="50" height="50" loading="eager" decoding="async" class="rounded-full"/>
+        </a>
+      </div>
+
+      <!-- Menú escritorio -->
+      <div class="flex items-center">
+        <ul class="hidden md:flex items-center space-x-8">
+          <li><a href="/" class="nav-link">Inicio</a></li>
+          <li><a href="/servicios" class="nav-link">Servicios</a></li>
+          <li><a href="/#faq" class="nav-link">FAQ</a></li>
+          <li><a href="/blog" class="nav-link">Blog</a></li>
+        </ul>
+
+        <!-- Botón móvil -->
+        <div class="md:hidden ml-4">
+          <button
+            id="menu-btn"
+            type="button"
+            aria-label="Abrir menú"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            class="p-2 text-black focus:outline-none"
+          >
+            <Menu id="icon-menu" className="w-6 h-6" />
+            <X id="icon-close" className="w-6 h-6 hidden" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menú móvil -->
+    <div
+      id="mobile-menu"
+      class="fixed top-16 left-0 w-full bg-white shadow-lg md:hidden z-40 opacity-0 -translate-y-2 pointer-events-none transition-all duration-300 ease-in-out">
+      <div class="px-6 py-4 flex flex-col space-y-3">
+        <a href="/" class="nav-link">Inicio</a>
+        <a href="/servicios" class="nav-link">Servicios</a>
+        <a href="/#faq" class="nav-link">FAQ</a>
+        <a href="/blog" class="nav-link">Blog</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<script is:inline>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const btn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  const iconMenu = document.getElementById("icon-menu");
+  const iconClose = document.getElementById("icon-close");
+
+  if (!btn || !menu || !iconMenu || !iconClose) return;
+
+  let isOpen = false;
+
+  function updateMenu(open) {
+    isOpen = open;
+
+    btn.setAttribute("aria-expanded", String(open));
+    btn.setAttribute(
+      "aria-label",
+      open ? "Cerrar menú" : "Abrir menú"
+    );
+
+    menu.classList.toggle("opacity-0", !open);
+    menu.classList.toggle("-translate-y-2", !open);
+    menu.classList.toggle("pointer-events-none", !open);
+
+    menu.classList.toggle("opacity-100", open);
+    menu.classList.toggle("translate-y-0", open);
+
+    iconMenu.classList.toggle("hidden", open);
+    iconClose.classList.toggle("hidden", !open);
+  }
+
+  function closeMenu() {
+    updateMenu(false);
+  }
+
+  btn.addEventListener("click", () => {
+    updateMenu(!isOpen);
+  });
+
+  menu.querySelectorAll("a").forEach(link => {
+    link.addEventListener("click", closeMenu);
+  });
+
+  window.addEventListener(
+    "scroll",
+    () => {
+      if (isOpen) closeMenu();
+    },
+    { passive: true }
+  );
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && isOpen) {
+      closeMenu();
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    if (
+      isOpen &&
+      !menu.contains(e.target) &&
+      !btn.contains(e.target)
+    ) {
+      closeMenu();
+    }
+  });
+
+});
+</script>

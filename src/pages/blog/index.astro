@@ -1,0 +1,45 @@
+---
+import Layout from "../../layouts/Layout.astro";
+
+// 2. Defines el array con los datos de tus artículos
+const articulos = [
+  {
+    slug: 'que es insonorizante para auto',
+    titulo: '¿Qué es el insonorizante para auto y para qué sirve? Guía básica',
+    descripcion: 'Descubre qué es el insonorizante para auto, para qué sirve y cómo puede ayudarte a reducir el ruido y mejorar la comodidad al conducir.',
+    imagen: '/post1.webp',
+    alt: 'lamina de inzonorizante'
+  },
+];
+---
+
+<Layout>
+  <main class="max-w-5xl mx-auto p-3 sm:p-9">
+    <header class="mb-9">
+      <h1 class="text-[48px] mb-0.5-">Blog</h1>
+    </header>
+    
+    <section class="max-w-[900px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* 3. Haces el map sobre el array de artículos */}
+      {articulos.map((articulo) => (
+        <a 
+          href={`/blog/${articulo.slug}`} 
+          class="block no-underline text-inherit rounded-[12px] overflow-hidden shadow-[0_4px_20px_rgba(0,0,0,0.1)] transition-transform duration-200 hover:-translate-y-[5px]"
+        >
+          <article>
+            <img 
+              src={articulo.imagen} 
+              alt={articulo.alt} 
+              loading="lazy" 
+              class="w-full h-[200px] object-cover"
+            />
+            <div class="p-4">
+              <h2 class="headline text-[20px]">{articulo.titulo}</h2>
+              <p class="description text-[14px] text-gray-600">{articulo.descripcion}</p>
+            </div>
+          </article>
+        </a>
+      ))}
+    </section>
+  </main>
+</Layout>

@@ -1,0 +1,65 @@
+---
+import { Phone, MapPin } from '@lucide/astro';
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const whatsappa = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+    "Hola 👋, estoy interesado en sus servicios de seguridad vehicular."
+  )}`;
+---
+    <footer class="bg-[#0445ec] text-gray-200">
+      <div class="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
+        <div>
+          <h4 class="text-xl font-bold mb-4">Seguridad Vehicular</h4>
+          <p class="text-sm">Especialistas en instalación de GPS, alarmas, sensores y tecnología automotriz. Protegemos tu vehículo con soluciones modernas y seguras.</p>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Servicios</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/servicios">Cámaras de retroceso</a></li>
+            <li><a href="/servicios">Sensores de estacionamiento</a></li>
+            <li><a href="/servicios">Focos LED / HID</a></li>
+            <li><a href="/servicios">Módulo alzavidrios</a></li>
+            <li><a href="/servicios">insonorizante</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Navegación</h5>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/#inicio">Inicio</a></li>
+            <li><a href="/servicios">Servicios</a></li>
+            <li><a href="/servicios/alarmas">Alarma</a></li>
+            <li><a href="/servicios/gps">GPS</a></li>
+            <li><a href="/servicios/antiasalto">Antiasalto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-bold mb-4">Contacto</h5>
+          <div class="space-y-3 text-sm">
+            <div class="contact-footer">
+              <Phone className="w-4 h-4" />
+              <span>934 306 764</span>
+            </div>
+            <div class="contact-footer">
+              <MapPin className="w-4 h-4" />
+              <span>Lima, Perú</span>
+            </div>
+          </div>
+          <div class="flex flex-col font-bold mt-3">
+            <span class="mb-2">Redes sociales</span>
+              <div class="flex gap-3">
+                <a href="https://www.facebook.com/profile.php?id=100049090133607" target="_blank" rel="noopener noreferrer">
+                  <img src="/facebook.webp" alt="Facebook" class="rounded-2xl" />
+                </a>
+                <a href="https://www.tiktok.com/@securitycars?lang=es-419" target="_blank" rel="noopener noreferrer">
+                  <img src="/tiktok.webp" alt="TikTok"class="rounded-2xl" />
+                </a>
+                <a href="https://www.youtube.com/@securitycars/shorts" target="_blank" rel="noopener noreferrer">
+                  <img src="/youtube.webp" alt="youtube" class="rounded-2xl" />
+                </a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="border-t border-gray-700 text-center text-xs py-6">
+        © {new Date().getFullYear()} Seguridad Vehicular. Todos los derechos reservados.
+      </div>
+    </footer>

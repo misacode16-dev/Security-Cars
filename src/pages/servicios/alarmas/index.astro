@@ -1,0 +1,77 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { getServiceSchemasByKey } from '../../../data/services-data.js';
+import { getLocalBusinessSchema } from '../../../data/schemas.js';
+const serviceSchemas = [
+  getLocalBusinessSchema(),
+  ...getServiceSchemasByKey('alarma')
+];
+const productos = [
+  { id: 1, titulo: "Alarma Básica", descripcion: "Es un sistema práctico y resistente diseñado para detectar cualquier intento de apertura o golpe. Ideal para vehículos que buscan una protección real, sin complicaciones técnicas.", imgn: "/alarmabasica.webp", informacion: [ { especificacion: "Protección por apertura de puertas, capó o maletero" }, { especificacion: "Sirena de alta potencia" }, { especificacion: "Sensor de golpe graduable" }, { especificacion: "Incluye dos controles de largo alcance" }]
+  },
+  { id: 2, titulo: "Alarma Full Plus", descripcion: "Lleva la seguridad de tu auto al siguiente nivel. Además de las funciones básicas, este sistema cuenta con 'Anti-Asalto': si te obligan a bajar del vehículo, el motor se apaga automáticamente tras un minuto y medio. Este sistema también cuanta por un bloqueo de encendido por estacionamiento, a este sistema añadimos un código de seguridad único que impide el encendido del motor incluso si logran robarte las llaves.", imgn: "/alarmafullplus.webp", informacion: [ { especificacion: "Sistema Anti-asalto inteligente" }, { especificacion: "Bloqueo de encendido por estacionamiento" }, { especificacion: "Código de seguridad para el arranque" }, { especificacion: "Sistema de sonido inteligente" }]
+  },
+  { id: 3, titulo: "Alarma Básica Integrada", descripcion: "Este modelo de alarma se acopla al control original del vehículo. Diseñada para vehículos sea con o sin  botón de encendido, Pero que si tenga su propio mando a distancia. ", imgn: "/integradabasica.webp", informacion: [ { especificacion: "Protección por apertura de puertas" }, { especificacion: "Protección por apertura de capó" }, { especificacion: "Sirena de alta potencia" }, { especificacion: "Sensor de golpe graduable" }]
+  },
+    { id: 4, titulo: "Alarma Integrada Full plus", descripcion: "Este sistema de alarma es compatible con los vehículos que cuentan con control a distancia, sea un vehículo con botón de encendido o con llave. Ya cuenta con las funciones de una alarma básica,  pero a este modelo se integran más funciones de seguridad.", imgn: "/integradafullplus.webp", informacion: [ { especificacion: "Sistema Anti -asalto inteligente" }, { especificacion: "Bloqueo de encendido por estacionamiento" }, { especificacion: "Opcional: código de seguridad para encendido de motor" }, { especificacion: "Arquitectura de bajo consumo eléctrico (Protege tu batería)" }]
+  }
+];
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const getWhatsappLink = (producto: string) => {
+  const message = `Hola 👋, estoy interesado en el servicio de ${producto}`;
+  return `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`};
+const seo = {
+  title: "Alarma para Auto en Lima | Security Cars",
+  description: "Instalamos alarmas para auto en : básica, Full Plus con antiasalto, integrada y más. Trabajo limpio, precios económicos, garantizado. Cotiza por WhatsApp.",
+  keywords: ["alarma para auto", "instalacion de alarmas para autos", "alarmas para autos precios", "instalación de alarmas para autos a domicilio", "sistema de alarma para auto", "alarma con encendido a distancia para autos", "alarma para camioneta", "sensor de golpe alarma auto", "tipos de alarmas para autos", "alarmas para vehiculos"],
+  image: "/og-alarma.webp",
+  alt: "Instalación de alarma para auto",
+  url: "https://securitycars.com/alarma",
+  ogTitle: "Tu auto merece una alarma que de verdad funcione — Security Cars",
+  ogDescription: "Alarmas básicas y Full Plus con antiasalto. Sin cables sueltos, sin fallas. Trabajo garantizado y precios económicos.",
+  twitterTitle: "Alarma para Auto en Lima | Security Cars ",
+  twitterDescription: "Instalamos alarmas para auto. Básica, Full Plus con antiasalto y más. WhatsApp: 934 306 764",
+};
+const layoutProps = {
+  ...seo,
+  structuredData: serviceSchemas,
+  preloadImage: seo.image,
+};
+---
+<Layout {...layoutProps}>
+    <section class="relative flex flex-col justify-center items-center">
+        <img src="/alarmahero.webp" alt="Alarma para autos" class="w-full object-cover h-[720px]" />
+        <div class="absolute inset-0 bg-black/80"></div>
+      <div class="absolute z-10 max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl">
+          <header><h1 class="text-5xl text-center text-white mb-6">Alarma para autos</h1></header>
+        </div>
+      </div>
+    </section>
+      <main class="py-20">
+        <div class="max-w-7xl mx-auto px-4 space-y-20">
+          {productos.map((producto) => (
+            <article class="grid md:grid-cols-2 gap-10 items-start">
+              <figure class="relative rounded-lg overflow-hidden">
+                <img src={producto.imgn} alt="Equipo de la alarma" class="w-full h-[200px] md:h-[300px] object-contain"/>
+              </figure>
+              <div class="space-y-4">
+                <header><h2 class="text-2xl font-bold">{producto.titulo}</h2></header>
+                <p>{producto.descripcion}</p>
+                <a href={getWhatsappLink(producto.titulo)} target="_blank" rel="noopener noreferrer" class="inline-block bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg">Contactar</a>
+                {producto.informacion?.length > 0 && (
+                  <section>
+                    <p class="font-bold text-lg mb-3">Información Técnica</p>
+                    <ul class="grid lg:grid-cols-4 grid-cols-2 gap-2 mb-5">
+                      {producto.informacion.map((info) => (
+                        <li class="bg-[#F2F2F2] shadow-lg p-1 rounded-2xl flex items-center justify-center text-[12px] text-center min-h-[80px] max-h-[82px] overflow-hidden">{info.especificacion}</li>
+                      ))}
+                    </ul>
+                  </section>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      </main>
+</Layout>

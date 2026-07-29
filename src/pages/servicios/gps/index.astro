@@ -1,0 +1,127 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { ChevronDown } from '@lucide/astro';
+import { getServiceSchemasByKey } from '../../../data/services-data.js';
+import { getLocalBusinessSchema} from '../../../data/schemas.js';
+const serviceSchemas = [
+  getLocalBusinessSchema(),
+  ...getServiceSchemasByKey('gps')
+];
+const features = [
+  { title: "Corte de Motor Remoto", desc: "Apaga tu vehículo desde cualquier lugar del mundo con un solo toque en tu celular en caso de robo."},
+  { title: "Alertas de Encendido", desc: "Recibe una notificación instantánea apenas alguien intente encender tu motor sin tu permiso."},
+  { title: "Múltiples alarmas", desc: "Te avisa a tu celular si golpean tu vehículo, si violenta la chapa de encendido, si desconectan la batería del vehículo"}
+];
+const stats = [
+  { value: "+3000", label: "Vehículos" },
+  { value: "+20", label: "Años" },
+  { value: "+4000", label: "Clientes" },
+  { value: "24/7", label: "Soporte" },
+];
+const faqs = [
+  { q: "¿Si desconectan los cables de la batería del auto el GPS sigue funcionando?", a: "¡Claro que sí! Nuestros equipos cuentan con una batería interna de respaldo que mantiene el rastreo activo por varias horas, aunque desconecten la batería principal."},
+  { q: "¿Instalar el GPS afecta la garantía de mi auto nuevo?", a: "No. Realizamos instalaciones técnicas especializada que no alteran el sistema eléctrico original del vehículo, manteniendo tu garantía intacta."},
+  { q: "¿Puedo tener varios vehículos bajo el mismo usuario del aplicativo?", a: "Si, podrá visualizar su flota de vehículos desde el aplicativo, computadora o tablet"},
+  { q: "¿El equipo es único pago?", a: "Si, el equipo es único pago de por vida"},
+];
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const whatsappText = encodeURIComponent("Hola estoy interesado en el GPS 4G");
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+const whatsappTextFull = encodeURIComponent("Hola estoy interesado en el GPS 4G Full");
+const whatsappUrlFull = `https://wa.me/${whatsappNumber}?text=${whatsappTextFull}`;
+const seo = {
+  title: "GPS para Auto en Lima | Security Cars",
+  description: "GPS 4G para autos en : rastreo en tiempo real, corte de motor remoto y alertas al celular. Pago único de por vida, sin mensualidad. Compatible con flotas.",
+  keywords: ["gps para auto", "gps para vehiculos", "instalacion de gps para autos", "gps tracker para autos", "rastreo gps vehicular", "gps para autos sin mensualidad", "gps 4g para auto", "precio de gps para auto", "gps para auto con celular", "sistema gps para vehiculos"],
+  image: "/og-gps.webp",
+  alt: "Instalación de GPS 4G para auto",
+  url: "https://securitycars.com/gps",
+  ogTitle: "Sabe dónde está tu auto en todo momento — GPS Security Cars",
+  ogDescription: "GPS 4G sin mensualidad para autos y flotas. Rastreo en tiempo real y corte de motor desde tu celular. Pago único.",
+  twitterTitle: "GPS para Auto en Lima | Security Cars",
+  twitterDescription: "GPS 4G sin mensualidad. Rastreo en tiempo real y corte de motor remoto. WhatsApp: 934 306 764",
+};
+const layoutProps = {
+  ...seo,
+  structuredData: serviceSchemas,
+  preloadImage: seo.image,
+};
+---
+<Layout {...layoutProps}>
+    <section class="relative flex flex-col justify-center items-center">
+        <img src="/gpshero.webp" alt="GPS 4G para auto" class="w-full object-cover h-[720px]" />
+        <div class="absolute inset-0 bg-black/80"></div>
+      <div class="absolute z-10 max-w-7xl mx-auto px-6">
+        <div class="max-w-3xl text-white">
+          <header><h1 class="text-4xl md:text-5xl  mb-6">GPS 4G para autos</h1>
+          <p class="text-xl mb-10">Con nuestra tecnología de rastreo 4G, tienes el control total de tu vehículo en tiempo real, con la red más rápida y estable del país.</p>
+          </header>
+          <div class="flex gap-4 flex-col sm:flex-row">
+            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="px-8 py-4 bg-green-500 text-center rounded-lg">Enviar mensaje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+        <section class="py-20 bg-gray-100">
+      <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+        <figure class="flex flex-col justify-center">
+                    <h2 class="text-4xl font-bold mb-6">¿Por qué actualizarte a la tecnología <strong class="text-[33px]">GPS 4G</strong>?</h2>
+          <p class="mb-8 text-gray-600">Las redes antiguas (2G y 3G) están dejando de funcionar en toda la región. Un <strong>GPS 4G</strong> no solo es más rápido; es la única forma de garantizar que la señal de tu auto no se pierda cuando más la necesites. Ya sea para proteger el auto de la familia o tu herramienta de trabajo.</p>
+        </figure>
+        <img src="/gps.webp" alt="Equipo del GPS 4G" class="w-[400px] h-full object-cover mx-auto" />
+      </div>
+    </section>
+        <section class="py-10">
+      <div class="max-w-4xl mx-auto space-y-6 px-6">
+                <header>
+          <h3 class="text-3xl font-bold mb-12 text-center">Funciones principales</h3>
+        </header>
+        {features.map((f) => (
+          <article>
+            <div class="p-8 transition border-l-2 hover:border-blue-600"><h2 class="text-xl font-bold mb-2">{f.title}</h2><p class="text-gray-600">{f.desc}</p></div>
+          </article>
+        ))}
+  <article>
+            <div class="p-10 transitio shadow-2xl rounded-2xl shadow-blue-600/80">
+              <h3 class="text-xl font-bold mb-2">GPS 4G FULL</h3>
+              <p class="text-gray-600">Incluye ubicación, apagado, múltiples alarmas, por puerta, por accesorios, por desconexión de batería y (opcional: sirena y bloqueo electrónico)</p>
+              <a href={whatsappUrlFull} target="_blank" rel="noopener noreferrer">
+                <button class="bg-green-500 text-[16px] py-4 px-4 rounded-lg font-bold cursor-pointer mt-5 text-white">Contactar ahora</button></a>
+              </div>
+          </article>
+      </div>
+    </section>
+        <section class="py-12 bg-gray-200">
+      <div class="grid grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto px-6 text-center gap-6">
+        {stats.map((s) => (
+          <div> <p class="text-3xl font-bold text-blue-600">{s.value}</p> <p class="text-xs uppercase">{s.label}</p></div>
+        ))}
+      </div>
+    </section>
+        <section class="bg-blue-600 py-10">
+      <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+        <article class="text-white">
+          <h3 class="text-4xl font-bold mb-6">Tu auto en la palma de tu mano</h3>
+          <p class="text-white/80 mb-2">Nuestra aplicación es tan fácil de usar como mandar un mensaje de WhatsApp. Olvida comandos complicados por SMS; ahora puedes ver tu vehículo las 24 horas, la velocidad actual y el estado del motor, con nuestro sistema de <strong>GPS 4G</strong> Alsama podrás tener un mayor control de tu flota de vehículos.</p>
+        </article>
+        <div class="relative flex justify-center">
+          <figure><img src="/plataforma.webp" alt="App del GPS" class="w-full h-full object-contain max-w-lg  rounded-[2rem] shadow-2xl flex items-center justify-center" /></figure>
+        </div>
+      </div>
+    </section>
+        <section class="py-24 max-w-4xl mx-auto">
+        <div class="container mx-auto px-4 w-[clamp(300px,90vw,700px)]">
+            <h3 class="text-3xl font-bold text-center mb-12">Preguntas Frecuentes</h3>
+            <div class="space-y-4">{faqs.map((f) => (
+                <details class="details group">
+                    <summary class="flex justify-between p-3 items-center cursor-pointer text-[13px] md:text-[16px] font-medium list-none">
+                        {f.q}
+                        <div><ChevronDown className="transition-transform group-open:rotate-180 md:w-8 md:h-8 w-3 h-3" /></div>
+                    </summary>
+                    <div class="px-6 pb-4 text-[13px] md:text-[16px] text-gray-700">{f.a}</div>
+                </details>))}
+            </div>
+        </div>
+    </section>
+  </Layout>
+

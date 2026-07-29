@@ -1,0 +1,23 @@
+---
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const whatsappText = encodeURIComponent("Hola 👋, estoy interesado en sus servicios");
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+---
+    <section class="relative h-[720px] flex items-center overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="/hero.webp" alt="Interior del auto" class="object-cover w-full h-full" fetchpriority=high />
+        </div>
+      <!-- Overlay oscuro + azul -->
+      <div class="absolute inset-0 hero-overlay"></div>
+      <!-- Contenido -->
+      <div class="relative z-20 px-6 max-w-3xl">
+        <header>
+          <h1 class="oswald text-7xl md:text-8xl text-white lg:text-9xl">Security <span class="text-blue-600">Cars</span></h1>
+        <p class="mt-6 text-white md:text-2xl font-light">Sistemas de seguridad y accesorios para autos.</p>
+        </header>
+        <div class="mt-8 flex gap-4">
+          <a href="/#servicios" class="button">Ver servicios y Productos</a>
+          <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" class="button2">Contáctanos</a>
+        </div>
+      </div>
+    </section>

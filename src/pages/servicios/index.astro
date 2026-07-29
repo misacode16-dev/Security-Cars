@@ -1,0 +1,220 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { X } from '@lucide/astro';
+
+const services = [
+  {
+    id: 1,
+    title: 'Camara de retoceso',
+    description: 'Nuestra Cámara de Retroceso es la solución económica y efectiva para que manejes con total tranquilidad. ¡Evita golpes, rayones y gastos innecesarios en el latonero!',
+    list: [
+      { title: "Ángulo de Visión Extendido:", text: "Lente gran angular de 170° que cubre ambos carriles y las esquinas del parachoques."},
+      { title: "Compatibilidad Universal:", text: "Funciona con sistemas de video NTSC / PAL, ideal para radios Android, pantallas OEM o monitores externos."},
+      { title: "Resistencia Climática Extrema:", text: "Certificación de impermeabilidad, diseñada para operar bajo lluvia intensa y temperaturas desde -20°C hasta +70°C."},
+      { title: "Visión Nocturna Mejorada:", text: "Iluminación mínima de 0.1 Lux, lo que permite una imagen nítida incluso en estacionamientos con poca luz."},
+      { title: "Líneas de Guía Estáticas:", text: " Incluye una cuadrícula de asistencia de estacionamiento para calcular distancias con precisión milimétrica."},
+      { title: "Instalación Discreta:", text: 'Diseño tipo "Butterfly" o empotrado que mantiene la estética original del vehículo sin cables a la vista.'},
+    ],
+    image: '/camara.webp',
+  },
+  { id: 2, title: 'Cámara de Retroceso de Alta Definición', description: 'Nuestro sistema de asistencia de visión trasera ha sido diseñado para restaurar la percepción periférica del conductor, eliminando los ángulos muertos inherentes a la arquitectura de los vehículos actuales. Al integrar tecnología de procesamiento de imagen de alto rendimiento, este dispositivo transforma maniobras críticas en operaciones de alta precisión, garantizando la integridad de su patrimonio y la seguridad de terceros.',
+  list: [{ title: "Sensor de Imagen de Alta Fidelidad:", text: "Arquitectura optimizada para procesamiento NTSC/PAL con balance de blancos automático y corrección de gamma."},
+          { title: "Blindaje Ambiental (Grado IP68):", text: "Sellado hermético estructural diseñado para soportar inmersión y partículas sólidas, garantizando durabilidad a largo plazo en condiciones de intemperie." },
+          { title: "Óptica de Gran Alcance:", text: "Ángulo de visualización calculado para una cobertura espacial de 170°, permitiendo la identificación temprana de obstáculos en la periferia."},
+          { title: "Integración Telemática 'Plug & Play':", text: "Diseño compatible con interfaces CAN-Bus y unidades multimedia de 12V, evitando alteraciones en el cableado original del vehículo."},
+          { title: "Referencia Espacial Dinámica:", text: "Sistema de guías estáticas integrado para una estimación milimétrica de distancias, facilitando el posicionamiento preciso en espacios reducidos."},
+        ],
+    image: '/camara3.webp',
+  },
+  { id: 3, title: 'Sensor de retroceso', description: 'Nuestro sistema de asistencia de estacionamiento ha sido diseñado para mitigar los puntos ciegos mediante una arquitectura de detección ultrasónica de alta frecuencia. Al integrar transductores de última generación, el sistema no solo alerta sobre obstáculos físicos, sino que brinda una respuesta espacial en tiempo real, transformando una maniobra compleja en una tarea segura, precisa y libre de estrés.',
+list: [
+    { title: "Tecnología de Detección:", text: "Sensores ultrasónicos de alta sensibilidad con un ángulo de cobertura óptimo para detectar obstáculos en un rango de 0.3 a 2.5 metros."},
+    { title: "Procesamiento Inteligente:", text: "Unidad de control (ECU) centralizada que filtra interferencias externas para evitar falsas alarmas, garantizando una detección precisa incluso en condiciones climáticas adversas." },
+    { title: "Interfaz de Alerta Progresiva:", text: "Aviso acústico mediante zumbador de alta fidelidad con aumento de frecuencia proporcional a la proximidad del objeto (frecuencia de trabajo: 40 kHz)." },
+    { title: "Rango de Tensión:", text: "Compatibilidad con sistemas eléctricos de 12V DC, optimizado para un consumo energético eficiente que no compromete la integridad de la red CAN-Bus del vehículo." },
+    { title: "Certificación de Sellado:", text: "Sensores con protección IP67 contra humedad y polvo, asegurando una vida útil prolongada bajo condiciones de uso continuo." },
+],
+    image: '/sensor-de-retroceso.webp',
+  },
+  { id: 4, title: 'Focos Led', description: 'Nuestros nuevos Focos LED de Alta Potencia están diseñados para darte una luz blanca y potente. Gracias a su ventilador interno, el foco no se calienta y dura muchísimo más que un foco común.',
+  list: [
+      { title: "Tecnología Lumínica:", text: "Chip LED de alta intensidad con temperatura de color de 6500K (Blanco Frío), ideal para reducir la fatiga ocular." },
+      { title: "Sistema de Enfriamiento:", text: "Disipación híbrida mediante ventilador turbo ultrasilencioso y disipador de calor de aleación de aluminio." },
+      { title: "Compatibilidad Electrónica:", text: "Driver externo con tecnología CAN-bus Ready, diseñado para evitar errores de 'foco fundido' en el tablero y parpadeos indeseados." },
+      { title: "Construcción Robusta:", text: "Grado de protección IP68, resistente al agua, polvo y vibraciones extremas del camino." },
+      { title: "Instalación Eficiente:", text: "Diseño Plug & Play compatible con sockets estándar, respetando el cableado original del vehículo." },
+      { title: "Patrón de Haz:", text: "Enfoque optimizado que evita el deslumbramiento a conductores en sentido contrario, cumpliendo con estándares de seguridad vial." },
+    ],
+    image: '/focos-led.webp',
+  },
+  { id: 5, title: 'Focos Led', description: 'Nuestros nuevos Focos LED de Alta Potencia están diseñados para darte una luz blanca y potente. Gracias a su ventilador interno, el foco no se calienta y dura muchísimo más que un foco común.',
+  list: [
+      { title: "Tecnología Lumínica:", text: "Chip LED de alta intensidad con temperatura de color de 6500K (Blanco Frío), ideal para reducir la fatiga ocular." },
+      { title: "Sistema de Enfriamiento:", text: "Disipación híbrida mediante ventilador turbo ultrasilencioso y disipador de calor de aleación de aluminio." },
+      { title: "Compatibilidad Electrónica:", text: "Driver externo con tecnología CAN-bus Ready, diseñado para evitar errores de 'foco fundido' en el tablero y parpadeos indeseados." },
+      { title: "Construcción Robusta:", text: "Grado de protección IP68, resistente al agua, polvo y vibraciones extremas del camino." },
+      { title: "Instalación Eficiente:", text: "Diseño Plug & Play compatible con sockets estándar, respetando el cableado original del vehículo." },
+      { title: "Patrón de Haz:", text: "Enfoque optimizado que evita el deslumbramiento a conductores en sentido contrario, cumpliendo con estándares de seguridad vial." },
+    ],
+    image: '/focos-led.webp',
+  },
+  { id: 6, title: 'Modulo de lazavidrio', description: 'El módulo alzavidrio es una solución profesional de alto rendimiento diseñada para automatizar y mejorar el sistema de control de ventanas de su vehículo. Es compatible con la mayoría de los vehículos y se integra sin problemas con los interruptores originales, que siguen manteniendo su funcionalidad total. Cuenta con un inteligente sistema de gestión de energía que protege el módulo de sobrecargas y optimiza el consumo de la batería, asegurando un funcionamiento eficiente y confiable.',
+  list: [
+        { title: "Función de Cierre Automático:", text: "Sube automáticamente las 4 ventanas del vehículo al armar la alarma o cerrar los seguros." },
+        { title: "Funcionamiento Secuencial:", text: "Cierra las ventanas de forma individual y consecutiva para reducir la carga en el sistema eléctrico." },
+        { title: "Sistema Antiatrapamiento Inteligente:", text: "Detiene el movimiento de la ventana si se detecta resistencia (ej. una mano), garantizando la seguridad de los ocupantes." },
+        { title: "Compatibilidad Universal:", text: "Diseñado para funcionar con la mayoría de los sistemas eléctricos de ventanas de automóviles." },
+        { title: "Integración Transparente:", text: "Mantiene la funcionalidad de los interruptores de ventana originales del vehículo." },
+        { title: "Operación Inteligente:", text: "No funciona cuando la ignición está encendida (ACC ON) para evitar accionamientos accidentales durante la conducción." },
+        { title: "Protección del Sistema:", text: "Cuenta con mecanismos de protección contra polaridad reversa, cortocircuitos y sobrecarga de voltaje, asegurando la durabilidad del módulo y del sistema eléctrico del auto." },
+        { title: "Modos de Operación Configurables:", text: "Permite elegir entre dos modos de aprendizaje para adaptarse a diferentes sistemas de señales del vehículo (luces intermitentes o cierre de seguros), seleccionable mediante jumper." },
+        { title: "Programación Flexible:", text: "Ofrece opciones para configurar la polaridad del pulso (positivo o negativo) para la entrada y la salida de señales, adaptándose a las necesidades de cada instalación." },
+        { title: "Tiempo de Subida/Bajada:", text: "Aproximadamente 8 segundos o más, con detección automática del motor." },
+        { title: "Tipo de Pulso:", text: "Soporta pulsos positivos/negativos y señales digitales." },
+        { title: "Alimentación:", text: "Compatible con voltajes de 9V a 15V." },
+        { title: "Corriente Máxima de Consumo:", text: "Soporta hasta 20A." }
+],
+    image: '/modulo-alzavidrio.webp',
+  },
+    { id: 7, title: 'Luces HID', description: 'Los focos HID son la solución ideal para quienes buscan mejorar la visibilidad sin gastar una fortuna. el sistema HID utiliza gas xenón para crear una luz mucho más blanca y potente, permitiéndote ver baches, peatones y señales de tránsito con mucha más anticipación.',
+  list: [
+  { title: "Tecnología de Arco de Xenón", text: "Genera hasta un 300% más de luminosidad en comparación con focos estándar." },
+  { title: "Temperatura de Color (Kelvin)", text: "Disponible en rangos de 4300K (Blanco cálido/OEM) hasta 6000K (Blanco puro), ideal para reducir la fatiga ocular." },
+  { title: "Construcción en Cuarzo Anti-UV", text: "Cápsula de alta resistencia que protege la óptica del faro contra el amarillamiento y la degradación por radiación ultravioleta." },
+  { title: "Consumo Eficiente", text: "Operación optimizada a 35W/55W, reduciendo la carga sobre el sistema eléctrico del automóvil."},
+  { title: "Estabilidad Lumínica", text: "Compatible con balastos electrónicos de alta precisión para evitar el parpadeo y garantizar un encendido rápido." },
+  { title: "Vida Útil Extendida", text: "Promedio de 3,000 a 5,000 horas de uso, superando por cinco veces la durabilidad de un foco halógeno." }
+],
+    image: '/luces-HID.webp',
+  },
+    { id: 8, title: 'Neblineros toyota yaris 3era generacion', description: 'Nuestro kit de neblineros están diseñados para iluminar el suelo directamente, permitiéndote ver los baches, las líneas de la carretera y cualquier obstáculo que las luces altas no muestran. Además de darte mucha más seguridad al conducir de noche o con mal clima, le dan a tu Toyota ese toque elegante y completo que tienen las versiones de lujo.',
+  list: [
+  { title: "Compatibilidad Exacta", text: "Diseñado exclusivamente para el Toyota Yaris Sedán de 3ra Generación (modelos 2014, 2015, 2016 y 2017)."},
+  { title: "Tecnología de Iluminación", text: "Sistema halógeno de alta eficiencia con soporte para actualización a LED (Plug & Play)." },
+  { title: "Temperatura de Color", text: "Configuración de 2500K - 3000K (Amarillo selectivo), ideal para suprimir longitudes de onda azules que causan deslumbramiento." },
+  { title: "Construcción Robusta", text: "Carcasa de alta resistencia térmica y lentes de policarbonato con protección UV para evitar el amarillamiento." },
+  { title: "Grado de Protección", text: "Certificación de sellado contra agua y polvo, garantizando operatividad en climas extremos." },
+  { title: "Kit de Instalación Completo", text: "Incluye biseles frontales con acabado cromado/negro (según versión), ramal de cables reforzado, relé de protección y switch original para el tablero." },
+  { title: "Integración Estética", text: "Acabado tipo OEM (Original Equipment Manufacturer) que respeta las líneas de diseño originales de la fascia del vehículo." }
+  ],
+    image: '/neblineros.webp',
+  }
+];
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const getWhatsappLink = (title: string) => {
+  const text = encodeURIComponent(
+    `Hola 👋, estoy interesado en el producto de ${title}. ¿Podrían brindarme más información y precio?`
+  );
+  return `https://wa.me/${whatsappNumber}?text=${text}`;
+};
+---
+<Layout title="Productos | Security Cars"
+        keywords = "luces led, focos led, luces led para autos, focos led para auto, focos led para carro, luz led para carro, focos para carro, led para autos alta y baja, focos led auto, focos led para automovil, luces hid, hid, iluminacion hid, luces hid para carro, faros hid para autos, insonorizante, insonorizacion, insonorizante para auto, aislante acustico coche, insonorizante automotriz, aislante acustico para auto, insonorizacion automovil, insonorizacion de auto, insonorización para autos, camaras de retroceso, camara de reversa para auto, camara de retroceso para autos, camara retroceso, camara retroceso auto, pantalla para carro con camara de reversa, cámara de retroceso para auto con pantalla, cámara de reversa para carro con sensores, pantalla con camara de reversa, camara para carro de reversa, camara de retroceso con pantalla, camara de retroceso con sensor, camara de retroceso con sensor para auto">
+        <main>
+    <div class="min-h-screen bg-white">
+      {/* Services Grid */}
+      <main class="py-12 px-4 md:px-8">
+        <div class="max-w-7xl mx-auto">
+          <header class="text-center mb-10">
+            <p class="text-4xl font-bold">Nuestros Productos</p>
+            <p class="text-gray-600 mt-2">Equipamiento y tecnología para mejorar tu vehículo</p>
+            <span class="text-[9px] text-gray-400">Ofrecemos tanto la venta y/o instalcion del equipo</span>
+          </header>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              <a href="/servicios/insonorizacion"  rel="noopener noreferrer">
+              <article class="group cursor-pointer overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300 bg-white">
+                <figure class="relative h-48 overflow-hidden">
+                  <img src='/insonorizante.webp' alt="g" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+                </figure>
+                <header class="p-6 text-center w-full">
+                  <h2 class="font-bold text-lg text-black">Insonorizante</h2>
+                </header>
+              </article>
+            </a>
+            {services.map((service) => (
+              <article class="group cursor-pointer overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300 bg-white" data-id={service.id}>
+                <figure class="relative h-48 overflow-hidden">
+                  <img src={service.image} alt={service.title} class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"/>
+                </figure>
+                <header class="p-6 text-center w-full">
+                  <h2 class="font-bold text-lg text-black">{service.title}</h2>
+                </header>
+              </article>
+            ))}
+        </div>
+        </div>
+      </main>
+        <div id="modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-3 bg-black/50 backdrop-blur-sm">
+          <div class="bg-white rounded-xl shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+            <div class="p-6 border-b">
+              <div class="flex justify-between items-start">
+                  <h1 id="modal-title" class="text-xl font-bold text-gray-900"></h1>
+                <button id="close-modal" class="p-2 cursor-pointer rounded-full hover:bg-gray-100 transition-colors" aria-label="Cerrar">
+                  <X className="text-gray-500" size={24} />
+                </button>
+              </div>
+            </div>
+            <div class="p-2">
+              <figure class="mb-6">
+                <img id="modal-img" class="w-full h-64 object-contain rounded-lg"/>
+              </figure>
+              <p id="modal-desc" class="text-black leading-relaxed p-2 mb-6"></p>
+              <div>
+                <ul id="modal-list" class="list-disc pl-6 text-black"></ul>
+              </div>
+              <a id="modal-whatsapp" target="_blank" rel="noopener noreferrer" class="block w-full bg-green-500 hover:bg-green-600 text-white font-medium rounded-lg transition-colors text-center py-3">Contactar ahora</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+  </Layout>
+
+
+<script is:inline define:vars={{ services }}>
+  // Elementos del DOM
+  const modal = document.getElementById('modal');
+  const modalTitle = document.getElementById('modal-title');
+  const modalImg = document.getElementById('modal-img');
+  const modalDesc = document.getElementById('modal-desc');
+  const modalList = document.getElementById('modal-list');
+  const modalWhatsapp = document.getElementById('modal-whatsapp');
+  const closeBtn = document.getElementById('close-modal');
+
+  // Abre el modal con la información del servicio
+  function abrirModal(id) {
+    const service = services.find(s => s.id === parseInt(id));
+    if (!service) return;
+    // Llenar datos del modal
+    modalTitle.textContent = service.title;
+    modalImg.src = service.image;
+    modalDesc.textContent = service.description;
+    // Llenar lista de características
+    modalList.innerHTML = service.list
+      .map(item => `<li class="mb-2"><b>${item.title}</b> <span>${item.text}</span></li>`)
+      .join('');
+    // Configurar link de WhatsApp (sin variable de entorno)
+    const whatsappNumber = '51934567890'; // Cambiar por tu número real
+    const mensaje = `Hola 👋, estoy interesado en el producto de ${service.title}`;
+    modalWhatsapp.href = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
+    // Mostrar modal
+    modal.classList.remove('hidden');
+  }
+  // Cierra el modal
+  function cerrarModal() {
+    modal.classList.add('hidden');
+  }
+  // Event listeners para abrir modal
+  document.querySelectorAll('[data-id]').forEach(card => {
+    card.addEventListener('click', () => {
+      abrirModal(card.dataset.id);
+    });
+  });
+  // Event listeners para cerrar modal
+  closeBtn.addEventListener('click', cerrarModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      cerrarModal();
+    }
+  });
+</script>

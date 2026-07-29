@@ -1,0 +1,128 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { AlertTriangle, Zap, Gauge, Shield, House, Wrench, Cpu } from '@lucide/astro';
+
+import { getServiceSchemasByKey } from '../../../data/services-data.js';
+
+import { getLocalBusinessSchema } from '../../../data/schemas.js';
+
+const serviceSchemas = [
+  getLocalBusinessSchema(),
+  ...getServiceSchemasByKey('alzavidrios')
+];
+
+const service = {
+    problems: [
+      { icon: "alert", title: "El vidrio no sube ni baja", description: "Puede ser falla del motor o del mecanismo interno. Revisamos antes de reemplazar.",
+      },
+      { icon: "zap", title: "El motor suena, pero no funciona", description: "Probable daño en cables o engranajes. Lo solucionamos rápido.",
+      },
+      { icon: "gauge", title: "Vidrios lentos o forzados", description: "Puede ser falta de mantenimiento o fallo del sistema.",
+      },
+    ],
+    trabajos: { imgs: ["/traalza1.webp","/traalza2.webp","/traalza3.webp"],},
+    services: [
+      { icon: "wrench", title: "Reparación", description: "Arreglamos cables, poleas y piezas dañadas.",
+      },
+      { icon: "cpu", title: "Instalación", description: "Convertimos sistemas manuales a eléctricos.",
+      },
+      { icon: "home", title: "Servicio a domicilio", description: "Vamos a tu casa o trabajo.",
+      },
+      { icon: "shield", title: "Mantenimiento", description: "Revisión completa y prevención de fallas.",
+      },
+    ],
+  }
+  const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+  const whatsappText = encodeURIComponent( "Hola 👋, estoy interesado en el servicio de alzavidrios eléctricos.");
+  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+  const seo = {
+  title: "Alzavidrios Eléctricos para Auto en Lima | Security Cars",
+  description: "Reparación e instalación de alzavidrios eléctricos en . Vidrios que no suben, motores que fallan, sistemas lentos. También convertimos manuales a eléctricos. Servicio a domicilio.",
+  keywords: ["alzavidrios electricos", "elevalunas electrico", "instalación de vidrios eléctricos para autos", "reparacion de alzavidrios", "alzavidrios electricos 4 puertas", "instalación de vidrios para autos a domicilio", "precio elevalunas eléctrico", "vidrios electricos para autos", "modulo alzavidrio", "motores de vidrios electricos"],
+  image: "/og-alzavidrio.webp",
+  alt: "Reparación e instalación de alzavidrios eléctricos",
+  url: "https://securitycars.com/alzavidrios",
+  ogTitle: "¿El vidrio no sube? Lo solucionamos hoy — Security Cars",
+  ogDescription: "Reparación e instalación de alzavidrios eléctricos. Atendemos a domicilio. Revisamos antes de reemplazar.",
+  twitterTitle: "Alzavidrios Eléctricos en Lima | Security Cars ",
+  twitterDescription: "Vidrio que no sube, motor que falla, sistema lento. Atención a domicilio. WhatsApp: 934 306 764",
+};
+const layoutProps = {
+  ...seo,
+  structuredData: serviceSchemas,
+  preloadImage: seo.image,
+};
+---
+<Layout {...layoutProps}>
+    <main class="bg-gray-50">
+      <section class="bg-gradient-to-r from-[#0343eb] to-[#0343eb]/80 text-white py-25 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <header>
+              <h1 class="text-4xl sm:text-5xl leading-11 md:leading-14 mb-4">Reparación e Instalación de Alza vidrios Eléctricos</h1>
+              <p class="text-blue-100 text-lg">¿Tus vidrios se trabaron o suben muy lento? Somos expertos en la reparación e <strong>instalación de alza vidrios eléctricos</strong> para todo tipo de autos. Te ayudamos con fallas en motores, botones y el módulo alza vidrio de tu vehículo.</p>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              <button class="bg-green-500 px-8 py-4 rounded-lg font-bold mt-4 hover:bg-green-400">Enviar mensaje</button>
+            </a>
+            </header>
+          </div>
+          <figure>
+            <img src="/alzavidrio hero.webp" alt="Alzavidrio eléctrico" width="616" height="384" class="rounded-2xl shadow-2xl object-cover mx-auto"/>
+          </figure>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto px-4 py-20">
+        <header class="text-center mb-12">
+          <h3 class="text-3xl font-bold">Problemas comunes</h3>
+        </header>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {service.problems.map((p) => (
+            <article class="bg-white p-6 rounded-xl shadow">
+              {p.icon === "alert" && <AlertTriangle className="text-[#0343eb] mb-4 w-6 h-6" />}
+              {p.icon === "zap" && <Zap className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {p.icon === "gauge" && <Gauge className="text-[#0343eb] mb-3 w-6 h-6" />}
+              <h2 class="font-bold">{p.title}</h2>
+              <p class="text-gray-600">{p.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section class="max-w-5xl mx-auto text-center pb-20">
+        <header>
+          <h3 class="text-3xl font-bold mb-8">Nuestros trabajos</h3>
+        </header>
+        <div class="grid md:grid-cols-3 justify-center gap-6 m-4">
+          {service.trabajos.imgs.map((img) => (
+            <figure>
+              <img src={img} alt="Trabajos de alzavidrio" class="rounded-xl object-contain w-[300px] h-full lg:w-full hover:scale-105"/>
+            </figure>
+          ))}
+        </div>
+      </section>
+      <section class="py-20 bg-white px-4">
+        <div class="max-w-7xl mx-auto">
+        <header class="text-center mb-12">
+          <h3 class="text-3xl font-bold">Lo que incluye el servicio</h3>
+          </header>
+        <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-6">
+          {service.services.map((s) => (
+            <div class="p-6 rounded-xl shadow-lg hover:-translate-y-1 transition bg-gray-50">
+              {s.icon === "wrench" && <Wrench className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {s.icon === "cpu" && <Cpu className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {s.icon === "home" && <House className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {s.icon === "shield" && <Shield className="text-[#0343eb] mb-3 w-6 h-6" />}
+              <h2 class="font-bold mb-2">{s.title}</h2>
+              <p class="text-gray-600 text-sm">{s.description}</p>
+            </div>
+          ))}
+        </div>
+        </div>
+      </section>
+      <section class="bg-[#0343eb] text-white w-[300px] md:w-[450px] lg:w-[580px] mb-6 py-3 lg:py-6 flex items-center mx-auto justify-around rounded-2xl">
+        <h2 class="text-1xl md:text-2xl lg:text-3xl  font-bold m-2 lg:m-3">¿Necesitas ayuda?</h2>
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <button class="bg-green-500 text-[10px] md:text-[15px] lg:text-[18px] py-4 px-4 rounded-lg font-bold cursor-pointer m-3 lg:m-5">Contactar ahora</button>
+        </a>
+      </section>
+    </main>
+</Layout>

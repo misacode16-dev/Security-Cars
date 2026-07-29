@@ -1,0 +1,24 @@
+---
+import { ChevronDown } from '@lucide/astro';
+const faqs = [
+    { question: '¿Realizan instalaciones a domicilio?', answer: 'Si, también realizamos instalación a domicilio previa Cita.' },
+    { question: '¿Cuánto tiempo toma la instalación?', answer: 'Va a depender del modelo de vehículo y del modelo de alarma que desee el cliente,  para más detalles nos puede escribir al WhatsApp' },
+    { question: '¿El GPS tiene mensualidad?', answer: 'Depende del tipo de plataforma de rastreo que se elija. Hay Gratis y de pago. Para más  detalles nos escribes al WhatsApp para  darle el soporte y ver que es lo más factible para su requerimiento. '},
+    { question: '¿Dan soporte si lo instalo con ustedes?', answer: 'Sí, damos soporte a nivel nacional.'},
+    { question: '¿Trabajan con todo tipo de vehículos?', answer: 'Sí, trabajamos con vehículo o maquinaria Pesada' }
+]
+---
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <h3 id="faq" class="titulo">Preguntas Frecuentes</h3>
+            <div class="max-w-3xl mx-auto space-y-4">{faqs.map((item) => (
+                <details class="details group">
+                    <summary class="w-full px-6 py-4 flex justify-between items-center cursor-pointer font-medium list-none">
+                        {item.question}
+                        <ChevronDown className="w-5 h-5 transition-transform group-open:rotate-180" />
+                    </summary>
+                    <div class="px-6 pb-4 text-gray-700">{item.answer}</div>
+                </details>))}
+            </div>
+        </div>
+    </section>

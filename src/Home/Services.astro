@@ -1,0 +1,63 @@
+---
+import Gps from "../../public/GPSservice.webp";
+import Antiasalto from "../../public/antiasaltoservice.webp"
+import Alarma from "../../public/alarmabasica.webp"
+const servicios = [
+    { id: 1, img: Alarma, titulo: "Alarma para auto", href: "/servicios/alarmas" },
+    { id: 2, img: Gps, titulo: "GPS para auto", href: "/servicios/gps" },
+    { id: 3, img: Antiasalto, titulo: "Antiasalto para auto", href: "/servicios/antiasalto" },
+];
+---
+      <!-- SERVICIOS PRINCIPALES -->
+      <section id="servicios" class="py-25 px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+  {servicios.map((servicio) => (
+    <article class="flex flex-col">
+      <figure class="relative w-full h-[230px] rounded-xl overflow-hidden flex items-center justify-center">
+        <img src={servicio.img.src} alt={`Servicio de ${servicio.titulo}`}class="object-contain w-[430px] h-full"/>
+      </figure>
+      <div class="pt-6 flex flex-col">
+        <header>
+          <h2 class="text-[20px] text-center font-semibold mb-3">{servicio.titulo}</h2>
+        </header>
+        <a href={servicio.href} class="button w-full text-center mt-auto">Más información</a>
+      </div>
+    </article>
+  ))}
+</div>
+        <!-- VER MÁS -->
+                  <div class="max-w-7xl mx-auto pt-20 pb-5 px-4 text-center">
+          <a href="/servicios" class="flex text-[#0445ec] items-center justify-center gap-2 mx-auto text-[18px] font-semibold border-2 border-[#0445ec] rounded-lg px-4 py-2 hover:bg-[#0445ec] hover:text-white transition w-full md:w-[300px]">Ver todos los productos</a>
+        </div>
+      </section>
+      <!-- SERVICIOS DESTACADOS -->
+      <section class="py-20 bg-white">
+        <div class="mx-auto space-y-10">
+          <!-- CUADRO 1 -->
+          <article class="service1">
+            <figure class="cuadro">
+              <img src="/alzavidrioservice.webp" alt="Reparación de alzavidrios eléctricos" class="rounded-xl object-cover"/>
+            </figure>
+            <div class="cuadro2">
+              <header>
+                <h2 class="cuadro-h2"><span class="cuadro-h2">Reparación y/o Instalación de</span> Alzavidrios Eléctricos</h2>
+              </header>
+              <p class="text-gray-700">Servicio especializado en reparación e <strong>instalación de vidrios eléctricos para carro.</strong></p>
+              <a href="/servicios/alzavidrios" class="button bg-[#0445ec]">Más información</a>
+            </div>
+          </article>
+          <!-- CUADRO 2 -->
+          <article class="service2">
+            <figure class="cuadro">
+              <img src="/pestilloservice.webp" alt="Reparación de pestillos eléctricos" class="rounded-xl object-cover"/>
+            </figure>
+            <div class="cuadro2">
+              <header>
+                <h2 class="cuadro-h2"><span class="cuadro-h2">Reparación y/o Instalación de</span> Pestillos Eléctricos</h2>
+              </header>
+              <p class="text-gray-700">Servicio especializado en reparación e <strong>instalación de pestillos eléctricos para autos.</strong></p>
+              <a href="/servicios/pestillos" class="button bg-[#0445ec]">Más información</a>
+            </div>
+          </article>
+        </div>
+      </section>

@@ -1,0 +1,20 @@
+---
+const trabajos = [
+  {img: "/trabajo1.webp", title: "Trabajo de insonorizacion "},
+  {img: "/trabajo2.webp", title: "Instalacion de una Auto Radio"},
+  {img: "/trabajo3.webp", title: "Instalacion de mando de alzavidrio"},
+  {img: "/trabajo4.webp", title: "Desarmando tablero de toyota yaris"},
+]
+---
+    <section>
+      <header>
+        <h3 class="titulo">Nuestros trabajos</h3>
+      </header>
+      <div class="nuestros-trabajos">{trabajos.map((trabajo) => (
+        <article>
+          <figure>
+            <img src={trabajo.img} alt={trabajo.title} class="rounded-xl object-contain w-[300px] h-full lg:w-full hover:scale-105"/>
+          </figure>
+        </article>
+      ))}</div>
+    </section>

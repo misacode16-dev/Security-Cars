@@ -1,11 +1,36 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import { getWebSiteSchema, getLocalBusinessSchema, getOrganizationSchema} from '../data/schemas.js';
+import Hero from '../Home/Hero.astro';
+import About from '../Home/About.astro';
+import Services from '../Home/Services.astro';
+import WorkDone from '../Home/WorkDone.astro';
+import Testimonials from '../Home/Testimonials.astro';
+import Faqs from '../Home/Faqs.astro';
+const seo = {
+  title: "Security Cars | Taller de Seguridad y Accesorios para Autos en Lima",
+  description: "Security Cars ofrece sistemas de seguridad, GPS, alarmas, cámaras, luces LED, alzavidrios y audio para autos en Lima Metropolitana.",
+  image: "https://securitycars.com/img/og-home.jpg",
+  url: "https://securitycars.com",
+};
+const structuredData = [
+  getOrganizationSchema(),
+  getLocalBusinessSchema(),
+  getWebSiteSchema(),
+];
+const layoutProps = {
+  ...seo,
+  structuredData,
+};
 ---
-
-<Layout>
-	<Welcome />
+<Layout {...layoutProps}>
+	<main>
+		<Hero />
+		<About />
+		<Services />
+		<WorkDone />
+		<Testimonials />
+		<Faqs />
+	</main>
 </Layout>
+

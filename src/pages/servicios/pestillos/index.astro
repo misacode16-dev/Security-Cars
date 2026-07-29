@@ -1,0 +1,119 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { Lock, Volume2, AlertTriangle, Settings, Wrench, Cable, CheckCircle } from '@lucide/astro';
+import { getServiceSchemasByKey } from '../../../data/services-data.js';
+import { getLocalBusinessSchema } from '../../../data/schemas.js';
+const serviceSchemas = [
+  getLocalBusinessSchema(),
+  ...getServiceSchemasByKey('pestillos')
+];
+const serviceData = {
+  problems: [
+    { icon: "lock", title: "El cierre centralizado no funciona", description: "¿Una puerta se queda abierta? Reparamos el cierre centralizado de tu auto para que vuelvas a tener el control total desde tu control remoto."},
+    { icon: "volume-2", title: "Ruidos molestos en las puertas", description: "Si tus seguros suenan trabados o hacen ruidos extraños, es hora de cambiar el motor del pestillo antes de que la puerta se bloquee por completo."},
+    { icon: "alert-triangle", title: "Seguros lentos o intermitentes", description: "Evita que el cierre centralizado de puertas falle cuando más lo necesitas. Limpiamos y reparamos el sistema para que funcione como nuevo."}
+  ],
+    trabajos: {imgs: ["/pestillos.webp","/pestillos2.webp"]},
+  services: [
+    { icon: "settings", title: "Chequeo Eléctrico", description: "Revisamos tu cierre centralizado para autos sin riesgos. Usamos herramientas que protegen la computadora de tu vehículo.",},
+    { icon: "wrench", title: "Reparación de Pestillos", description: "Restauramos la fuerza de los actuadores y la movilidad axial de las chapas, extendiendo la vida útil de tus cerraduras originales.",},
+    { icon: "cable", title: "Instalación de Sistemas Universales", description: "Ponemos cierre centralizado universal en coches de 2, 4 y 5 puertas. Incluye todo lo necesario para que tu auto quede full equipo."},
+    { icon: "check-circle", title: "Garantía de Funcionamiento", description: "Entregamos tu cierre centralizado instalado y probado. Verificamos que no consuma batería y que cierre perfecto al arrancar."},
+  ],
+  };
+const whatsappNumber = import.meta.env.PUBLIC_WHATSAPP_NUMBER;
+const whatsappText = encodeURIComponent( "Hola 👋, estoy interesado en el servicio de pestillos eléctricos" );
+const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappText}`;
+const seo = {
+  title: "Pestillos Eléctricos y Cierre Centralizado en Lima | Security Cars",
+  description: "Reparación e instalación de pestillos eléctricos y cierre centralizado. Puertas que no cierran, seguros con ruido o intermitentes. Universal para 2, 4 y 5 puertas. Garantizado.",
+  keywords: ["pestillos electricos para autos", "cierre centralizado para autos", "cierre centralizado universal", "reparacion cierre centralizado auto", "cierre centralizado 4 puertas", "cierre centralizado instalado", "precio de cierre centralizado", "cierre centralizado de puertas", "instalacion cierre centralizado auto", "seguros electricos para autos"],
+  image: "/og-pestillo.webp",
+  alt: "Instalación de cierre centralizado y pestillos eléctricos",
+  url: "https://securitycars.com/pestillos",
+  ogTitle: "¿Una puerta no cierra con el mando? Lo resolvemos — Security Cars",
+  ogDescription: "Reparación e instalación de cierre centralizado. Universal para 2, 4 y 5 puertas. Sin consumo de batería, trabajo garantizado.",
+  twitterTitle: "Cierre Centralizado y Pestillos Eléctricos | Security Cars Lima",
+  twitterDescription: "Cierre centralizado universal para 2, 4 y 5 puertas. Reparación e instalación garantizada. WhatsApp: 934 306 764",
+};
+const layoutProps = {
+  ...seo,
+  structuredData: serviceSchemas,
+  preloadImage: seo.image,
+};
+---
+<Layout {...layoutProps}>
+    <main >
+      <!-- HERO -->
+      <section class="bg-linear-to-r from-[#0343eb] to-[#0343eb]/80 text-white py-14 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div class="space-y-6">
+            <header>
+              <h1 class="text-4xl sm:text-5xl leading-11 md:leading-14 mb-4">Reparación de Pestillos Eléctricos y Cierre Centralizado</h1>
+              <p class="text-blue-100 text-lg">¿Tus seguros no bajan? Ofrecemos el mejor servicio de instalación y reparación de <strong>cierre centralizado para autos</strong>. Soluciones rápidas para que tu auto quede seguro y moderno a un precio justo.</p>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+              <button class="bg-green-500 px-8 mt-5 py-4 rounded-lg font-bold hover:bg-green-400 transition">Enviar mensaje</button>
+            </a>
+            </header>
+          </div>
+          <figure>
+            <img src="/pestilloshero.webp" alt="pestillos eléctricos" width={700} height={500} class="rounded-2xl overflow-hidden shadow-2xl"/>
+          </figure>
+        </div>
+      </section>
+      <section class="max-w-7xl mx-auto py-20 px-4">
+        <header class="text-center mb-12">
+          <h3 class="text-3xl font-bold">Problemas comunes</h3>
+        </header>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {serviceData.problems.map((problem) => (
+            <article class="bg-white p-8 rounded-2xl shadow">
+              {problem.icon === "lock" && <Lock className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {problem.icon === "volume-2" && <Volume2 className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {problem.icon === "alert-triangle" && <AlertTriangle className="text-[#0343eb] mb-3 w-6 h-6" />}
+              {problem.icon === "settings" && <Settings className="w-6 h-6 text-[#0343eb] mb-4" />}
+              <h2 class="font-bold mb-2">{problem.title}</h2>
+              <p class="text-gray-600">{problem.description}</p>
+            </article>
+          ))}
+        </div>
+      </section>
+      <section class="max-w-5xl mx-auto text-center pb-20">
+        <header>
+          <h3 class="text-3xl font-bold mb-8">Nuestros trabajos</h3>
+        </header>
+        <div class="grid md:grid-cols-3 justify-center gap-6 m-4">
+          {serviceData.trabajos.imgs.map((img) => (
+            <figure>
+              <img src={img} alt="Trabajo de instalacion de pestillos" class="rounded-xl object-contain h-full w-[300px] h-full lg:w-full hover:scale-105"/>
+            </figure>
+          ))}
+        </div>
+      </section>
+      <section class="bg-white py-20 px-4">
+        <div class="max-w-7xl mx-auto">
+          <header class="text-center mb-12">
+            <h3 class="text-3xl font-bold">Lo que incluye el servicio</h3>
+          </header>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {serviceData.services.map((service) => (
+              <article class="p-6 rounded-xl shadow-lg hover:-translate-y-1 transition bg-gray-50">
+                {service.icon === "settings" && <Settings className="text-[#0343eb] mb-3 w-6 h-6" />}
+                {service.icon === "wrench" && <Wrench className="text-[#0343eb] mb-3 w-6 h-6" />}
+                {service.icon === "cable" && <Cable className="text-[#0343eb] mb-3 w-6 h-6" />}
+                {service.icon === "check-circle" && <CheckCircle className="text-[#0343eb] mb-3 w-6 h-6" />}
+                <h2 class="font-bold mb-2">{service.title}</h2>
+                <p class="text-sm text-gray-600">{service.description}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#0343eb] text-white w-[300px] md:w-[450px] lg:w-[580px] mb-6 py-3 lg:py-6 flex items-center mx-auto justify-around rounded-2xl">
+        <h2 class="text-1xl md:text-2xl lg:text-3xl  font-bold m-2 lg:m-5">¿Necesitas ayuda?</h2>
+        <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <button class="bg-green-500 text-[10px] md:text-[15px] lg:text-[18px] py-4 px-4 rounded-lg font-bold cursor-pointer m-3 lg:m-5">Contactar ahora</button>
+        </a>
+      </section>
+    </main>
+</Layout>

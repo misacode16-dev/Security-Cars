@@ -1,0 +1,17 @@
+---
+    const testimonials = [
+    { text: "Muy buena y magnífica atención.Te aconsejan del producto que vas a comprar y sobre todo la instalación lo hacen con seguridad y confianza.Lo recomiendo 100%. Excelente servicio!!!!!", name: "Roberto Alanya", },
+    { text: "Excelente servicio.", name: "Wilfredo s Horna", },
+    {text: "Excelente servicio, Omar el dueño es una persona muy servicial. Instale una alarma de código variable muy buena. Lo recomiendo...",name: "Neyer Aquino",}]
+---
+    <section id="testimonios" class="py-16">
+        <div class="container mx-auto px-4">
+            <header><h3 class="titulo">Lo Que Dicen Nuestros Clientes</h3></header>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto text-center">{testimonials.map((testimonial) => (
+                    <article class="p-6 rounded-lg ">
+                        <blockquote class="text-gray-700 mb-6 italic">"{testimonial.text}"</blockquote>
+                        <cite class="font-semibold">{testimonial.name}</cite>
+                    </article>))}
+                </div>
+        </div>
+    </section>
