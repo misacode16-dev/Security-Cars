@@ -1,7 +1,7 @@
 // ============================================================
 // Configuración base (DOMAIN, BUSINESS) – igual que antes
 // ============================================================
-const DOMAIN = "https://securitycars.com";
+const DOMAIN = "https://security-cars.com/";
 
 const BUSINESS = { name: "Security Cars", alternateName: "Security Cars La Molina", telephone: "+51907300174", email: "[email del taller si disponible]", streetAddress: "Av. los Fresnos, La Molina", locality: "La Molina", region: "Lima", postalCode: "15024", country: "PE", latitude: "-12.099997", longitude: "-76.943963",
   openingHours: [
