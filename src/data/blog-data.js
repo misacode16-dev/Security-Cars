@@ -10,7 +10,7 @@ export const ARTICLES = {
     description: "Descubre qué es el insonorizante para auto, para qué sirve y cómo puede ayudarte a reducir el ruido y mejorar la comodidad al conducir.",
     image: "/post1.webp",
     author: "Security Cars",
-    publishedDate: "2025-06-01T00:00:00-05:00",
+    publishedDate: "2026-07-29T12:12:00-05:00",
     faq: [
       { question: "¿Cuánto dura la insonorización?", answer: "Entre 1 y 2 días dependiendo de las zonas a tratar." },
     ],

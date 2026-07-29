@@ -17,7 +17,7 @@ export const SERVICES = {
       { question: "¿La insonorización de puertas realmente mejora el sonido del equipo de audio o es solo marketing?", answer: "No es marketing, es acústica básica. Un altavoz necesita una caja cerrada detrás para funcionar correctamente. La puerta de un auto sin tratar tiene agujeros, plásticos sueltos y metal que vibra --- todo eso cancela parcialmente la señal del altavoz y genera distorsión a volúmenes medios-altos. En términos prácticos: al insonorizar las puertas se crea una caja acústica para los parlantes, lo que se traduce en mejor calidad de sonido dentro del vehículo." },
       { question: "¿Vale la pena insonorizar el vehículo?", answer: "Por supuesto. Estos son 5 beneficios de insonorizar tu vehículo: 1) Menos estrés y fatiga al manejar, ya que se reduce la contaminación sónica generada por otros vehículos, camiones, motos y bocinas, logrando viajes más tranquilos que disminuyen el cansancio mental del conductor y los pasajeros. 2) Comunicación clara dentro del vehículo, incluso al hablar por teléfono, sin necesidad de gritar ni subir el volumen. 3) Mejora del sistema de audio, ya que al insonorizar las puertas se crea un cajón acústico para cada parlante, evitando las vibraciones en la lata y el plástico sin necesidad de gastar en parlantes costosos. 4) Mejor rendimiento del aire acondicionado, que con techo, puertas y piso insonorizados puede rendir hasta un 40-50% mejor. 5) Mayor valor de reventa, ya que un vehículo silencioso y confortable por dentro se convierte en la opción más atractiva frente a otros del mismo modelo. Insonorizar el vehículo no es un gasto, es una inversión con muchos beneficios." },
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
   // ============================================================
   // ALARMA PARA AUTO
@@ -60,7 +60,7 @@ export const SERVICES = {
         answer: "Sí. La Alarma Full Plus incluye función antiasalto: si te obligan a bajar del vehículo, el motor se apaga automáticamente al minuto y medio. Además cuenta con bloqueo de encendido por estacionamiento y le añadimos un código de seguridad."
       }
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
 
   // ============================================================
@@ -101,7 +101,7 @@ export const SERVICES = {
         answer: "Nuestros equipos de GPS 4G Alsama envían múltiples alertas, por ejemplo: si alguien enciende el motor sin tu permiso, si golpean el vehículo, si se viola la chapa de encendido y si desconectan la batería del vehículo. También puedes hacer un corte de motor remoto desde tu celular en caso de robo."
       }
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
 
   // ============================================================
@@ -147,7 +147,7 @@ export const SERVICES = {
         answer: "El modo Valet te permite entregar tu auto a mantenimiento sin revelar tu sistema de seguridad. El sistema permanece oculto y bajo tu control absoluto. Lo reactivas cuando retiras el vehículo del mantenimiento."
       }
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
 
   // ============================================================
@@ -192,7 +192,7 @@ export const SERVICES = {
         answer: "La mayoría de reparaciones se resuelven el mismo día. Si es una instalación nueva de sistema eléctrico, el tiempo varía según el número de puertas. Te damos el tiempo exacto al momento de la evaluación."
       }
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
 
   // ============================================================
@@ -239,7 +239,7 @@ export const SERVICES = {
         answer: "El pestillo eléctrico es el actuador o solenoide individual de cada puerta (el mecanismo o motor que mueve el seguro). El cierre centralizado es el sistema o conjunto completo que controla los 4 seguros de las puertas, o todos los pestillos a la vez, desde un mando a distancia o al arrancar el motor."
       }
     ],
-    publishedDate: "2025-06-01T00:00:00-05:00"
+    publishedDate: "2026-07-29T12:12:00-05:00"
   },
 };
 

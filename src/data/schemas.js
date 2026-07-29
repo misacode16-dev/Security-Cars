@@ -82,7 +82,7 @@ export function getOrganizationSchema() {
  * @param {string} [service.areaServed="Lima Metropolitana, Perú"] - Zona de servicio
  * @param {string} [service.priceRange] - Rango de precios (opcional)
  * @param {Array<{question: string, answer: string}>} service.faq - Preguntas frecuentes
- * @param {string} [service.publishedDate="2025-06-01T00:00:00-05:00"] - Fecha de publicación
+ * @param {string} [service.publishedDate="2026-07-29T12:12:00-05:00"] - Fecha de publicación
  * @param {string} [service.parentName="Servicios"] - Nombre del padre en el breadcrumb
  * @param {string} [service.parentUrl=`${DOMAIN}/servicios`] - URL del padre en el breadcrumb
  * @returns {Array<Object>} Array de objetos schema (Service, WebPage, Breadcrumb, FAQ)
