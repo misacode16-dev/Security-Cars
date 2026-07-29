@@ -1,6 +1,6 @@
 import { generateArticleSchemas } from './schemas';
 
-const DOMAIN = "https://securitycars.com"; // ¡Asegúrate de cambiar esto por tu dominio real!
+const DOMAIN = "https://security-cars.com/"; // ¡Asegúrate de cambiar esto por tu dominio real!
 const BUSINESS_NAME = "Security Cars";
 
 export const ARTICLES = {

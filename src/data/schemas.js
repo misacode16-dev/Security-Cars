@@ -3,7 +3,7 @@
 // ============================================================
 const DOMAIN = "https://security-cars.com/";
 
-const BUSINESS = { name: "Security Cars", alternateName: "Security Cars La Molina", telephone: "+51907300174", email: "[email del taller si disponible]", streetAddress: "Av. los Fresnos, La Molina", locality: "La Molina", region: "Lima", postalCode: "15024", country: "PE", latitude: "-12.099997", longitude: "-76.943963",
+const BUSINESS = { name: "Security Cars", alternateName: "Security Cars La Molina", telephone: "+51934306764", streetAddress: "Av. los Fresnos, La Molina", locality: "La Molina", region: "Lima", postalCode: "15024", country: "PE", latitude: "-12.099997", longitude: "-76.943963",
   openingHours: [
     { "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"], opens: "08:00", closes: "18:00"},],
   areaServed: [ { "@type": "City", "name": "La Molina" }, { "@type": "City", "name": "Surco" }, { "@type": "City", "name": "Ate" }, { "@type": "City", "name": "Santa Anita" }, { "@type": "City", "name": "Los Olivos" }, { "@type": "City", "name": "San Martin de Porres" }, { "@type": "City", "name": "San Borja" }, { "@type": "City", "name": "Miraflores" }, { "@type": "AdministrativeArea", name: "Lima Metropolitana" }],
@@ -25,7 +25,6 @@ export function getLocalBusinessSchema() {
       "Taller especializado en insonorización de autos, alarmas, GPS y sistemas antiasalto en La Molina, Lima, Perú. Más de 20 años de experiencia. Trabajo profesional garantizado.",
     url: DOMAIN,
     telephone: BUSINESS.telephone,
-    email: BUSINESS.email || undefined,
     address: { "@type": "PostalAddress", streetAddress: BUSINESS.streetAddress, addressLocality: BUSINESS.locality, addressRegion: BUSINESS.region, postalCode: BUSINESS.postalCode, addressCountry: BUSINESS.country},
     geo: { "@type": "GeoCoordinates", latitude: BUSINESS.latitude, longitude: BUSINESS.longitude},
     openingHoursSpecification: BUSINESS.openingHours,
