@@ -3,12 +3,12 @@ import '../styles/global.css';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import Head from "./Head.astro";
-const { title, description, image, url, ogTitle, ogDescription, ogImage, twitterTitle, twitterDescription, twitterImage, alt, noindex, structuredData, preloadImage} = Astro.props;
+const { title, description, ogType, image, url, ogTitle, ogDescription, ogImage, twitterTitle, twitterDescription, twitterImage, alt, noindex, structuredData, preloadImage} = Astro.props;
 ---
 <!doctype html>
 <html lang="es-PE">
   <head>
-    <Head title={title} description={description} image={image} url={url} ogTitle={ogTitle} ogDescription={ogDescription} ogImage={ogImage} twitterTitle={twitterTitle} twitterDescription={twitterDescription} twitterImage={twitterImage} alt={alt} noindex={noindex} structuredData={structuredData} preloadImage={preloadImage}/>
+    <Head title={title} description={description} ogType={ogType} image={image} url={url} ogTitle={ogTitle} ogDescription={ogDescription} ogImage={ogImage} twitterTitle={twitterTitle} twitterDescription={twitterDescription} twitterImage={twitterImage} alt={alt} noindex={noindex} structuredData={structuredData} preloadImage={preloadImage}/>
   </head>
 	<body>
 		<Navbar />

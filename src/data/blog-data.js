@@ -1,6 +1,8 @@
-import { generateArticleSchemas } from './schemas';
+// blog-data.js — Security Cars
+import { generateArticleSchemas } from './schemas.js';
 
-const DOMAIN = "https://security-cars.com/"; // ¡Asegúrate de cambiar esto por tu dominio real!
+// ⚠️ Sin barra al final — se usa para construir URLs en los schemas
+export const DOMAIN = "https://security-cars.com";
 const BUSINESS_NAME = "Security Cars";
 
 export const ARTICLES = {
@@ -9,15 +11,24 @@ export const ARTICLES = {
     title: "¿Qué es el insonorizante para auto y para qué sirve? Guía básica",
     description: "Descubre qué es el insonorizante para auto, para qué sirve y cómo puede ayudarte a reducir el ruido y mejorar la comodidad al conducir.",
     image: "/post1.webp",
-    author: "Security Cars",
+    author: BUSINESS_NAME,
     publishedDate: "2026-07-29T12:12:00-05:00",
-    faq: [
-      { question: "¿Cuánto dura la insonorización?", answer: "Entre 1 y 2 días dependiendo de las zonas a tratar." },
-    ],
+    modifiedDate: "2026-07-29T12:12:00-05:00",
   },
-  // Cuando crees un nuevo artículo, solo añades otro bloque aquí
+
+  // Para agregar un nuevo artículo, copia el bloque de arriba:
+  // "slug-del-articulo": {
+  //   slug: "slug-del-articulo",
+  //   title: "...",
+  //   description: "...",
+  //   image: "/post2.webp",
+  //   author: BUSINESS_NAME,
+  //   publishedDate: "...",
+  //   modifiedDate: "...",
+  // },
 };
 
+// Helper — úsalo en cada página de artículo
 export function getArticleSchemasBySlug(slug) {
   const article = ARTICLES[slug];
   if (!article) return [];

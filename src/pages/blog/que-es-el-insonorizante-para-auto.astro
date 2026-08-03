@@ -1,8 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import { ARTICLES, getArticleSchemasBySlug } from '../../data/blog-data'; // Ajusta la ruta a tu carpeta data o lib
+import { ARTICLES, getArticleSchemasBySlug, DOMAIN } from '../../data/blog-data';
 
-// 1. El slug debe coincidir con la clave en blog-data.js
 const slug = "que-es-el-insonorizante-para-auto";
 const article = ARTICLES[slug];
 
@@ -10,14 +9,10 @@ if (!article) {
   return Astro.redirect('/404');
 }
 
-// 2. Obtenemos los schemas
 const structuredData = getArticleSchemasBySlug(slug);
 
-// 3. Variables para el SEO (necesitan ser URLs absolutas)
-const DOMAIN = "https://security-cars.com/";
 const fullUrl = `${DOMAIN}/blog/${slug}`;
-const fullImage = `${DOMAIN}${article.image}`; 
-
+const fullImage = article.image.startsWith('http') ? article.image : `${DOMAIN}${article.image}`;
 ---
 
 <Layout
@@ -28,173 +23,101 @@ const fullImage = `${DOMAIN}${article.image}`;
   ogType="article"
   structuredData={structuredData}
   preloadImage={fullImage}
-  >
-<article class="mx-auto max-w-4xl text-gray-800 leading-8 mt-15 mb-15 lg:p-0 p-2.5">
-  <header>
-    <h1 class="text-4xl text-center font-bold tracking-tight text-gray-900 md:text-5xl">
-      ¿Qué es el insonorizante para auto y para qué sirve? Guía básica
-    </h1>
+>
+  <article class="mx-auto max-w-4xl text-gray-800 leading-8 mt-15 mb-15 lg:p-0 p-2.5">
+    <header>
+      <h1 class="text-4xl text-center font-bold tracking-tight text-gray-900 md:text-5xl">
+        ¿Qué es el insonorizante para auto y para qué sirve? Guía básica
+      </h1>
 
-    <p class="mt-6 text-lg text-gray-600">
-      Si alguna vez has sentido que el ruido dentro de tu auto te distrae o
-      incomoda, el insonorizante puede ser justo lo que necesitas. Aquí te
-      explico de forma clara y directa qué es y para qué sirve.
-    </p>
+      <p class="mt-6 text-lg text-gray-600">
+        Si alguna vez has sentido que el ruido dentro de tu auto te distrae o
+        incomoda, el insonorizante puede ser justo lo que necesitas. Aquí te
+        explico de forma clara y directa qué es y para qué sirve.
+      </p>
 
-    <figure class="mt-8 overflow-hidden rounded-2xl">
-      <img src="/arti1.webp" alt="Insonorizante para auto" loading="lazy" class="h-auto w-[483px] m-auto object-cover"/>
-    </figure>
-  </header>
+      <figure class="mt-8 overflow-hidden rounded-2xl">
+        <img src="/arti1.webp" alt="Insonorizante para auto" loading="lazy" class="h-auto w-[483px] m-auto object-cover" />
+      </figure>
+    </header>
 
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿Qué es el insonorizante para auto?
-    </h2>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿Qué es el insonorizante para auto?</h2>
+      <p class="mt-5">
+        El <strong class="font-semibold text-gray-900">insonorizante para auto</strong> es un material diseñado para
+        <strong class="font-semibold text-gray-900">reducir el ruido dentro del vehículo</strong>.
+        Se instala en distintas partes del carro (puertas, piso, techo y maletera) con el objetivo de bloquear o absorber sonidos externos e internos.
+      </p>
+      <p class="mt-4">
+        En pocas palabras: <strong class="font-semibold text-gray-900">hace que tu auto sea más silencioso y cómodo.</strong>
+      </p>
+    </section>
 
-    <p class="mt-5">
-      El <strong class="font-semibold text-gray-900">insonorizante para auto</strong>
-      es un material diseñado para
-      <strong class="font-semibold text-gray-900">
-        reducir el ruido dentro del vehículo
-      </strong>.
-      Se instala en distintas partes del carro (puertas, piso, techo y
-      maletera) con el objetivo de bloquear o absorber sonidos externos e
-      internos.
-    </p>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿Para qué sirve?</h2>
+      <p class="mt-5">Este producto no solo reduce el ruido, sino que también aporta varios beneficios importantes:</p>
+      <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
+        <li>Reduce el ruido del motor.</li>
+        <li>Disminuye el sonido de la carretera, las llantas, el viento y las vibraciones.</li>
+        <li>Mejora la calidad del audio dentro del vehículo.</li>
+        <li>Aumenta la sensación de confort al conducir.</li>
+      </ul>
+      <p class="mt-6">Si pasas muchas horas al volante, notarás la diferencia desde los primeros recorridos.</p>
+    </section>
 
-    <p class="mt-4">
-      En pocas palabras:
-      <strong class="font-semibold text-gray-900">
-        hace que tu auto sea más silencioso y cómodo.
-      </strong>
-    </p>
-  </section>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿Cómo funciona?</h2>
+      <p class="mt-5">Este material actúa de dos maneras principales:</p>
+      <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
+        <li>
+          <strong class="font-semibold text-gray-900">Absorbiendo el sonido:</strong>
+          evita que las ondas sonoras reboten dentro del vehículo.
+        </li>
+        <li>
+          <strong class="font-semibold text-gray-900">Bloqueando las vibraciones:</strong>
+          reduce los ruidos que se transmiten por la estructura del automóvil.
+        </li>
+      </ul>
+      <p class="mt-6">Gracias a ello, no solo disminuye el ruido, sino que también mejora la acústica del interior.</p>
+    </section>
 
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿Para qué sirve?
-    </h2>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿De qué está hecho?</h2>
+      <p class="mt-5">Los materiales más utilizados son:</p>
+      <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
+        <li>Espumas acústicas.</li>
+        <li>Láminas de butilo o asfalto.</li>
+        <li>Materiales con aislamiento térmico y acústico.</li>
+      </ul>
+      <p class="mt-6">Cada tipo tiene aplicaciones diferentes, pero todos buscan reducir el ruido y mejorar el confort.</p>
+    </section>
 
-    <p class="mt-5">
-      Este producto no solo reduce el ruido, sino que también aporta varios
-      beneficios importantes:
-    </p>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿Dónde se instala?</h2>
+      <p class="mt-5">Las zonas más comunes son:</p>
+      <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
+        <li>Puertas.</li>
+        <li>Piso.</li>
+        <li>Techo.</li>
+        <li>Maletera.</li>
+      </ul>
+      <p class="mt-6">Estas áreas concentran gran parte del ruido que ingresa al habitáculo.</p>
+    </section>
 
-    <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
-      <li>Reduce el ruido del motor.</li>
-      <li>
-        Disminuye el sonido de la carretera, las llantas, el viento y las
-        vibraciones.
-      </li>
-      <li>Mejora la calidad del audio dentro del vehículo.</li>
-      <li>Aumenta la sensación de confort al conducir.</li>
-    </ul>
-
-    <p class="mt-6">
-      Si pasas muchas horas al volante, notarás la diferencia desde los
-      primeros recorridos.
-    </p>
-  </section>
-
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿Cómo funciona?
-    </h2>
-
-    <p class="mt-5">
-      Este material actúa de dos maneras principales:
-    </p>
-
-    <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
-      <li>
-        <strong class="font-semibold text-gray-900">
-          Absorbiendo el sonido:
-        </strong>
-        evita que las ondas sonoras reboten dentro del vehículo.
-      </li>
-
-      <li>
-        <strong class="font-semibold text-gray-900">
-          Bloqueando las vibraciones:
-        </strong>
-        reduce los ruidos que se transmiten por la estructura del automóvil.
-      </li>
-    </ul>
-
-    <p class="mt-6">
-      Gracias a ello, no solo disminuye el ruido, sino que también mejora la
-      acústica del interior.
-    </p>
-  </section>
-
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿De qué está hecho?
-    </h2>
-
-    <p class="mt-5">
-      Los materiales más utilizados son:
-    </p>
-
-    <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
-      <li>Espumas acústicas.</li>
-      <li>Láminas de butilo o asfalto.</li>
-      <li>Materiales con aislamiento térmico y acústico.</li>
-    </ul>
-
-    <p class="mt-6">
-      Cada tipo tiene aplicaciones diferentes, pero todos buscan reducir el
-      ruido y mejorar el confort.
-    </p>
-  </section>
-
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿Dónde se instala?
-    </h2>
-
-    <p class="mt-5">
-      Las zonas más comunes son:
-    </p>
-
-    <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
-      <li>Puertas.</li>
-      <li>Piso.</li>
-      <li>Techo.</li>
-      <li>Maletera.</li>
-    </ul>
-
-    <p class="mt-6">
-      Estas áreas concentran gran parte del ruido que ingresa al habitáculo.
-    </p>
-  </section>
-
-  <section class="mt-14">
-    <h2 class="text-3xl font-bold text-gray-900">
-      ¿Vale la pena?
-    </h2>
-
-    <p class="mt-5">
-      Si buscas:
-    </p>
-
-    <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
-      <li>Mayor comodidad al conducir.</li>
-      <li>Mejor experiencia al escuchar música.</li>
-      <li>Menos estrés provocado por el ruido.</li>
-    </ul>
-
-    <p class="mt-6">
-      Entonces sí, es una excelente inversión.
-    </p>
-
-    <blockquote class="mt-8 rounded-2xl border-l-4 border-blue-600 bg-blue-50 p-6 italic text-blue-900 shadow-sm">
-      El insonorizante para auto es mucho más que un accesorio: mejora el
-      confort, reduce el ruido y hace que cada viaje sea una experiencia mucho
-      más agradable.
-    </blockquote>
-  </section>
-</article>
+    <section class="mt-14">
+      <h2 class="text-3xl font-bold text-gray-900">¿Vale la pena?</h2>
+      <p class="mt-5">Si buscas:</p>
+      <ul class="mt-6 list-disc space-y-3 pl-6 marker:text-blue-600">
+        <li>Mayor comodidad al conducir.</li>
+        <li>Mejor experiencia al escuchar música.</li>
+        <li>Menos estrés provocado por el ruido.</li>
+      </ul>
+      <p class="mt-6">Entonces sí, es una excelente inversión.</p>
+      <blockquote class="mt-8 rounded-2xl border-l-4 border-blue-600 bg-blue-50 p-6 italic text-blue-900 shadow-sm">
+        El insonorizante para auto es mucho más que un accesorio: mejora el confort, reduce el ruido y hace que cada viaje sea una experiencia mucho más agradable.
+      </blockquote>
+    </section>
+  </article>
 </Layout>
 
 
