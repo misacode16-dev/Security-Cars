@@ -1,0 +1,3081 @@
+[
+{
+  "slug": "antiasalto-por-proximidad-corta-corriente-auto-camioneta",
+  "name": "Antiasalto por Proximidad Corta Corriente para Auto y Camioneta",
+  "category": "antiasalto",
+  "price": 0,
+  "oldPrice": 0,
+      "image": [
+      "/antiasalto/antiasalto-master/antiasalto3.webp",
+      "/antiasalto/antiasalto-master/antiasalto.webp",
+      "/antiasalto/antiasalto-master/antiasalto2.webp"
+      
+    ],
+    "images": [
+      "/antiasalto/antiasalto-master/antiasalto3-mini.webp",
+      "/antiasalto/antiasalto-master/antiasalto-mini.webp",
+      "/antiasalto/antiasalto-master/antiasalto2-mini.webp"
+      
+    ],
+  "productDescription": "Antiasalto por proximidad que corta la corriente de tu auto o camioneta en segundos. Evita robos y asaltos sin instalación complicada. Compatible con cualquier vehículo 12V.",
+  "stock": true,
+  "marca": "Master",
+  "sku": "ANT-PROX-CC-12V",
+  "filtros": [
+    {
+      "brand": "Master",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Te preocupa que te asalten en un semáforo o te roben el auto en la calle? Este antiasalto corta la corriente al instante, sin cables complicados ni modificar tu vehículo.",
+  "specs": [
+    { "label": "Voltaje", "value": "12V (universal)" },
+    { "label": "Alcance del control remoto", "value": "Hasta 50 metros" },
+    { "label": "Controles incluidos", "value": "2 controles remotos" },
+    { "label": "Resistencia térmica", "value": "-40°C a 80°C" },
+    { "label": "Tipo de alarma", "value": "Silenciosa (no hace ruido)" }
+  ],
+  "features": [
+    "Corta la corriente de tu auto a distancia con solo presionar un botón, apenas sientas peligro",
+    "Funciona en silencio: nadie nota que tu auto está protegido, ni siquiera el ladrón",
+    "Se instala en cualquier auto o camioneta de 12V, sin importar la marca o modelo",
+    "Resiste sol, lluvia y frío extremo, trabaja de -40°C a 80°C sin fallar",
+    "Incluye 2 controles remotos, para que tú y otra persona de confianza tengan acceso"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Por qué instalar un antiasalto por proximidad en tu auto?",
+    "blocks": [
+      {
+        "heading": "El peligro real de los asaltos en la calle",
+        "paragraphs": [
+          "Todos los días, conductores en semáforos, paraderos o al estacionar son víctimas de asaltos donde les quitan el auto a la fuerza. En ese momento, las alarmas normales no sirven de nada porque el ladrón ya está dentro del vehículo con las llaves en la mano.",
+          "El antiasalto por proximidad funciona diferente: tú llevas un control remoto encima y, si te alejas del auto (porque te sacaron del vehículo o te bajaste de emergencia), el sistema corta la corriente automáticamente. También puedes activarlo tú mismo presionando un botón si sientes que algo no está bien.",
+          "A diferencia de un corta corriente manual que tienes que instalar escondido y activar con la mano antes de bajarte, este sistema trabaja solo, por proximidad, así que no depende de que te acuerdes de activarlo cada vez que estacionas."
+        ]
+      }
+    ],
+    "videos": [
+      {
+        "src": "",
+        "poster": "",
+        "title": ""
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Sirve para cualquier auto o camioneta?",
+      "answer": "Sí, es universal y funciona en cualquier vehículo de 12V, sin importar la marca, modelo o año. Nuestro técnico adapta la instalación a tu vehículo específico."
+    },
+    {
+      "question": "¿Es difícil de instalar o tengo que hacerlo yo mismo?",
+      "answer": "No, tú no instalas nada. Nosotros nos encargamos de todo el proceso de instalación de forma profesional y discreta, para que el sistema quede oculto y ningún ladrón pueda encontrarlo o desactivarlo fácilmente."
+    },
+    {
+      "question": "¿Qué diferencia hay entre este antiasalto y una alarma normal?",
+      "answer": "Una alarma normal solo hace ruido cuando detecta movimiento, pero no evita que se lleven el auto si ya tienen las llaves. Este sistema corta la corriente del motor, así que aunque el ladrón esté adentro, el auto simplemente no arranca o se apaga."
+    },
+    {
+      "question": "¿Qué pasa si pierdo uno de los controles remotos?",
+      "answer": "Puedes acercarte con tu vehículo para que programemos un control remoto nuevo. Mientras tanto, el otro control que tengas sigue funcionando con normalidad."
+    },
+    {
+      "question": "¿El corte de corriente puede dañar el motor de mi auto?",
+      "answer": "No. El sistema está diseñado para cortar el circuito de forma segura, igual que cuando apagas el auto normalmente con la llave. No genera ningún daño al motor ni a la batería.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+{
+  "slug": "lamina-insonorizante-para-auto-aislante-acustico-termico",
+  "variesBy": ["size"],
+  "name": "Lámina Insonorizante para Auto - Aislante Acústico y Térmico Comfortmat",
+  "category": "insonorizante",
+  "price": 0,
+  "oldPrice": 0,
+        "image": [
+      "/insonorizante/insonorizante.webp",
+      "/insonorizante/insonorizante-2mm.webp",
+      "/insonorizante/insonorizante-3.5mm.webp",
+      "/insonorizante/insonorizante-4mm.webp"
+    ],
+    "images": [
+      "/insonorizante/insonorizante-mini.webp",
+      "/insonorizante/insonorizante-2mm-mini.webp",
+      "/insonorizante/insonorizante-3.5mm-mini.webp",
+      "/insonorizante/insonorizante-4mm-mini.webp"
+    ],
+  "productDescription": "Lámina insonorizante autoadhesiva para auto. Reduce ruido, vibraciones y calor en tu cabina. Impermeable, calidad europea. Elige el grosor según la zona de tu vehículo.",
+  "stock": true,
+  "marca": "",
+  "sku": "",
+  "filtros": [
+    {
+      "brand": "",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Tu auto suena hueco, vibra con la música fuerte o se calienta como horno en el día? Esta lámina insonoriza, amortigua y aísla el calor, se pega sola y no necesitas ser experto para notar la diferencia.",
+  "specs": [
+    { "label": "Material", "value": "Butilo + capa de aluminio" },
+    { "label": "Instalación", "value": "Autoadhesiva (se pega directo, sin pegamento aparte)" },
+    { "label": "Resistencia", "value": "A prueba de agua y óxido" },
+    { "label": "Medida por plancha", "value": "70cm x 50cm" },
+    { "label": "Procedencia", "value": "Calidad europea, hecho en Rusia" }
+  ],
+  "features": [
+    "Silencia tu auto: notarás menos ruido de motor, viento y carretera apenas enciendas el carro",
+    "Convierte tus puertas en cajas acústicas selladas, tus parlantes suenan con más bajo y voces más claras",
+    "Reduce el calor dentro de la cabina, útil en días de sol fuerte, usas menos el aire acondicionado",
+    "Se instala rápido porque es autoadhesiva, no necesitas pegamento ni herramientas especiales",
+    "Resiste agua y óxido, no se despega ni daña la carrocería con el tiempo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Por qué tu auto suena hueco, vibra y se calienta tan rápido?",
+    "blocks": [
+      {
+        "heading": "El problema: la lámina metálica de tu carrocería vibra y deja pasar todo",
+        "paragraphs": [
+          "La carrocería de tu auto es una lámina de metal delgada. Cuando manejas, esa lámina vibra con el motor, el camino y hasta con tu propia música, generando ese sonido 'hueco' o metálico que se siente al cerrar la puerta o subir el volumen del equipo.",
+          "Esa misma lámina delgada es la que deja entrar el ruido de la calle, el calor del sol y el frío en las noches, porque no tiene nada que amortigüe o bloquee esas ondas antes de llegar a ti.",
+          "Con el tiempo, esto también genera esos 'grillos' o ruiditos molestos de plásticos internos que se mueven sueltos dentro de las puertas o el tablero."
+        ]
+      },
+      {
+        "heading": "La solución: butilo + aluminio que amortigua, sella y aísla",
+        "paragraphs": [
+          "Esta lámina se pega directo sobre la carrocería (puertas, piso, techo, maletero, según la zona) y hace dos cosas a la vez: el butilo absorbe la vibración metálica para que deje de sonar hueco, y la capa de aluminio refleja el calor y bloquea el ruido externo.",
+          "El resultado es un auto más silencioso para manejar, más fresco en días calurosos, y si tienes equipo de sonido, tus puertas pasan a funcionar como una caja acústica sellada, lo que mejora notablemente los bajos y la claridad de las voces."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cuál variante (Amarilla, Verde o Naranja) debo elegir?",
+      "answer": "Depende de la zona de tu auto. Amarilla (3.5mm) para puertas, piso, maletero y pared de fuego, la de mayor grosor y protección. Verde (4mm) para piso, maletero y pared de fuego. Naranja (2mm) para techo, capot y compuerta del maletero, zonas donde el espacio es más reducido. Si no estás seguro, cuéntanos qué zona quieres tratar y te recomendamos la opción correcta."
+    },
+    {
+      "question": "¿Realmente se nota la diferencia en el ruido del auto?",
+      "answer": "Sí. Este tipo de tratamiento puede reducir hasta 8dB dentro de la cabina, lo que se percibe como aproximadamente la mitad del ruido que sentías antes al manejar, además de eliminar vibraciones y ruidos sueltos de piezas internas."
+    },
+    {
+      "question": "¿Es difícil instalarla yo mismo?",
+      "answer": "Es autoadhesiva, así que se pega directo sin pegamento adicional. Aun así, para un buen resultado se recomienda desmontar los paneles de puertas o tapicería, limpiar bien la superficie y aplicarla con presión firme para que selle correctamente. Si prefieres, también ofrecemos el servicio de instalación."
+    },
+    {
+      "question": "¿Sirve para mejorar el sonido de mi equipo de música?",
+      "answer": "Sí, es una de las razones principales por las que la instalan quienes tienen equipo de sonido. Al sellar las puertas y reducir la vibración de las láminas metálicas, el parlante trabaja en un espacio más controlado, logrando bajos más profundos y voces más nítidas."
+    },
+    {
+      "question": "¿Cuántas planchas necesito para todo mi auto?",
+      "answer": "Depende del tamaño de tu vehículo y de cuántas zonas quieras tratar (solo puertas, o puertas + piso + techo, por ejemplo). Como referencia, cada plancha cubre 70cm x 50cm. Escríbenos contándonos tu auto y qué zonas te interesan, y te ayudamos a calcular la cantidad exacta.",
+      "open": true
+    }
+  ],
+  "variants": [
+    {
+      "id": "amarillo-spider-35",
+      "label": "3.5mm",
+      "shortName": "Insonorizante Amarillo 3.5mm",
+      "sku": "INS-COMFORTMAT-SPIDER35",
+      "size": "3.5mm",
+      "price": 0,
+      "oldPrice": 0,
+            "image": [
+        "/insonorizante/insonorizante-3.5mm.webp"
+      ],
+      "images": [
+        "/insonorizante/insonorizante-3.5mm-mini.webp"
+      ]
+    },
+    {
+      "id": "verde-bronze-4",
+      "label": "4mm",
+      "shortName": "Insonorizante Verde 4mm",
+      "sku": "INS-COMFORTMAT-BRONZE4",
+      "size": "4mm",
+      "price": 0,
+      "oldPrice": 0,
+            "image": [
+               "/insonorizante/insonorizante-4mm.webp"
+      ],
+      "images": [
+         "/insonorizante/insonorizante-4mm-mini.webp"
+      ]
+    },
+    {
+      "id": "naranja-bronze-2",
+      "label": "2mm",
+      "shortName": "Insonorizante Naranja 2mm",
+      "sku": "INS-COMFORTMAT-BRONZE2",
+      "size": "2mm",
+      "price": 0,
+      "oldPrice": 0,
+            "image": [
+               "/insonorizante/insonorizante-2mm.webp"
+      ],
+      "images": [
+         "/insonorizante/insonorizante-2mm-mini.webp"
+      ]
+    }
+  ]
+},
+
+
+
+
+
+{
+  "slug": "modulo-alza-vidrios-automatico-para-auto",
+  "name": "Módulo Alza Vidrios Automático para Auto - Sube las 4 Ventanas con la Alarma",
+  "category": "alzavidrios",
+  "price": 0,
+  "oldPrice": 0,
+          "image": [
+      "/modulo-alzavidrio/modulo-alzavidrio1.webp",
+      "/modulo-alzavidrio/modulo-alzavidrio.webp",
+      "/modulo-alzavidrio/modulo-alzavidrio2.webp"
+    ],
+    "images": [
+      "/modulo-alzavidrio/modulo-alzavidrio1-mini.webp",
+      "/modulo-alzavidrio/modulo-alzavidrio-mini.webp",
+      "/modulo-alzavidrio/modulo-alzavidrio2-mini.webp"
+    ],
+  "productDescription": "Módulo alza vidrios automático: sube las 4 ventanas de tu auto al cerrar seguros o activar la alarma. Funciona con tus switches originales, fácil instalación.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "ALZ-A2613",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": "ALZ-A2613"
+    }
+  ],
+  "painHook": "¿Te ha pasado que cierras el auto y recién en la calle te das cuenta que dejaste una ventana abierta? Este módulo sube las 4 ventanas solas apenas activas la alarma o cierras seguros.",
+  "specs": [
+    { "label": "Modelo", "value": "A2613" },
+    { "label": "Ventanas que controla", "value": "4 (todas las puertas)" },
+    { "label": "Modos de activación", "value": "Con luces intermitentes o con salida de alarma" },
+    { "label": "Compatibilidad eléctrica", "value": "Pulso positivo o negativo (ajustable)" },
+    { "label": "Instalación", "value": "Conserva switches originales del auto" }
+  ],
+  "features": [
+    "Sube las 4 ventanas automáticamente en el momento que armas tu alarma o cierras seguros, ya no te preocupas por dejar alguna abierta",
+    "Sigue funcionando con los switches originales de tu auto, no pierdes el control manual de subir o bajar los vidrios cuando quieras",
+    "Detecta resistencia (como la mano de un niño o un objeto) y detiene la ventana al instante antes de hacer fuerza, evitando accidentes",
+    "Si un motor o cable de una ventana falla, el módulo no afecta el resto del sistema eléctrico ni las otras ventanas",
+    "Se adapta a la mayoría de autos y trabaja en conjunto con tu alarma vehicular, sin necesidad de cambiarla"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Te preocupa dejar una ventana abierta al salir del auto?",
+    "blocks": [
+      {
+        "heading": "El problema: una ventana abierta es lluvia adentro o una invitación al robo",
+        "paragraphs": [
+          "Es normal bajar una ventana mientras manejas y simplemente olvidarte de subirla antes de cerrar el auto. El problema viene después: si llueve, el interior se moja y puede dañar tapicería, electrónica o el tablero. Y si estacionas en la calle, una ventana entreabierta facilita que alguien meta la mano y abra la puerta desde adentro.",
+          "Revisar las 4 ventanas cada vez que te bajas es algo que casi nadie hace de forma constante, sobre todo cuando tienes prisa o cargas cosas en las manos."
+        ]
+      },
+      {
+        "heading": "La solución: se cierran solas apenas armas la alarma o cierras seguros",
+        "paragraphs": [
+          "Este módulo se conecta al sistema eléctrico de tus vidrios y queda a la espera de la señal de tu alarma (al armarla) o de las luces intermitentes al cerrar seguros, según el modo que elijas. En ese momento, sube automáticamente las 4 ventanas, una por una, empezando por la puerta del conductor.",
+          "Tiene un sistema de seguridad: si una ventana encuentra resistencia (por ejemplo, la mano de un niño apoyada en el borde), se detiene de inmediato y el módulo sigue con las demás ventanas, sin forzar. Además, tus switches originales no se ven afectados, así que puedes seguir subiendo y bajando los vidrios manualmente cuando quieras."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Funciona en cualquier auto?",
+      "answer": "Sí, es compatible con la mayoría de vehículos porque permite ajustar el pulso de los motores a positivo o negativo según tu auto. Nuestro técnico verifica la compatibilidad exacta al momento de instalarlo."
+    },
+    {
+      "question": "¿Deja de funcionar mis switches originales de las ventanas?",
+      "answer": "No. El módulo trabaja junto con tus switches originales, así que puedes seguir subiendo y bajando los vidrios manualmente en cualquier momento, con o sin el módulo activado."
+    },
+    {
+      "question": "¿Qué pasa si una ventana tiene algo atrapado, como la mano de alguien?",
+      "answer": "El módulo detecta la resistencia y detiene esa ventana de inmediato, sin seguir subiendo. Las demás ventanas continúan su proceso con normalidad."
+    },
+    {
+      "question": "¿Necesito tener alarma instalada para que funcione?",
+      "answer": "No es obligatorio. El módulo tiene dos modos: uno que se activa con las luces intermitentes al cerrar seguros (sin necesidad de alarma), y otro que se conecta directo a la salida de una alarma vehicular si ya la tienes."
+    },
+    {
+      "question": "¿Es difícil de instalar o lo hago yo mismo?",
+      "answer": "No necesitas instalarlo tú. Nosotros nos encargamos de todo el proceso: conectamos el módulo al sistema eléctrico de tus vidrios y lo configuramos para que funcione correctamente con tu auto y tu alarma (si la tienes).",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+{
+  "slug": "sensor-de-retroceso-para-auto-con-pantalla-led-4-sensores",
+  "name": "Sensor de Retroceso para Auto con Pantalla LED - Kit de 4 Sensores",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+            "image": [
+      "/sensores/sensor-alsama/sensor-alsama3.webp",
+      "/sensores/sensor-alsama/sensor-alsama.webp",
+      "/sensores/sensor-alsama/sensor-alsama2.webp",
+      "/sensores/sensor-alsama/sensor-caja.webp"
+    ],
+    "images": [
+      "/sensores/sensor-alsama/sensor-alsama3-mini.webp",
+      "/sensores/sensor-alsama/sensor-alsama-mini.webp",
+      "/sensores/sensor-alsama/sensor-alsama2-mini.webp",
+      "/sensores/sensor-alsama/sensor-caja-mini.webp"
+    ],
+  "productDescription": "Sensor de retroceso para auto con pantalla LED. Muestra la distancia exacta y suena más rápido mientras más cerca estás. Kit completo de 4 sensores.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "SEN-RETRO-P9867",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": "P9867"
+    }
+  ],
+  "painHook": "¿Te da miedo rayar o golpear el parachoques cada vez que estacionas en reversa? Este sensor te avisa con sonido y en pantalla exactamente qué tan cerca estás del obstáculo.",
+  "specs": [
+    { "label": "Modelo", "value": "P9867" },
+    { "label": "Sensores incluidos", "value": "4 sensores traseros" },
+    { "label": "Voltaje", "value": "DC 12V (rango 9V-18V)" },
+    { "label": "Distancia de detección", "value": "0.3m a 1.8m" },
+    { "label": "Pantalla", "value": "LED a color, muestra distancia en tiempo real" },
+    { "label": "Temperatura de trabajo", "value": "-30°C a 80°C" }
+  ],
+  "features": [
+    "Te avisa con sonido y en pantalla qué tan cerca estás de golpear algo al dar reversa, el pitido se acelera mientras más te acercas",
+    "Evita rayones y abolladuras en tu parachoques trasero, esos daños que luego cuestan caro arreglar",
+    "Pantalla LED a color que muestra la distancia exacta, no tienes que adivinar ni confiar solo en el sonido",
+    "4 sensores cubren todo el ancho de tu parachoques trasero, detectando obstáculos a los lados y al centro",
+    "Funciona igual de bien de día, de noche o con lluvia, porque usa sonido (ultrasonido) y no depende de la luz"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Te cuesta calcular la distancia al estacionar en reversa?",
+    "blocks": [
+      {
+        "heading": "El problema: puntos ciegos que no ves por el espejo",
+        "paragraphs": [
+          "Cuando retrocedes para estacionar, hay zonas de tu auto que simplemente no puedes ver bien por los espejos, sobre todo si tu vehículo es alto o tiene un maletero grande que tapa la visibilidad. Ahí es donde aparecen los golpes contra postes, otros autos o paredes.",
+          "Calcular la distancia 'a ojo' funciona hasta que un día te equivocas, y ese error puede salir caro: un rayón en el parachoques o una abolladura no son baratos de reparar."
+        ]
+      },
+      {
+        "heading": "La solución: 4 sensores que miden la distancia por ti",
+        "paragraphs": [
+          "Este kit instala 4 sensores en tu parachoques trasero que usan sonido (ultrasonido) para medir qué tan cerca está cualquier obstáculo, desde 1.8 metros hasta apenas 30 centímetros. La pantalla LED te muestra esa distancia en números, y el pitido se vuelve más rápido mientras más te acercas, hasta sonar continuo cuando estás a punto de tocar algo.",
+          "Así dejas de adivinar: sabes exactamente cuántos centímetros te quedan antes de parar, sin importar si es de noche, está lloviendo o tienes el sol de frente."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Sirve para auto, camioneta o camión?",
+      "answer": "Funciona en autos, SUVs y camionetas sin problema. Para camiones o vehículos de carga más grandes, cuéntanos el modelo de tu unidad para confirmar la mejor ubicación de los sensores y que la cobertura sea la correcta."
+    },
+    {
+      "question": "¿Cuántos sensores trae el kit?",
+      "answer": "Trae 4 sensores, suficientes para cubrir todo el ancho del parachoques trasero y detectar obstáculos tanto al centro como a los costados."
+    },
+    {
+      "question": "¿Qué significa cada tipo de sonido o pitido?",
+      "answer": "Mientras más lejos esté el obstáculo, el pitido suena más espaciado. Conforme te acercas, el pitido se vuelve más rápido, y cuando estás muy cerca (a punto de tocar algo) el sonido se vuelve continuo. La pantalla también te muestra la distancia exacta en todo momento."
+    },
+    {
+      "question": "¿Funciona de noche o cuando llueve?",
+      "answer": "Sí. El sensor usa ultrasonido para medir distancias, no depende de la luz ni de cámaras, así que funciona igual de bien de día, de noche, con lluvia o neblina."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Requiere perforar el parachoques en los puntos correctos y conectar el cableado hasta la pantalla, por eso recomendamos que lo instale un técnico. Nosotros incluimos la instalación profesional para que todo quede funcionando bien desde el primer momento.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+{
+  "slug": "camara-de-retroceso-para-auto-camioneta-camion-vision-nocturna",
+  "name": "Cámara de Retroceso para Auto, Camioneta y Camión con Visión Nocturna",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+              "image": [
+      "/camaras/camara-Sykker/camara-Sykker.webp",
+      "/camaras/camara-Sykker/caja-camara-Sykker.webp",
+      "/camaras/camara-Sykker/camara-Sykker2.webp"
+    ],
+    "images": [
+      "/camaras/camara-Sykker/camara-Sykker-mini.webp",
+      "/camaras/camara-Sykker/caja-camara-Sykker-mini.webp",
+      "/camaras/camara-Sykker/camara-Sykker2-mini.webp"
+    ],
+  "productDescription": "Cámara de retroceso para auto, camioneta o camión. Visión nocturna, resistente al agua, imagen en espejo. Se conecta a tu pantalla o radio con entrada de video.",
+  "stock": true,
+  "marca": "Sykker",
+  "sku": "CAM-RETRO-SYKKER",
+  "filtros": [
+    {
+      "brand": "Sykker",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Manejas en reversa confiando solo en los espejos y aun así sientes que algo se te puede escapar? Esta cámara te muestra en tiempo real lo que tienes justo detrás, incluso de noche.",
+  "specs": [
+    { "label": "Voltaje de trabajo", "value": "12V (rango 10V-15V)" },
+    { "label": "Resistencia al agua", "value": "IP67-IP68 (uso exterior, lluvia y lavados)" },
+    { "label": "Visión nocturna", "value": "8 LEDs infrarrojos" },
+    { "label": "Sistema de video", "value": "NTSC / PAL (compatible con la mayoría de pantallas)" },
+    { "label": "Cable de video (AV)", "value": "6 metros" },
+    { "label": "Cable de corriente", "value": "1.5 metros" }
+  ],
+  "features": [
+    "Ves en tiempo real lo que hay detrás de tu auto, camioneta o camión al dar reversa, evitando golpes con otros vehículos, postes o personas",
+    "Visión nocturna con 8 luces infrarrojas, mantienes visibilidad clara incluso estacionando de noche o en lugares con poca luz",
+    "Resiste lluvia, polvo y lavados a presión gracias a su sello impermeable, pensada para estar expuesta todos los días",
+    "Imagen en espejo, igual que un retrovisor, así interpretas la distancia de forma natural sin confundir izquierda y derecha",
+    "Cable de video de 6 metros, suficientemente largo para instalarse en camionetas y camiones sin quedarse corto"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Manejas en reversa 'a ciegas' confiando solo en los espejos?",
+    "blocks": [
+      {
+        "heading": "El problema: el punto ciego detrás de tu vehículo",
+        "paragraphs": [
+          "Por más que uses los espejos, siempre hay una zona justo detrás del auto, camioneta o camión que no puedes ver, sobre todo en vehículos altos o con el maletero cargado. Ahí es donde ocurren la mayoría de golpes al estacionar: contra postes, otros vehículos, rejas o, en el peor de los casos, mascotas o personas que no alcanzas a notar a tiempo.",
+          "De noche el problema se duplica, porque además de no ver bien el obstáculo, tampoco distingues bien la distancia real hasta que ya estás muy cerca."
+        ]
+      },
+      {
+        "heading": "La solución: ves exactamente lo que hay detrás, de día o de noche",
+        "paragraphs": [
+          "Esta cámara se instala en la parte trasera de tu vehículo y transmite video en vivo a la pantalla que uses (radio, pantalla para auto o espejo con pantalla integrada). La imagen aparece en espejo, igual que cuando miras un retrovisor, así que interpretar la distancia te sale natural, sin confundirte.",
+          "Gracias a sus 8 luces infrarrojas, sigues viendo con claridad aunque estaciones de noche o en un lugar oscuro. Y como está sellada contra agua y polvo, puedes lavar tu vehículo a presión o manejar bajo lluvia sin preocuparte de que falle."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Incluye pantalla?",
+      "answer": "No, este producto incluye la cámara, el cableado y el módulo de conexión. Se conecta a una pantalla, radio o espejo que ya tengas con entrada de video (conector RCA amarillo). Si necesitas una pantalla, pregúntanos por las opciones compatibles."
+    },
+    {
+      "question": "¿Sirve para camioneta o camión, o solo para auto?",
+      "answer": "Es universal para cualquier vehículo de 12V: autos, camionetas y camiones. El cable de video mide 6 metros, suficiente para llegar sin problema desde la parte trasera hasta la cabina en vehículos grandes."
+    },
+    {
+      "question": "¿Funciona bien de noche?",
+      "answer": "Sí, trae 8 luces infrarrojas integradas que se activan automáticamente con poca luz, permitiéndote ver con claridad al dar reversa de noche o en zonas oscuras."
+    },
+    {
+      "question": "¿Resiste la lluvia o el lavado del carro?",
+      "answer": "Sí, tiene certificación de resistencia al agua IP67-IP68, lo que significa que soporta lluvia, salpicaduras y lavados directos sin dañarse."
+    },
+    {
+      "question": "¿Por qué la imagen se ve 'al revés' en la pantalla?",
+      "answer": "No está al revés, está en modo espejo a propósito, igual que un retrovisor normal. Esto es intencional para que calcules las distancias de forma natural, igual que lo harías mirando tus espejos tradicionales.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "slug": "kit-camara-de-retroceso-con-pantalla-espejo-sensores-auto-camion",
+  "name": "Kit Cámara de Retroceso con Pantalla Espejo y Sensores para Auto, Camioneta y Camión",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+                "image": [
+      "/camaras/camara-pantalla-espejo/pantalla-y-sensores.webp",
+      "/camaras/camara-pantalla-espejo/camara-con-pantalla-y-sensores.webp",
+      "/camaras/camara-pantalla-espejo/kit-camara.webp",
+      "/camaras/camara-pantalla-espejo/accesorios-de-la-pantalla.webp"
+    ],
+    "images": [
+      "/camaras/camara-pantalla-espejo/pantalla-y-sensores-mini.webp",
+      "/camaras/camara-pantalla-espejo/camara-con-pantalla-y-sensores-mini.webp",
+      "/camaras/camara-pantalla-espejo/kit-camara-mini.webp",
+      "/camaras/camara-pantalla-espejo/accesorios-de-la-pantalla-mini.webp"
+    ],
+  "productDescription": "Kit completo de retroceso: pantalla espejo 7 pulgadas, cámara y 4 sensores de estacionamiento. Compatible con autos (12V) y camiones (24V). Instalación incluida.",
+  "stock": true,
+  "marca": "Genérico",
+  "sku": "KIT-RETRO-MIRROR-7",
+  "filtros": [
+    {
+      "brand": "",
+      "model": ""
+    }
+  ],
+  "painHook": "¿No quieres armar cámara, pantalla y sensores por separado esperando que combinen bien? Este kit trae todo diseñado para funcionar junto, desde el primer día.",
+  "specs": [
+    { "label": "Pantalla", "value": "7 pulgadas TFT LCD, tipo espejo (se instala sobre tu retrovisor)" },
+    { "label": "Resolución", "value": "Hasta 800 x 480 RGB" },
+    { "label": "Sistema de video", "value": "NTSC / PAL, 2 entradas de video (Video 1 y Video 2)" },
+    { "label": "Sensores incluidos", "value": "4 sensores de estacionamiento" },
+    { "label": "Voltaje de alimentación", "value": "DC 9V a 36V (compatible con autos 12V y camiones 24V)" },
+    { "label": "Control", "value": "Control remoto inalámbrico + botones táctiles en el espejo" },
+    { "label": "Incluye", "value": "Broca especial para instalación de la cámara" }
+  ],
+  "features": [
+    "Todo en un solo kit: pantalla, cámara y 4 sensores diseñados para funcionar juntos, sin dudas de compatibilidad entre piezas",
+    "Funciona tanto en autos de 12V como en camiones de 24V, gracias a su rango de voltaje de 9V a 36V",
+    "La pantalla se instala sobre tu espejo retrovisor actual, se ve como un espejo normal y cambia sola a la vista de cámara apenas pones reversa",
+    "Doble seguridad: ves la imagen en pantalla Y escuchas la alerta de los sensores al acercarte a un obstáculo",
+    "Incluye la broca especial para abrir el hueco exacto donde va la cámara, logrando una instalación limpia y precisa",
+    "Control remoto incluido para ajustar brillo, contraste y color de la pantalla según lo que prefieras"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Prefieres un kit completo en vez de armar las piezas por separado?",
+    "blocks": [
+      {
+        "heading": "El problema de comprar cámara, pantalla y sensores por separado",
+        "paragraphs": [
+          "Cuando compras cada pieza por tu cuenta (una cámara aquí, una pantalla allá, sensores en otro lado), corres el riesgo de que no sean compatibles entre sí, que el video no se vea bien, o que termines pagando de más por partes que no estaban pensadas para trabajar juntas.",
+          "Además, coordinar la instalación de piezas sueltas suele tomar más tiempo y genera más dudas sobre si realmente va a funcionar bien al final."
+        ]
+      },
+      {
+        "heading": "La solución: un kit completo diseñado para funcionar en conjunto",
+        "paragraphs": [
+          "Este kit trae la pantalla, la cámara y los 4 sensores pensados para instalarse juntos desde el inicio. La pantalla se monta sobre tu espejo retrovisor actual (se ve como un espejo normal todo el tiempo) y cambia automáticamente a la imagen de la cámara apenas pones reversa, sin que tengas que presionar nada.",
+          "Al mismo tiempo, los sensores te avisan con sonido si hay algo cerca, así tienes doble confirmación: lo ves en pantalla y lo escuchas. Y como el sistema admite desde 9V hasta 36V, funciona igual de bien en tu auto que en una camioneta o camión con sistema eléctrico de 24V."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cuál es la diferencia entre este kit y una cámara de retroceso sola?",
+      "answer": "La cámara sola se conecta a una pantalla, radio o espejo que ya tengas. Este kit en cambio incluye todo: la pantalla tipo espejo, la cámara y además 4 sensores de estacionamiento, ideal si no cuentas con una pantalla previa o si quieres todo integrado y probado para funcionar en conjunto."
+    },
+    {
+      "question": "¿La pantalla reemplaza mi espejo retrovisor?",
+      "answer": "No lo reemplaza, se instala sobre tu espejo actual. Mientras manejas normal, se ve y funciona como un espejo común. Solo cuando pones reversa, cambia automáticamente para mostrar la imagen de la cámara."
+    },
+    {
+      "question": "¿Sirve para camión o solo para auto?",
+      "answer": "Sirve para ambos. El monitor acepta de 9V a 36V, lo que cubre tanto el sistema eléctrico de 12V de autos y camionetas, como el de 24V que usan la mayoría de camiones."
+    },
+    {
+      "question": "¿Los sensores también avisan con sonido o solo se ven en la pantalla?",
+      "answer": "Avisan de las dos formas: ves el obstáculo en la pantalla a través de la cámara, y además escuchas un sonido de alerta que se acelera mientras más cerca estás, dándote doble seguridad."
+    },
+    {
+      "question": "¿Necesito instalarlo yo mismo?",
+      "answer": "No, nosotros instalamos las 3 partes (pantalla, cámara y sensores) de forma profesional, incluyendo la perforación con la broca especial para que la cámara quede bien ubicada y todo el cableado oculto.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+{
+  "slug": "alarma-para-auto-Sykker-inmovilizador-antiasalto-control-original",
+  "name": "Alarma para Auto Sykker con Inmovilizador Antiasalto - Usa tu Control de Original",
+  "category": "alarma",
+  "price": 0,
+  "oldPrice": 0,
+                  "image": [
+      "/alarmas/alarma-integrada-Sykker/alarma-integrada.webp",
+      "/alarmas/alarma-integrada-Sykker/alarma-integrada2.webp",
+      "/alarmas/alarma-integrada-Sykker/caja-alarma.webp"
+    ],
+    "images": [
+      "/alarmas/alarma-integrada-Sykker/alarma-integrada-mini.webp",
+      "/alarmas/alarma-integrada-Sykker/alarma-integrada2-mini.webp",
+      "/alarmas/alarma-integrada-Sykker/caja-alarma-mini.webp"
+    ],
+  "productDescription": "Alarma para auto con inmovilizador antiasalto, controla tus seguros, vidrios y claxon usando tu control original. No necesitas un control adicional.",
+  "stock": true,
+  "marca": "Sykker",
+  "sku": "SYK-ALM-UPGRADE",
+  "filtros": [
+    {
+      "brand": "Sykker",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Qué pasa si te asaltan y te obligan a bajar del auto con el motor encendido? Esta alarma tiene un inmovilizador oculto que apaga el motor solo, sin que el ladrón sepa cómo detenerlo.",
+  "specs": [
+    { "label": "Instalación", "value": "Se adapta a la señal de seguro de tu auto (puerta del chofer o bloqueo central)" },
+    { "label": "Inmovilizador", "value": "Con botón escondido, apaga el motor en 45 segundos si no se presiona" },
+    { "label": "Salida para vidrios", "value": "Con función de seguridad (se detiene si encuentra resistencia)" },
+    { "label": "Modo Valet", "value": "Sí, incluido" },
+    { "label": "Activación automática", "value": "Se arma sola 15 segundos después de cerrar la última puerta, si olvidaste activarla" },
+    { "label": "Tiempo de sirena", "value": "Se silencia automáticamente a los 30 segundos" },
+    { "label": "Desactivación de emergencia", "value": "Secuencia manual con tu llave o control original" }
+  ],
+  "features": [
+    "Convierte el cierre centralizado de tu auto (llave de puerta o botón de seguros) en una alarma completa, sin necesitar un control adicional que cargar",
+    "Inmovilizador anti-asalto: si te obligan a bajar del auto con el motor prendido, se apaga solo en 45 segundos a menos que presiones un botón escondido que solo tú conoces",
+    "Si te bajas con prisa y olvidas activar la alarma, el sistema se arma solo 15 segundos después de cerrar la última puerta",
+    "Controla tus elevavidrios con función de seguridad: si una ventana encuentra resistencia al subir, se detiene al instante antes de hacer fuerza",
+    "Modo valet incluido, para cuando dejas tu auto en manos de un valet parking sin que el inmovilizador interrumpa el servicio",
+    "Tiene una secuencia de desactivación de emergencia por si necesitas apagar la alarma manualmente en algún momento"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Y si te asaltan con el auto encendido? La mayoría de alarmas no hacen nada en ese momento",
+    "blocks": [
+      {
+        "heading": "El problema: las alarmas normales no protegen durante un asalto en marcha",
+        "paragraphs": [
+          "La mayoría de alarmas solo reaccionan cuando el auto está apagado y estacionado: detectan golpes o aperturas forzadas. Pero si alguien te obliga a bajar del auto con el motor encendido, esas alarmas no hacen absolutamente nada, el ladrón simplemente se va manejando.",
+          "Ese es el momento más peligroso para cualquier conductor, y es justo el escenario que una alarma común no está diseñada para cubrir."
+        ]
+      },
+      {
+        "heading": "La solución: un inmovilizador que apaga el motor solo, sin que nadie más lo sepa",
+        "paragraphs": [
+          "Este sistema incluye un botón escondido que solo tú conoces. Si el auto se enciende y ese botón no se presiona, el motor se apaga automáticamente a los 45 segundos, sin avisos obvios que alerten al ladrón de lo que está pasando.",
+          "Además, el sistema aprovecha la señal de tus seguros (ya sea desde la llave de la puerta del chofer o desde el botón de bloqueo central, según cómo esté armado tu auto) para funcionar como una alarma completa: arma y desarma con lo que ya usas todos los días, controla tus elevavidrios con función de seguridad, y tiene modo valet para cuando entregas tu auto a un tercero sin perder protección."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cómo me protege exactamente si me asaltan con el auto encendido?",
+      "answer": "El inmovilizador requiere que presiones un botón escondido (que solo tú conoces) para mantener el motor funcionando. Si el auto queda encendido sin que ese botón se presione, se apaga automáticamente a los 45 segundos, dándote una forma discreta de detener el vehículo sin que el ladrón note cómo ni por qué se apagó."
+    },
+    {
+      "question": "¿Necesito comprar un control remoto adicional?",
+      "answer": "No. El sistema usa la señal de tus propios seguros (desde la llave de la puerta o el botón de bloqueo central), así que armas y desarmas la alarma con lo que ya usas normalmente para cerrar tu auto."
+    },
+    {
+      "question": "¿Qué pasa si mi control original se queda sin batería o falla?",
+      "answer": "El sistema tiene una secuencia de desactivación de emergencia: quitas los seguros, los vuelves a colocar, y los quitas de nuevo en un lapso de 3 segundos. La sirena confirmará con pitos cortos que la alarma quedó desactivada."
+    },
+    {
+      "question": "¿Es compatible con el módulo alza vidrios?",
+      "answer": "Sí, esta alarma tiene una salida dedicada para vidrios con función de seguridad (se detiene si encuentra resistencia al subir), pensada justo para trabajar junto con un módulo de alza vidrios automático."
+    },
+    {
+      "question": "¿Qué diferencia hay con la alarma DCAR que usa llave tipo navaja?",
+      "answer": "Ambas aprovechan el cierre centralizado de tu auto, pero esta Sykker suma un inmovilizador anti-asalto con botón escondido, activación automática si olvidas armarla, salida de seguridad para vidrios y modo valet. La DCAR es más simple: sensor de golpes, localizador, apertura de baúl y bloqueo de motor básico.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "slug": "alarma-para-auto-master-classic-seguros-electricos-bloqueo-motor",
+  "name": "Alarma para Auto Master Classic - Seguros Eléctricos, Bloqueo de Motor y Función Pánico",
+  "category": "alarma",
+  "price": 0,
+  "oldPrice": 0,
+                      "image": [
+      "/alarmas/alarma-master-classic/contenido-alarma.webp",
+      "/alarmas/alarma-master-classic/modulo-y-controles.webp",
+      "/alarmas/alarma-master-classic/caja-alarma.webp"
+    ],
+    "images": [
+      "/alarmas/alarma-master-classic/contenido-alarma-mini.webp",
+      "/alarmas/alarma-master-classic/modulo-y-controles-mini.webp",
+      "/alarmas/alarma-master-classic/caja-alarma-mini.webp"
+    ],
+  "productDescription": "Alarma para auto completa: controla seguros eléctricos, bloquea el motor al armarse, sensor de golpes regulable, función pánico y modo valet. Incluye 2 controles.",
+  "stock": true,
+  "marca": "Master",
+  "sku": "MASTER-CLASSIC",
+  "filtros": [
+    {
+      "brand": "Master",
+      "model": "Master classic"
+    }
+  ],
+  "painHook": "¿Buscas una alarma que realmente lo tenga todo: seguros eléctricos, corte de motor y protección contra asaltos, sin tener que comprar módulos aparte? Esta alarma trae todo integrado de fábrica.",
+  "specs": [
+    { "label": "Controles incluidos", "value": "2 controles remotos de larga duración" },
+    { "label": "Bloqueo de motor", "value": "Sí, se activa automáticamente al armar la alarma" },
+    { "label": "Sensor de golpes", "value": "Regulable, dos estados (aviso y alarma total)" },
+    { "label": "Sirena", "value": "6 tonos" },
+    { "label": "Salidas para", "value": "Seguros eléctricos, elevavidrios, luz de cortesía, claxon (opcional), encendido remoto (opcional)" },
+    { "label": "Canales", "value": "Tercer canal programable" },
+    { "label": "Memoria", "value": "Conserva la configuración aunque se corte la corriente de la batería" }
+  ],
+  "features": [
+    "Controla tus seguros eléctricos automáticamente: se cierran al armar la alarma y se abren al desarmarla, sin que tengas que usar la llave",
+    "Bloquea el motor apenas armas la alarma, funcionando como un corta corriente integrado, el auto no arranca sin autorización",
+    "Sensor de golpes regulable que distingue entre un roce leve (aviso) y un golpe fuerte (alarma total), para evitar falsas alarmas",
+    "Tiene 3 formas distintas de protegerte ante un intento de asalto, además de función pánico para pedir ayuda al instante con solo presionar un botón",
+    "Modo valet incluido, para cuando dejas tu auto con un valet parking sin que la alarma interrumpa el servicio",
+    "Incluye 2 controles remotos de larga duración, uno para ti y otro para alguien de confianza"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Buscas una alarma completa, sin tener que armar varios módulos por separado?",
+    "blocks": [
+      {
+        "heading": "El problema: alarmas básicas que no cubren todo lo que necesitas",
+        "paragraphs": [
+          "Muchas alarmas económicas solo hacen ruido, sin controlar tus seguros, sin bloquear el motor y sin distinguir entre un golpe real y un roce accidental (lo que genera falsas alarmas que terminan molestando a todos menos protegiendo tu auto).",
+          "Si además quieres seguros eléctricos automáticos, bloqueo de motor y protección extra contra asaltos, normalmente tendrías que instalar varios módulos distintos, lo que sube el costo y complica la instalación."
+        ]
+      },
+      {
+        "heading": "La solución: todo integrado en un solo sistema",
+        "paragraphs": [
+          "La Master Classic trae todo en un solo módulo: control de seguros eléctricos, bloqueo de motor automático al armarse, sensor de golpes regulable de dos estados, salida para elevavidrios, función pánico, modo valet y hasta apertura de maletera, todo desde el mismo control remoto.",
+          "Además, su memoria conserva la configuración aunque se desconecte la batería, así que no tienes que reprogramar nada después de un mantenimiento o cambio de batería."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Tiene GPS para rastrear mi auto?",
+      "answer": "No, esta alarma no incluye GPS. Su función es protección física: seguros eléctricos, bloqueo de motor, sensor de golpes y sirena. Si buscas rastreo GPS, cuéntanos y te mostramos esa opción por separado."
+    },
+    {
+      "question": "¿El bloqueo de motor funciona como un corta corriente?",
+      "answer": "Sí, cumple esa función: al armar la alarma, el motor queda bloqueado y no puede arrancar hasta que desarmes el sistema con el control."
+    },
+    {
+      "question": "¿Puedo conectar mi módulo alza vidrios a esta alarma?",
+      "answer": "Sí, trae una salida dedicada para elevavidrios, pensada justo para integrarse con un módulo de alza vidrios y que las ventanas suban automáticamente al armar la alarma."
+    },
+    {
+      "question": "¿Qué pasa si llevo mi auto a un valet parking?",
+      "answer": "Puedes activar el modo valet, que desactiva temporalmente ciertas funciones de la alarma (como el bloqueo de motor) para que el valet pueda operar tu auto con normalidad, sin que se dispare la alarma."
+    },
+    {
+      "question": "¿Incluye encendido remoto del motor?",
+      "answer": "El encendido remoto es una función opcional, no viene activada de fábrica en todos los casos. Cuéntanos si te interesa esta función y confirmamos si tu vehículo es compatible antes de la instalación.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+{
+  "slug": "alarma-para-auto-dcar-antiasalto-cierre-centralizado",
+  "name": "Alarma para Auto DCAR con Función Antiasalto y Cierre Centralizado",
+  "category": "alarma",
+  "price": 0,
+  "oldPrice": 0,
+                    "image": [
+      "/alarmas/alarma-DCAR/caja-alarma.webp",
+      "/alarmas/alarma-DCAR/controles-alarma.webp"
+    ],
+    "images": [
+      "/alarmas/alarma-DCAR/caja-alarma-mini.webp",
+      "/alarmas/alarma-DCAR/controles-alarma-mini.webp"
+    ],
+  "productDescription": "Alarma para auto con función antiasalto, sensor de golpes y control de seguros eléctricos. Incluye 2 controles tipo llave, memoriza hasta 4. Instalación incluida.",
+  "stock": true,
+  "marca": "DCAR",
+  "sku": "DC-K245",
+  "filtros": [
+    {
+      "brand": "DCAR",
+      "model": "K245"
+    }
+  ],
+  "painHook": "¿Y si te asaltan en movimiento y te obligan a bajar del auto encendido? Esta alarma tiene una función antiasalto que apaga el motor y bloquea tu auto solo, sin que el ladrón sepa cómo detenerlo.",
+  "specs": [
+    { "label": "Modelo", "value": "DC K245" },
+    { "label": "Controles incluidos", "value": "2 controles tipo llave (3 botones), memoriza hasta 4" },
+    { "label": "Función antiasalto", "value": "3 métodos de activación: control remoto, puerta del conductor o encendido" },
+    { "label": "Sensor de golpe", "value": "2 niveles (golpe suave y golpe fuerte), sensibilidad ajustable" },
+    { "label": "Activación automática", "value": "30 segundos tras apagar el auto y cerrar las puertas (ajustable a 20 o 10 seg)" },
+    { "label": "Seguros eléctricos", "value": "Control vía remoto, con bloqueo automático al encender/apagar" },
+    { "label": "Código de seguridad (PIN)", "value": "Configurable, código de fábrica: 6" }
+  ],
+  "features": [
+    "Función antiasalto real: si te obligan a bajar del auto encendido, el sistema apaga el motor y bloquea las puertas automáticamente en menos de un minuto, sin que el ladrón sepa cómo detenerlo",
+    "El sensor de golpe distingue entre un roce leve (ahuyenta con sonido corto) y un golpe fuerte (activa la sirena completa 45 segundos), evitando falsas alarmas por cualquier cosa",
+    "Se arma sola si te bajas con prisa y olvidas activarla, 30 segundos después de apagar el auto y cerrar todas las puertas",
+    "Controla tus seguros eléctricos y la apertura del baúl a distancia, todo desde el mismo control remoto",
+    "Incluye 2 controles remotos tipo llave, y puedes programar hasta 4 en total, uno para cada persona de confianza",
+    "Código de seguridad personal (PIN) para cancelar el antiasalto o desactivar la alarma manualmente, incluso si pierdes o se queda sin batería el control remoto"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Una alarma pensada para protegerte durante un asalto, no solo cuando el auto está estacionado",
+    "blocks": [
+      {
+        "heading": "El problema: la mayoría de alarmas solo protegen el auto parqueado",
+        "paragraphs": [
+          "La mayoría de alarmas están diseñadas para cuando el auto está apagado y solo: detectan golpes o aperturas forzadas. Pero si te asaltan mientras manejas o justo al bajarte con el motor encendido, esas alarmas no hacen nada, porque ese escenario simplemente no está contemplado.",
+          "Ese es uno de los momentos más riesgosos para cualquier conductor, y pocas alarmas básicas tienen una respuesta real para esa situación."
+        ]
+      },
+      {
+        "heading": "La solución: función antiasalto con 3 formas de activarla",
+        "paragraphs": [
+          "Puedes activar el antiasalto presionando los botones del control al mismo tiempo, abriendo y cerrando la puerta del conductor, o simplemente al encender el auto (según cómo lo configures). Una vez activo, si no lo cancelas, el sistema bloquea el motor progresivamente y termina apagando y bloqueando el vehículo, sin avisos obvios que alerten a quien esté manejando en ese momento.",
+          "Para cancelarlo basta presionar el botón valet oculto, o ingresar tu código PIN personal si quieres una capa extra de seguridad. Además, el sistema incluye sensor de golpe de dos niveles, control de seguros eléctricos, apertura de baúl, modo valet y función localizadora, todo desde el mismo control."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Usa las llaves originales de mi auto?",
+      "answer": "No, este sistema incluye sus propios 2 controles remotos con forma de llave navaja (3 botones: cerrar, abrir y función auxiliar), independientes de tu llave original. Puedes programar hasta 4 controles en total."
+    },
+    {
+      "question": "¿Cómo funciona exactamente la función antiasalto?",
+      "answer": "Se puede activar de 3 formas: presionando dos botones del control al mismo tiempo, abriendo y cerrando la puerta del conductor, o automáticamente al encender el auto. Una vez activa, si no la cancelas, el sistema bloquea el motor y termina apagando el vehículo de forma progresiva, sin avisos evidentes."
+    },
+    {
+      "question": "¿Qué pasa si pierdo el control remoto o se queda sin batería?",
+      "answer": "Puedes desactivar la alarma manualmente con la llave de encendido de tu auto, ingresando tu código PIN personal a través del botón valet oculto, sin necesidad del control remoto."
+    },
+    {
+      "question": "¿El sensor de golpe se puede desactivar temporalmente?",
+      "answer": "Sí, si vas a estacionar en un lugar con mucho ruido o tráfico donde podría dispararse por error, puedes anular temporalmente el sensor externo al momento de activar la alarma."
+    },
+    {
+      "question": "¿Cuál es la diferencia con las otras alarmas que venden (Master Classic, Sykker)?",
+      "answer": "Esta DCAR destaca por su función antiasalto con 3 métodos de activación y código PIN de respaldo. La Master Classic suma salida dedicada para elevavidrios y sirena de 6 tonos. La Sykker se integra directamente con el cierre centralizado de fábrica del auto. Cuéntanos tu prioridad (antiasalto, integración con vidrios, o usar tu sistema original) y te recomendamos la mejor opción.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "alarma-para-auto-master-metal-codigo-variable-antiasalto",
+  "name": "Alarma para Auto con Código Variable Anti-Clonación y 4 Modos Antiasalto - Master Metal",
+  "category": "alarma",
+  "price": 0,
+  "oldPrice": 0,
+                      "image": [
+      "/alarmas/alarma-master-metal/caja-alarma.webp",
+      "/alarmas/alarma-master-metal/control-alarma.webp"
+    ],
+    "images": [
+      "/alarmas/alarma-master-metal/caja-alarma-mini.webp",
+      "/alarmas/alarma-master-metal/control-alarma-mini.webp"
+    ],
+  "productDescription": "Alarma para auto con código variable anti-clonación (Code Hopping), 4 modos de antiasalto y bloqueo de motor por reconocimiento del conductor. Memoriza hasta 4 controles.",
+  "stock": true,
+  "marca": "Master",
+  "sku": "MASTER-METAL",
+  "filtros": [
+    {
+      "brand": "Master",
+      "model": "Master-metal"
+    }
+  ],
+  "painHook": "¿Te preocupa que alguien clone la señal de tu control y entre a tu auto sin forzar nada? Esta alarma cambia el código cada vez que la usas, haciendo casi imposible clonar la señal.",
+  "specs": [
+    { "label": "Tecnología del control", "value": "Código variable anti-clonación (Code Hopping)" },
+    { "label": "Controles incluidos", "value": "Memoriza hasta 4 controles de 4 botones" },
+    { "label": "Función antiasalto", "value": "4 modalidades: control remoto, puerta del conductor, ignición o transmisor de proximidad (opcional)" },
+    { "label": "Reconocimiento del conductor", "value": "Bloqueo electrónico del motor hasta confirmar identidad (función programable)" },
+    { "label": "Tercer canal", "value": "Programable, de fábrica configurado para elevavidrios" },
+    { "label": "Código de seguridad (PIN)", "value": "Configurable, código de fábrica: 6" },
+    { "label": "Entrada para sensor radar", "value": "Compatible (sensor adicional)" }
+  ],
+  "features": [
+    "Código variable Code Hopping que cambia la señal cada vez que usas el control, haciendo casi imposible que alguien clone o intercepte la señal para abrir tu auto",
+    "Función antiasalto con 4 modalidades distintas, incluyendo compatibilidad con transmisor de proximidad opcional que se activa solo si te alejas del auto",
+    "Reconocimiento del conductor: aunque alguien robe tu control y desarme la alarma, el motor queda bloqueado hasta confirmar tu identidad con el botón oculto, una capa extra de protección",
+    "Salida de fábrica lista para conectar un módulo alza vidrios, perfecta si ya tienes uno o planeas instalarlo",
+    "Sirena inteligente que suena distinto según qué la disparó (sensor, puertas, intento de encendido forzado), así sabes de inmediato qué pasó con tu auto",
+    "Compatible con sensor de radar adicional, para quienes buscan una capa extra de detección de movimiento alrededor del vehículo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Te preocupa que puedan clonar la señal de tu control y entrar a tu auto sin forzar nada?",
+    "blocks": [
+      {
+        "heading": "El problema: controles de código fijo se pueden clonar",
+        "paragraphs": [
+          "Muchas alarmas económicas usan controles con 'código fijo', es decir, la misma señal se repite cada vez que presionas un botón. Eso las hace vulnerables a dispositivos que capturan e imitan esa señal, permitiendo que alguien abra tu auto sin forzar nada y sin que tú te des cuenta de cómo lo hicieron.",
+          "Si además te roban el control remoto directamente (por ejemplo, junto con tus llaves), la mayoría de alarmas simples no tienen ninguna protección extra: quien tenga el control, puede desarmar el auto y arrancarlo sin problema."
+        ]
+      },
+      {
+        "heading": "La solución: código que cambia cada vez, más una verificación extra del conductor",
+        "paragraphs": [
+          "Esta alarma usa tecnología Code Hopping: cada vez que presionas un botón del control, la señal cambia, haciendo que capturar o repetir esa señal no sirva de nada para un tercero. Esto la hace mucho más resistente a la clonación que una alarma de código fijo.",
+          "Además, tiene una función de reconocimiento del conductor: aunque alguien use tu control para desarmar la alarma, el motor queda bloqueado electrónicamente hasta que confirmes tu identidad con un botón oculto que solo tú conoces. Así, incluso si pierdes el control, tu auto no se puede encender con solo tenerlo."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Qué es el código variable (Code Hopping) y por qué es importante?",
+      "answer": "Es una tecnología que cambia la señal del control cada vez que lo usas, a diferencia de las alarmas de código fijo donde la señal siempre es la misma. Esto hace que capturar esa señal con un dispositivo no sirva para clonarla, dándote protección real contra ese tipo de robo silencioso."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre esta alarma y las otras que venden (DCAR, Master Classic, Sykker)?",
+      "answer": "Esta Master Metal es la más avanzada en seguridad: tiene código variable anti-clonación y función de reconocimiento del conductor, que bloquea el motor aunque alguien tenga tu control. Las otras alarmas (DCAR, Master Classic, Sykker) cubren bien lo básico de antiasalto y seguros eléctricos, pero no incluyen esta doble capa de protección contra clonación y robo de control."
+    },
+    {
+      "question": "¿Necesito comprar el transmisor de proximidad aparte?",
+      "answer": "Sí, la activación del antiasalto por proximidad es una función opcional que requiere un transmisor adicional. Las otras 3 modalidades de antiasalto (control remoto, puerta del conductor e ignición) ya vienen listas para usar sin nada extra."
+    },
+    {
+      "question": "¿Es compatible con un módulo alza vidrios?",
+      "answer": "Sí, de fábrica el tercer canal de esta alarma viene configurado para activar un módulo alza vidrios automáticamente al armar la alarma."
+    },
+    {
+      "question": "¿Qué pasa si alguien me roba el control remoto?",
+      "answer": "Gracias a la función de reconocimiento del conductor, aunque desarmen la alarma con el control robado, el motor seguirá bloqueado electrónicamente hasta que se confirme la identidad con el botón oculto, así que no podrán simplemente subirse y arrancar el auto.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+{
+  "slug": "kit-alarma-para-auto-master-black-seguros-electricos-turbo-timer",
+  "name": "Alarma para Auto Master Black y Reconocimiento del Conductor",
+  "category": "alarma",
+  "price": 0,
+  "oldPrice": 0,
+                        "image": [
+      "/alarmas/alarma-master-black/modulo-controles-alarma.webp",
+      "/alarmas/alarma-master-black/caja-alarma.webp"
+    ],
+    "images": [
+      "/alarmas/alarma-master-black/modulo-controles-alarma-mini.webp",
+      "/alarmas/alarma-master-black/caja-alarma-mini.webp"
+    ],
+  "productDescription": "Alarma para auto con Turbo Timer, reconocimiento del conductor y antiasalto. Controla seguros, vidrios y sensor de golpes. Incluye 2 controles tipo llave.",
+  "stock": true,
+  "marca": "Master",
+  "sku": "MASTER-BLACK",
+  "filtros": [
+    {
+      "brand": "Master",
+      "model": "Master-black"
+    }
+  ],
+  "painHook": "¿Te gustaría que tu auto confirme que eres realmente tú antes de dejarte encender el motor, incluso si alguien tiene tu control? Esta alarma añade esa capa extra de verificación que las alarmas comunes no tienen.",
+  "specs": [
+    { "label": "Controles incluidos", "value": "2 controles tipo llave (3 botones), memoriza hasta 4" },
+    { "label": "Función antiasalto", "value": "3 modalidades: control remoto, puerta del conductor o encendido" },
+    { "label": "Turbo Timer", "value": "Mantiene el motor encendido tras retirar la llave (programable a 60, 120 o 180 segundos)" },
+    { "label": "Reconocimiento del conductor", "value": "Bloqueo de motor tras desarmar, requiere confirmar identidad para encender" },
+    { "label": "Sensor de golpes", "value": "2 niveles regulables (golpe leve y golpe fuerte)" },
+    { "label": "Sirena", "value": "6 tonos inteligentes (identifica la causa del disparo)" },
+    { "label": "Salida para elevavidrios", "value": "Sí, programada de fábrica en el tercer canal" }
+  ],
+  "features": [
+    "Turbo Timer: deja el motor encendido un tiempo después de sacar la llave, útil para que el auto se enfríe gradualmente antes de apagarlo del todo",
+    "Reconocimiento del conductor: aunque alguien desarme la alarma con tu control, el motor queda bloqueado hasta confirmar tu identidad, una capa extra de protección si pierdes o te roban el control",
+    "Función antiasalto con 3 formas de activación: con el control remoto, abriendo y cerrando la puerta del conductor, o simplemente al encender el auto",
+    "Sensor de golpes de dos niveles que distingue un roce leve de un impacto fuerte, evitando que la alarma suene por cualquier cosa",
+    "Sirena inteligente de 6 tonos que te indica qué fue exactamente lo que disparó la alarma (sensor, puertas o intento de encendido forzado)",
+    "Salida lista de fábrica para conectar un módulo alza vidrios, ideal si ya cuentas con uno instalado en tu auto"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Una alarma pensada para quienes quieren más control sobre lo que pasa con su auto",
+    "blocks": [
+      {
+        "heading": "El problema: quedarte sin forma de verificar quién enciende tu auto",
+        "paragraphs": [
+          "La mayoría de alarmas funcionan con una sola verificación: si tienes el control, puedes encender el auto. El problema es que si pierdes el control o te lo roban junto con las llaves, esa única verificación deja de protegerte.",
+          "Además, hay momentos en los que necesitas que el motor siga encendido un rato más después de sacar la llave (por ejemplo, para que se enfríe gradualmente), algo que la mayoría de sistemas de alarma simplemente no contemplan."
+        ]
+      },
+      {
+        "heading": "La solución: doble verificación y control total sobre el apagado del motor",
+        "paragraphs": [
+          "Con la función de reconocimiento del conductor, aunque alguien desarme la alarma con tu control, el motor permanece bloqueado electrónicamente hasta que confirmes que eres tú (mediante el botón oculto o un código con el control), evitando que basta con tener el control para llevarse el auto.",
+          "Con Turbo Timer, puedes dejar el motor encendido entre 60 y 180 segundos después de sacar la llave, bajarte, cerrar el auto y activar la alarma con normalidad, mientras el sistema se encarga de apagar el motor automáticamente al terminar el tiempo programado."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Para qué sirve exactamente el Turbo Timer?",
+      "answer": "Te permite dejar el motor encendido un tiempo programado (60, 120 o 180 segundos) después de retirar la llave y bajarte del auto, cerrando normalmente y activando la alarma. Cuando se cumple el tiempo, el sistema apaga el motor automáticamente por ti."
+    },
+    {
+      "question": "¿Cómo funciona el reconocimiento del conductor?",
+      "answer": "Al desarmar la alarma con el control, el motor queda bloqueado electrónicamente. Para encenderlo, debes confirmar tu identidad presionando el botón oculto un número específico de veces, o ingresando un código con el control. Así, aunque alguien tenga tu control, no podrá encender el auto sin esa confirmación."
+    },
+    {
+      "question": "¿En qué se diferencia esta alarma de la Master Classic?",
+      "answer": "Comparten funciones base como el antiasalto, el sensor de golpes y el control de seguros eléctricos. La diferencia está en que esta Master Black suma Turbo Timer y Reconocimiento del Conductor, dos funciones pensadas para quienes buscan una capa adicional de control y seguridad."
+    },
+    {
+      "question": "¿Es compatible con un módulo alza vidrios?",
+      "answer": "Sí, de fábrica el tercer canal de esta alarma viene configurado para activar un módulo alza vidrios automáticamente al armar la alarma."
+    },
+    {
+      "question": "¿Qué significa el logo Bluetooth en la caja?",
+      "answer": "Estamos confirmando con el proveedor si corresponde a una función activa de esta unidad o es parte del diseño de la línea. Contáctanos antes de tu compra si esta función es importante para ti y te confirmamos el detalle.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+{
+  "slug": "antiasalto-para-moto-alsama-por-proximidad-paralizador-mp201",
+  "name": "Antiasalto para Moto Alsama por Proximidad - Paralizador Automático MP201",
+  "category": "antiasalto",
+  "price": 0,
+  "oldPrice": 0,
+                        "image": [
+      "/antiasalto/antiasalto-alsama/antiasalto-moto1.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto2.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto3.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto4.webp"
+    ],
+    "images": [
+      "/antiasalto/antiasalto-alsama/antiasalto-moto1-mini.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto2-mini.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto3-mini.webp",
+      "/antiasalto/antiasalto-alsama/antiasalto-moto4-mini.webp"
+    ],
+  "productDescription": "Antiasalto para moto por proximidad, apaga el motor solo si te alejas sin el control o te obligan a bajarte. Evita robo por puente de cables. Incluye 2 controles.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "MP-201-ALSAMA",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": "MP-201"
+    }
+  ],
+  "painHook": "¿Te preocupa que te asalten en tu moto o te la roben estacionada? Este sistema apaga el motor solo, sin que tengas que hacer nada, apenas te alejas sin el control o te bajan a la fuerza.",
+  "specs": [
+    { "label": "Modelo", "value": "MP201 (Moto Paralyzer)" },
+    { "label": "Controles incluidos", "value": "2 controles remotos" },
+    { "label": "Rango de detección", "value": "5 metros" },
+    { "label": "Tiempo de bloqueo", "value": "20 o 60 segundos tras alejarte (configurable)" },
+    { "label": "Protección contra robo", "value": "Corte progresivo de energía (evita arranque por puente de cables)" },
+    { "label": "Incluye", "value": "Botón valet y LED indicador de estado" },
+    { "label": "Voltaje", "value": "12V DC (consumo de solo 22 mA)" }
+  ],
+  "features": [
+    "Apaga el motor solo si te alejas de tu moto sin el control, o si te obligan a bajarte a la fuerza en un asalto, sin que tengas que presionar nada",
+    "El sistema reconoce automáticamente cuando el control está fuera del rango de 5 metros, no depende de que tú actives algo en ese momento",
+    "Corte progresivo de energía que impide encender tu moto 'haciendo puente' con cables, uno de los métodos más comunes de robo de motos",
+    "Incluye 2 controles, uno para ti y otro para alguien de confianza que también maneje la moto",
+    "Botón valet para desactivar el sistema temporalmente, útil si prestas tu moto o la llevas a un taller",
+    "Luz LED que te muestra en todo momento si el sistema está protegiendo tu moto, comunicándose con tu control o en modo anti-asalto activado"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Te preocupa que te asalten en tu moto o te la roben estacionada?",
+    "blocks": [
+      {
+        "heading": "El problema: las motos son un blanco fácil, estacionadas o en movimiento",
+        "paragraphs": [
+          "Las motos suelen tener sistemas de seguridad básicos, muchas veces solo el seguro de manubrio, que no es gran obstáculo para alguien decidido a robarla. Estacionada, basta con 'hacer puente' en los cables de encendido para arrancarla sin la llave.",
+          "Y si te asaltan en movimiento, obligándote a bajar, la mayoría de motos simplemente quedan a disposición del ladrón, sin ningún sistema que reaccione ante esa situación."
+        ]
+      },
+      {
+        "heading": "La solución: tu moto se apaga sola si te alejas o te la quitan",
+        "paragraphs": [
+          "Llevas un control contigo mientras manejas. Si te alejas de la moto más de 5 metros sin apagar el motor primero (por ejemplo, porque te obligaron a bajarte), el sistema inicia una cuenta regresiva de 20 o 60 segundos (según cómo se configure) y después apaga el motor automáticamente, bloqueándolo.",
+          "Además, el sistema incluye corte progresivo de energía, lo que impide que alguien arranque tu moto haciendo puente directo en los cables, un método de robo muy común cuando la moto está sola y estacionada."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cómo funciona exactamente si me asaltan en la moto?",
+      "answer": "No necesitas hacer nada. Si te alejas de la moto sin apagarla (porque te obligaron a bajarte), el sistema detecta que el control salió del rango de 5 metros e inicia la cuenta regresiva de apagado automático, bloqueando el motor sin que el ladrón sepa qué está pasando."
+    },
+    {
+      "question": "¿Esta versión también sirve para autos?",
+      "answer": "Este modelo (MP201) está diseñado específicamente para motos. Para autos existe la versión CP201 de la misma línea, o puedes revisar el Antiasalto por Proximidad que tenemos para auto y camioneta en la tienda."
+    },
+    {
+      "question": "¿Qué pasa si el control se queda sin batería y no puedo encender la moto?",
+      "answer": "Presiona el botón valet 5 veces seguidas para anular temporalmente el sistema y poder encender tu moto de forma normal mientras cambias la batería del control."
+    },
+    {
+      "question": "¿Tengo que dejar el control siempre encendido?",
+      "answer": "Debes encenderlo antes de subir a la moto (el LED tarda unos segundos en confirmar buena señal). Se recomienda apagarlo cuando no lo uses para cuidar la batería; dejarlo encendido todo el tiempo no daña el sistema, pero sí reduce la duración de la batería del control más rápido."
+    },
+    {
+      "question": "¿Puedo prestar mi moto sin que se active el sistema?",
+      "answer": "Sí, usa el botón valet para activar el modo valet y anular temporalmente la protección mientras alguien más usa tu moto o la llevas a servicio técnico. Repites el mismo proceso para reactivarlo después.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+{
+  "slug": "focos-led-autorus-para-auto-h4-alta-baja-canbus",
+  "name": "Focos LED Autorus para Auto H4 Alta y Baja - Luces LED CANBUS de Alto Brillo",
+  "category": "luces",
+  "price": 0,
+  "oldPrice": 0,
+                          "image": [
+      "/luces/foco-autorus/foco-autorus.webp",
+      "/luces/foco-autorus/par-autorus.webp",
+      "/luces/foco-autorus/caja-foco-autorus.webp"
+    ],
+    "images": [
+      "/luces/foco-autorus/foco-autorus-mini.webp",
+      "/luces/foco-autorus/par-autorus-mini.webp",
+      "/luces/foco-autorus/caja-foco-autorus-mini.webp"
+    ],
+  "productDescription": "Focos LED para auto H4 alta y baja, 45,000 lúmenes, tecnología CANBUS sin errores en el tablero. También disponible en H7 y otros sockets. Instalación directa.",
+  "stock": true,
+  "marca": "Autorus",
+  "sku": "AUTORUS-R55S",
+  "filtros": [
+    {
+      "brand": "Autorus",
+      "model": "R55S"
+    }
+  ],
+  "painHook": "¿Tus focos se ven amarillos y débiles de noche, y sientes que no ves bien la pista? Estos focos LED se instalan directo donde iba tu foco actual e iluminan muchísimo más, sin modificar el cableado de tu auto.",
+  "specs": [
+    { "label": "Flujo luminoso", "value": "45,000 lúmenes (el par)" },
+    { "label": "Potencia", "value": "55W" },
+    { "label": "Voltaje", "value": "DC 9V-16V (12V estándar)" },
+    { "label": "Vida útil", "value": "50,000 horas" },
+    { "label": "Ángulo de iluminación", "value": "280°, doble cara (patentado)" },
+    { "label": "Tecnología", "value": "CANBUS (no genera errores en el tablero)" },
+    { "label": "Sockets disponibles", "value": "H4 (alta y baja), H7, H1, H3, H8, H9, H10, H11, H13, H15, H16, P13, 9004, 9005, 9006, 9007, 9012, PSX24, 880, 881, D1, D2, D3, D4" }
+  ],
+  "features": [
+    "Focos LED H4 con función alta y baja en un solo foco, iluminan hasta 45,000 lúmenes, muchísimo más que un foco halógeno tradicional",
+    "Tecnología CANBUS incluida, no genera errores ni luces de advertencia en el tablero de autos modernos, un problema común con focos LED genéricos",
+    "Iluminación en 280°, no solo hacia adelante sino también a los costados, para ver mejor señales y bordes de la pista",
+    "Se instala directo en el socket donde iba tu foco original, sin cortar cables ni modificar la instalación eléctrica de tu auto",
+    "Disponibles también en H7 y muchos otros sockets (9005, 9006, H11, entre otros), cubrimos la gran mayoría de autos",
+    "Duran hasta 50,000 horas de uso, no tienes que estarlos cambiando cada cierto tiempo como pasa con los focos halógenos"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Manejas de noche con focos débiles y amarillentos?",
+    "blocks": [
+      {
+        "heading": "El problema: los focos halógenos se debilitan y no iluminan parejo",
+        "paragraphs": [
+          "Los focos halógenos de fábrica pierden intensidad con el tiempo, dan una luz amarillenta que no ilumina bien, y en carretera o zonas sin alumbrado público eso se traduce en menos tiempo de reacción ante un obstáculo, un bache o un animal cruzando.",
+          "Muchas personas evitan cambiar a focos LED por miedo a que les salga una luz de error en el tablero o porque creen que la instalación es complicada, pero ese problema solo ocurre con kits LED de baja calidad que no traen la tecnología correcta."
+        ]
+      },
+      {
+        "heading": "La solución: luz blanca potente, sin errores y sin tocar cables",
+        "paragraphs": [
+          "Estos focos LED emiten hasta 45,000 lúmenes con un ángulo de iluminación de 280°, cubriendo tanto el frente como los costados de la vía. En la versión H4 manejan alta y baja desde el mismo foco. Gracias a su tecnología CANBUS, tu auto no detecta ningún error ni muestra luces de advertencia en el tablero, algo que sí pasa con focos LED genéricos de menor calidad.",
+          "La instalación es de una sola pieza: se conecta directo en el socket donde iba tu foco original, sin necesidad de cortar o empalmar cables."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cómo sé si mi auto usa H4, H7 u otro socket?",
+      "answer": "Puedes revisar el código impreso en tu foco actual (suele decir H4, H7, H11, etc.), buscarlo en el manual de tu auto, o simplemente contarnos la marca, modelo y año de tu vehículo y te confirmamos el socket exacto antes de la compra."
+    },
+    {
+      "question": "¿El H4 sirve para alta y baja al mismo tiempo?",
+      "answer": "Sí, el foco H4 está diseñado para manejar tanto la luz alta como la baja desde el mismo foco, igual que el foco halógeno original que reemplaza en la mayoría de autos."
+    },
+    {
+      "question": "¿Van a generar un error o luz de advertencia en mi tablero?",
+      "answer": "No, estos focos incluyen tecnología CANBUS, diseñada específicamente para que el sistema eléctrico de autos modernos no detecte ningún error ni muestre advertencias en el tablero."
+    },
+    {
+      "question": "¿Es difícil instalarlos yo mismo?",
+      "answer": "Son de instalación directa (plug and play): se conectan en el mismo socket donde iba tu foco original, sin cortar ni empalmar cables. Aun así, si prefieres, podemos ayudarte con la instalación."
+    },
+    {
+      "question": "¿El kit incluye los 2 focos (izquierdo y derecho)?",
+      "answer": "Sí, cada kit incluye el par completo de focos LED, listos para instalar en ambos lados de tu auto.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "slug": "barra-led-trasera-secuencial-para-auto-the-tail-boxlamp",
+  "name": "Barra LED Trasera Secuencial para Auto - Luz de Freno y Direccional Tipo Barrido",
+  "category": "luces",
+  "price": 0,
+  "oldPrice": 0,
+                            "image": [
+      "/barras-led/barra-led.webp",
+      "/barras-led/caja-barra-led.webp"
+    ],
+    "images": [
+      "/barras-led/barra-led-mini.webp",
+      "/barras-led/caja-barra-led-mini.webp"
+    ],
+  "productDescription": "Barra LED trasera secuencial para auto, se conecta a freno y direccionales con efecto de barrido. Le da a tu auto un acabado moderno tipo luces de alta gama.",
+  "stock": true,
+  "marca": "",
+  "sku": "TAIL-BOXLAMP",
+  "filtros": [
+    {
+      "brand": "",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Quieres que tu auto se vea más moderno y que se note de inmediato cuando frenas o giras? Esta barra LED trasera con efecto secuencial le da ese toque que normalmente solo ves en autos de alta gama.",
+  "specs": [
+    { "label": "Conexiones", "value": "6 líneas de entrada: ACC, tierra, luz de posición, freno, direccionales y emergencia" },
+    { "label": "Función de freno", "value": "Parpadea 3 veces y queda encendida fija" },
+    { "label": "Función direccional", "value": "Efecto secuencial (barrido de luz) hacia el lado del giro" },
+    { "label": "Función de emergencia", "value": "Secuencia desde el centro hacia ambos lados" }
+  ],
+  "features": [
+    "Le da a tu auto un acabado moderno, con el mismo efecto de luces secuenciales que ves en autos de alta gama",
+    "Combina en una sola barra la función de luz de posición, freno, direccionales y emergencia",
+    "El efecto de barrido en los direccionales hace que tu intención de giro se note más claramente a los autos de atrás",
+    "Al frenar junto con el direccional activado, todas las luces se encienden en modo secuencia para mayor visibilidad"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Dale a la parte trasera de tu auto un acabado más moderno y visible",
+    "blocks": [
+      {
+        "heading": "Una sola barra para freno, direccionales y luces de posición",
+        "paragraphs": [
+          "Esta barra LED se conecta a la señal de freno, a las direccionales y a la luz de emergencia de tu auto, combinando varias funciones en una sola instalación. Cuando frenas, se enciende de forma fija después de un parpadeo inicial. Al activar el direccional, la luz se desplaza en secuencia hacia el lado del giro, en lugar de simplemente encenderse toda junta."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Se conecta mediante sus 6 líneas de entrada (ACC, tierra, luz de posición, freno, direccionales y emergencia) a los puntos correspondientes del sistema eléctrico trasero de tu auto. Recomendamos instalación profesional para asegurar las conexiones correctas."
+    },
+    {
+      "question": "¿Funciona con cualquier auto?",
+      "answer": "Se conecta a las señales estándar de freno, direccionales y emergencia, presentes en la mayoría de vehículos. Nuestro técnico confirma la compatibilidad exacta con tu auto antes de instalarla."
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "gps-4g-alsama-para-auto-con-corte-de-motor-remoto-rastreador-satelital",
+  "name": "GPS 4G Alsama para Auto con Corte de Motor Remoto - Rastreo en Tiempo Real",
+  "category": "gps",
+  "price": 0,
+  "oldPrice": 0,
+                            "image": [
+      "/gps/gps-4g.webp",
+      "/gps/gps-4g3.webp",
+      "/gps/gps-4g4.webp"
+    ],
+    "images": [
+      "/gps/gps-4g-mini.webp",
+      "/gps/gps-4g3-mini.webp",
+      "/gps/gps-4g4-mini.webp"
+    ],
+  "productDescription": "GPS 4G Alsama para auto con corte de motor remoto, alertas de encendido y rastreo en tiempo real desde tu celular. Batería de respaldo incluida. Equipo de pago único.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "GPS-4G",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": "GPS-4G"
+    }
+  ],
+  "painHook": "¿Te preocupa que te roben el auto y no tengas forma de ubicarlo ni detenerlo a tiempo? Con este GPS 4G ves tu auto en tiempo real y puedes apagar el motor a distancia con un solo toque desde tu celular.",
+  "specs": [
+    { "label": "Conectividad", "value": "Red 4G LTE (compatible también con 2G)" },
+    { "label": "Precisión GPS", "value": "5 metros" },
+    { "label": "Tiempo de ubicación", "value": "Desde 1 segundo (en caliente) hasta 45 segundos (en frío)" },
+    { "label": "Voltaje", "value": "12V a 24V (autos, camionetas y camiones)" },
+    { "label": "Batería de respaldo", "value": "3.7V 900mAh, sigue rastreando aunque desconecten la batería principal" },
+    { "label": "Temperatura de operación", "value": "-20°C a 45°C" },
+    { "label": "Control", "value": "App móvil, plataforma web, Bluetooth y SMS" }
+  ],
+  "features": [
+    "Apaga el motor de tu auto a distancia desde tu celular con un solo toque, en caso de robo",
+    "Te avisa al instante si alguien intenta encender tu auto sin tu permiso",
+    "Sigue rastreando aunque desconecten la batería principal, gracias a su batería interna de respaldo",
+    "Ves la ubicación, velocidad y estado del motor de tu auto las 24 horas, desde una app tan fácil de usar como WhatsApp",
+    "Te avisa si golpean tu auto, fuerzan el switch de encendido, o si sale de una zona que tú definas en el mapa (geocerca)",
+    "Pago único por el equipo, sin mensualidades por el uso de la plataforma"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Y si pudieras apagar tu auto a distancia apenas notas que algo anda mal?",
+    "blocks": [
+      {
+        "heading": "El problema: las redes antiguas ya no garantizan que tu GPS funcione",
+        "paragraphs": [
+          "Muchos GPS en el mercado todavía usan redes 2G o 3G, las cuales están siendo desactivadas progresivamente en toda la región. Esto significa que un GPS antiguo puede simplemente dejar de enviarte la ubicación de tu auto justo quelo necesitas, sin ningún aviso previo.",
+          "Además, la mayoría de sistemas básicos solo te muestran dónde está el auto, pero no te dan ninguna forma real de detenerlo si ya te lo robaron."
+        ]
+      },
+      {
+        "heading": "La solución: rastreo 4G en tiempo real, con la opción de apagar el motor",
+        "paragraphs": [
+          "Este GPS usa tecnología 4G, la red más rápida y estable disponible actualmente, así que no corres el riesgo de quedarte sin señal por redes antiguas desconectadas. Desde la app puedes ver la ubicación exacta, la velocidad y el estado del motor de tu auto en todo momento.",
+          "Si en algún momento te roban el auto, puedes apagar el motor de forma remota con un solo toque en tu celular. Y si alguien intenta encenderlo sin tu autorización, o desconecta la batería, el sistema te avisa de inmediato gracias a su batería interna de respaldo."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿El equipo es realmente de pago único, sin mensualidades?",
+      "answer": "El equipo en sí es de pago único. Lo que sí necesitas (igual que con cualquier celular) es un chip con un plan de datos móviles activo, para que el GPS pueda conectarse y enviarte la información. La plataforma y la app para monitorear tu auto no tienen costo mensual adicional de nuestra parte."
+    },
+    {
+      "question": "¿Si desconectan la batería de mi auto, el GPS sigue funcionando?",
+      "answer": "Sí, el equipo cuenta con una batería interna de respaldo que mantiene el rastreo activo por varias horas, aunque desconecten la batería principal del vehículo."
+    },
+    {
+      "question": "¿Instalar el GPS afecta la garantía de mi auto nuevo?",
+      "answer": "No. Realizamos una instalación técnica especializada que no altera el sistema eléctrico original del vehículo, manteniendo tu garantía de fábrica intacta."
+    },
+    {
+      "question": "¿Puedo monitorear varios vehículos desde la misma cuenta?",
+      "answer": "Sí, puedes visualizar toda tu flota de vehículos desde la misma cuenta, ya sea desde el celular, la computadora o una tablet."
+    },
+    {
+      "question": "¿Qué pasa si alguien intenta forzar el switch de encendido de mi auto?",
+      "answer": "El sistema detecta el intento y te envía una alerta inmediata a tu celular con la ubicación exacta del vehículo, para que puedas actuar a tiempo.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "slug": "camara-de-retroceso-para-auto-170-grados-con-broca-alsama",
+  "name": "Cámara de Retroceso para Auto 170° Gran Angular con Broca de Instalación - Alsama",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+                              "image": [
+      "/camaras/camara-alsama/camara-alsama.webp",
+      "/camaras/camara-alsama/camara-alsama2.webp",
+      "/camaras/camara-alsama/caja-camara.webp"
+    ],
+    "images": [
+      "/camaras/camara-alsama/camara-alsama-mini.webp",
+      "/camaras/camara-alsama/camara-alsama2-mini.webp",
+      "/camaras/camara-alsama/caja-camara-mini.webp"
+    ],
+  "productDescription": "Cámara de retroceso para auto, 170° de ángulo, 420 líneas de resolución, visión nocturna e impermeable IP68. Incluye broca de 28mm para instalación.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "CAM-RETRO-ALSAMA-420L",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Quieres instalar tu propia cámara de retroceso sin tener que buscar la herramienta exacta para el hueco? Esta cámara trae su propia broca del tamaño correcto, lista para instalar.",
+  "specs": [
+    { "label": "Resolución", "value": "420 líneas de TV (680 x 420 píxeles)" },
+    { "label": "Ángulo de lente", "value": "170 grados (gran angular)" },
+    { "label": "Sensor de imagen", "value": "CMOS/CCD con balance de blanco automático" },
+    { "label": "Voltaje", "value": "12V c.c." },
+    { "label": "Consumo de energía", "value": "Menos de 1W" },
+    { "label": "Resistencia al agua", "value": "IP68" },
+    { "label": "Temperatura de trabajo", "value": "-30°C a 50°C" },
+    { "label": "Visión nocturna", "value": "Sí, infrarroja" },
+    { "label": "Incluye", "value": "Broca de 28mm para la instalación" }
+  ],
+  "features": [
+    "Ángulo de visión de 170°, más amplio que una cámara estándar, cubriendo mejor los costados del parachoques al momento de retroceder",
+    "Incluye la broca de 28mm exacta para abrir el hueco de instalación, no necesitas comprar ni buscar la herramienta por separado",
+    "Se activa sola apenas pones reversa, mostrando la imagen en tu pantalla sin que tengas que presionar nada",
+    "Visión nocturna infrarroja, mantienes visibilidad clara incluso estacionando de noche",
+    "Resistente al agua con certificación IP68, soporta lluvia y lavados sin dañarse",
+    "Es universal, compatible con cualquier marca y modelo de auto, se instala de la misma forma en todos"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Una cámara de retroceso lista para instalar, sin comprar herramientas aparte",
+    "blocks": [
+      {
+        "heading": "El problema: instalar una cámara a veces requiere herramientas que no tienes",
+        "paragraphs": [
+          "Instalar una cámara de retroceso implica hacer un hueco del tamaño exacto en el parachoques, y muchas veces esa broca específica no es algo que tengas a la mano en casa, lo que te obliga a comprarla aparte o buscar quién te la preste.",
+          "Además, una cámara con un ángulo de visión muy cerrado deja zonas sin cubrir a los costados del parachoques, justo donde suelen estar los obstáculos más difíciles de ver por el espejo."
+        ]
+      },
+      {
+        "heading": "La solución: todo lo necesario en una sola caja",
+        "paragraphs": [
+          "Esta cámara incluye la broca de 28mm, el tamaño exacto para abrir el hueco de instalación sin complicaciones. Su lente de 170° te da una visión mucho más amplia de lo que hay detrás, cubriendo tanto el centro como los costados del parachoques.",
+          "Se activa automáticamente apenas pones reversa, mostrando la imagen en tu pantalla o radio conectado, y gracias a su resistencia IP68 puedes lavar tu auto o manejar bajo lluvia sin preocuparte de que falle."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Incluye pantalla?",
+      "answer": "No, esta cámara incluye el cable de video (conector RCA amarillo) y de corriente, pero se conecta a una pantalla, radio o espejo que ya tengas con entrada de video."
+    },
+    {
+      "question": "¿Qué diferencia hay con la otra cámara de retroceso que tienen en la tienda?",
+      "answer": "Esta cámara Alsama destaca por su ángulo de visión más amplio (170°) y porque incluye la broca exacta de 28mm para la instalación. Ambas cámaras son impermeables y tienen visión nocturna; la diferencia principal está en el ángulo de cobertura y los accesorios incluidos."
+    },
+    {
+      "question": "¿Es difícil instalarla yo mismo?",
+      "answer": "Incluye la broca del tamaño correcto, así que solo necesitas perforar el punto elegido del parachoques, montar la cámara, conectar el cable rojo a 12V y el amarillo a la entrada de video de tu pantalla. Si prefieres, también podemos instalarla por ti."
+    },
+    {
+      "question": "¿Sirve para cualquier auto?",
+      "answer": "Sí, es un modelo universal, compatible con cualquier marca y modelo de auto, y se instala de la misma manera en todos los casos."
+    },
+    {
+      "question": "¿Funciona bien de noche?",
+      "answer": "Sí, cuenta con visión nocturna infrarroja que se activa automáticamente en condiciones de poca luz, permitiéndote ver con claridad al retroceder de noche.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "espejo-retrovisor-con-pantalla-integrada-camara-sensores-estacionamiento",
+  "name": "Espejo Retrovisor con Pantalla Integrada, Cámara y 4 Sensores de Estacionamiento",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+                                "image": [
+      "/camaras/camara-pantalla-espejo-retrovisor/pantalla-y-sensores.webp",
+      "/camaras/camara-pantalla-espejo-retrovisor/pantalla-retrovisor.webp",
+      "/camaras/camara-pantalla-espejo-retrovisor/kit-espejo-retrovidor.webp"
+    ],
+    "images": [
+      "/camaras/camara-pantalla-espejo-retrovisor/pantalla-y-sensores-mini.webp",
+      "/camaras/camara-pantalla-espejo-retrovisor/pantalla-retrovisor-mini.webp",
+      "/camaras/camara-pantalla-espejo-retrovisor/kit-espejo-retrovidor-mini.webp"
+    ],
+  "productDescription": "Espejo retrovisor con pantalla TFT integrada, cámara de retroceso y 4 sensores de estacionamiento. Sistema inteligente de asistencia para estacionar.",
+  "stock": true,
+  "marca": "",
+  "sku": "ESPEJO-TFT-IPAS",
+  "filtros": [
+    {
+      "brand": "",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Quieres ver la cámara de reversa y la distancia a los obstáculos sin agregar una pantalla extra en tu tablero? Este espejo retrovisor ya trae la pantalla integrada en el mismo cristal.",
+  "specs": [
+    { "label": "Tipo de pantalla", "value": "TFT integrada en el espejo retrovisor" },
+    { "label": "Sensores incluidos", "value": "4 sensores de estacionamiento" },
+    { "label": "Cámara", "value": "Incluida, con conector RCA (video) y de corriente" },
+    { "label": "Cableado", "value": "6 metros desde el monitor hasta los sensores" },
+    { "label": "Activación", "value": "Automática con la luz de reversa" }
+  ],
+  "features": [
+    "La pantalla va integrada directamente en el espejo retrovisor, no necesitas agregar una pantalla aparte en el tablero",
+    "Se activa automáticamente apenas pones reversa, mostrando la imagen de la cámara en el mismo espejo",
+    "4 sensores de estacionamiento te avisan con sonido mientras te acercas a un obstáculo, además de la imagen en pantalla",
+    "Mantiene la función de espejo retrovisor normal todo el tiempo, y cambia a modo cámara solo cuando lo necesitas"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Todo en el mismo espejo: ves la cámara sin agregar pantallas extra",
+    "blocks": [
+      {
+        "heading": "Un sistema completo integrado en tu espejo retrovisor",
+        "paragraphs": [
+          "Este sistema reemplaza tu espejo retrovisor actual por uno con pantalla TFT integrada en el mismo cristal. Al dar reversa, la cámara trasera se activa automáticamente y la imagen aparece directo en el espejo, mientras los 4 sensores de estacionamiento te avisan con sonido si hay algo cerca.",
+          "Como la pantalla está dentro del espejo, no necesitas buscar espacio en el tablero para una pantalla adicional ni preocuparte de que estorbe tu vista."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Reemplaza mi espejo retrovisor actual?",
+      "answer": "Sí, este producto sustituye tu espejo retrovisor por uno que ya trae la pantalla integrada. Mientras manejas normal, funciona como espejo común, y cambia a la vista de cámara apenas pones reversa."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Requiere instalar el espejo, la cámara en la parte trasera y los 4 sensores en el parachoques, conectando el cableado correspondiente. Recomendamos instalación profesional para un resultado prolijo."
+    },
+    {
+      "question": "¿Qué diferencia hay con el otro kit de cámara y pantalla que tienen en la tienda?",
+      "answer": "Ese otro kit usa una pantalla tipo overlay que se instala sobre tu espejo actual (se coloca encima, no lo reemplaza). Este producto en cambio es un espejo completo con la pantalla ya integrada en el mismo cristal, sustituyendo tu espejo original.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "kit-sensor-camara-de-retroceso-pantalla-propia-semaforo-alsama",
+  "name": "Kit Sensor y Cámara de Retroceso con Pantalla Propia - Sistema Semáforo Verde, Amarillo y Rojo",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+                                  "image": [
+      "/camaras/camara-pantalla/kit-camara.webp",
+      "/camaras/camara-pantalla/sensor-modulo.webp",
+      "/camaras/camara-pantalla/pantalla-camara.webp"
+    ],
+    "images": [
+      "/camaras/camara-pantalla/kit-camara-mini.webp",
+      "/camaras/camara-pantalla/sensor-modulo-mini.webp",
+      "/camaras/camara-pantalla/pantalla-camara-mini.webp"
+    ],
+  "productDescription": "Kit de sensor y cámara de retroceso con pantalla propia tipo monitor. Sistema semáforo: verde, amarillo y rojo según distancia. Compatible con cualquier auto.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "ALSAMA-PE321",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": "PE321"
+    }
+  ],
+  "painHook": "¿Prefieres una pantalla propia en vez de depender del espejo o la radio de tu auto? Este kit trae su propio monitor con base, cámara y sensores con un sistema de colores fácil de entender.",
+  "specs": [
+    { "label": "Voltaje", "value": "DC 12V (rango de operación 9V-18V)" },
+    { "label": "Corriente", "value": "20mA - 200mA" },
+    { "label": "Distancia de trabajo de los sensores", "value": "0.3m a 1.8m" },
+    { "label": "Frecuencia ultrasónica", "value": "40KHz" },
+    { "label": "Temperatura de trabajo", "value": "-30°C a 80°C" },
+    { "label": "Pantalla", "value": "Monitor TFT independiente con base, no va en el espejo" },
+    { "label": "Sensores incluidos", "value": "4 sensores con indicador de color (verde, amarillo, rojo)" }
+  ],
+  "features": [
+    "Sistema tipo semáforo: verde significa que estás a una distancia segura, amarillo te pone en alerta, y rojo te avisa que estás a punto de chocar, todo con sonido y color en pantalla",
+    "Pantalla propia con base, la colocas donde prefieras en el tablero, no depende de tu espejo ni de la radio de tu auto",
+    "Combina cámara y sensores en un solo kit: ves la imagen de lo que hay detrás Y escuchas/ves la distancia exacta en la pantalla",
+    "Es universal, compatible con cualquier marca de auto, mismo proceso de instalación en todos los casos"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Un sistema de colores fácil de entender para estacionar sin golpes",
+    "blocks": [
+      {
+        "heading": "Verde, amarillo, rojo: sabes de inmediato qué tan cerca estás",
+        "paragraphs": [
+          "Este kit combina una cámara de retroceso con 4 sensores de estacionamiento, todo mostrado en una pantalla propia con base que puedes colocar donde prefieras en tu tablero. El sistema usa un código de colores simple: verde cuando estás a una distancia segura (entre 1.3 y 1.8 metros), amarillo cuando debes empezar a tener cuidado (entre 0.6 y 1.3 metros), y rojo cuando estás en zona de peligro (menos de 60 centímetros), acompañado siempre de un sonido que se acelera mientras más te acercas.",
+          "Al ser una pantalla independiente, no necesitas cambiar tu espejo retrovisor ni depender de que tu radio tenga entrada de video, es un sistema completo y autónomo."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Qué significan los colores verde, amarillo y rojo?",
+      "answer": "Verde indica que estás a una distancia segura (1.3 a 1.8 metros). Amarillo es una alerta de que debes tener más cuidado (0.6 a 1.3 metros). Rojo significa peligro, estás a menos de 60 centímetros del obstáculo y el sonido se vuelve continuo."
+    },
+    {
+      "question": "¿La pantalla va en el espejo o es independiente?",
+      "answer": "Es una pantalla independiente con su propia base, se coloca donde prefieras en el tablero. No reemplaza ni se instala sobre tu espejo retrovisor, a diferencia de otros kits que sí usan el espejo."
+    },
+    {
+      "question": "¿Hay objetos que los sensores no detectan bien?",
+      "answer": "Sí, los sensores pueden no detectar bien objetos que no reflejan bien el ultrasonido, como neumáticos de bicicleta, árboles pequeños o maderas delgadas. También pueden interferir con vehículos cercanos que tengan su propio sensor de movimiento encendido."
+    },
+    {
+      "question": "¿A qué distancia detecta diferentes tipos de obstáculos?",
+      "answer": "Como referencia: paredes se detectan hasta 1.8 metros, personas hasta 1 metro, y columnas de 40cm de diámetro hasta 1.2 metros. La distancia exacta puede variar según el tamaño y material del objeto."
+    },
+    {
+      "question": "¿Por qué suena como si hubiera algo detrás cuando no hay nada?",
+      "answer": "Esto suele pasar si algún sensor quedó instalado muy cerca del piso. Revisando la altura de instalación del sensor generalmente se soluciona este falso aviso.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+{
+  "slug": "kit-elevalunas-electrico-universal-4-puertas-nemesis-model-plus",
+  "name": "Kit Elevalunas Eléctrico Universal para 4 Puertas - Nemesis Model Plus",
+  "category": "alzavidrios",
+  "price": 0,
+  "oldPrice": 0,
+                                    "image": [
+      "/alzavidrios/nemesis/kit-alzavidrio.webp",
+      "/alzavidrios/nemesis/motores-alzavidrio.webp",
+      "/alzavidrios/nemesis/ramal-y-swift.webp"
+    ],
+    "images": [
+      "/alzavidrios/nemesis/kit-alzavidrio-mini.webp",
+      "/alzavidrios/nemesis/motores-alzavidrio-mini.webp",
+      "/alzavidrios/nemesis/ramal-y-swift-mini.webp"
+    ],
+  "productDescription": "Kit elevalunas eléctrico universal para 4 puertas. Convierte tus vidrios manuales en eléctricos. Incluye 4 motores, consola de mando y switches individuales.",
+  "stock": true,
+  "marca": "Nemesis",
+  "sku": "NEMESIS-MODEL-PLUS-4P",
+  "filtros": [
+    {
+      "brand": "Nemesis",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Te cansaste de girar la manivela para subir y bajar los vidrios de tu auto? Este kit convierte tus 4 ventanas manuales en eléctricas, subes y bajas con solo un botón.",
+  "specs": [
+    { "label": "Modelo", "value": "Nemesis Model Plus" },
+    { "label": "Cobertura", "value": "4 puertas (kit completo)" },
+    { "label": "Motores incluidos", "value": "4, con mecanismo regulador" },
+    { "label": "Controles incluidos", "value": "1 consola principal de 4 botones + 3 switches individuales" },
+    { "label": "Incluye", "value": "Kit completo de tornillería, espaciadores y conectores para la instalación" }
+  ],
+  "features": [
+    "Convierte las 4 ventanas manuales de tu auto en eléctricas, subes y bajas con solo presionar un botón",
+    "Incluye la consola principal con los 4 controles para el conductor, y un switch individual para cada una de las otras 3 puertas",
+    "Trae todo el kit de tornillería y conectores necesarios para la instalación, no tienes que buscar piezas sueltas por separado",
+    "Pensado para autos que aún tienen vidrios manuales y quieren actualizar a un sistema eléctrico completo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Dile adiós a la manivela: convierte tus 4 ventanas a eléctricas",
+    "blocks": [
+      {
+        "heading": "Un kit completo para actualizar tu auto",
+        "paragraphs": [
+          "Si tu auto todavía tiene vidrios manuales, este kit los convierte en eléctricos en las 4 puertas. Incluye los 4 motores con su mecanismo regulador, la consola de mando para el conductor con los 4 botones, y un switch individual para cada una de las otras puertas, además de todo el juego de tornillería y conectores necesarios para una instalación completa."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Sirve para cualquier auto?",
+      "answer": "Es un kit universal, pero la compatibilidad exacta depende del espacio disponible dentro de tu puerta y el tipo de mecanismo que tenga. Cuéntanos la marca, modelo y año de tu auto para confirmar antes de la compra."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Requiere desmontar los paneles de las 4 puertas, instalar los motores en el mecanismo existente y conectar el cableado hasta la consola principal. Recomendamos instalación profesional para un resultado duradero y sin fallas."
+    },
+    {
+      "question": "¿El conductor puede controlar las 4 ventanas desde su puerta?",
+      "answer": "Sí, la consola principal incluida (con 4 botones) se instala en la puerta del conductor y permite subir o bajar cualquiera de las 4 ventanas desde ahí, mientras que cada pasajero también tiene su propio switch individual.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "kit-elevalunas-electrico-universal-12v-mecanismo-cable",
+  "name": "Kit Elevalunas Eléctrico Universal 12V - Power Window con Mecanismo de Cable",
+  "category": "alzavidrios",
+  "price": 0,
+  "oldPrice": 0,
+                                      "image": [
+      "/alzavidrios/power-window/kit-alzavidrio.webp",
+      "/alzavidrios/power-window/motores-alzavidrio.webp",
+      "/alzavidrios/power-window/mandos.webp",
+      "/alzavidrios/power-window/caja-alzavidrio.webp"
+    ],
+    "images": [
+      "/alzavidrios/power-window/kit-alzavidrio-mini.webp",
+      "/alzavidrios/power-window/motores-alzavidrio-mini.webp",
+      "/alzavidrios/power-window/mandos-mini.webp",
+      "/alzavidrios/power-window/caja-alzavidrio-mini.webp"
+    ],
+  "productDescription": "Kit elevalunas eléctrico universal 12V con mecanismo de cable flexible. Convierte vidrios manuales en eléctricos. Incluye consola principal, switches y tornillería.",
+  "stock": true,
+  "marca": "Power Window",
+  "sku": "PW-UNIV-12V-CABLE",
+  "filtros": [
+    {
+      "brand": "Power Window",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Te cansaste de girar la manivela para subir y bajar los vidrios de tu auto? Este kit convierte tus ventanas manuales en eléctricas, con un mecanismo de cable flexible fácil de adaptar.",
+  "specs": [
+    { "label": "Voltaje", "value": "12V" },
+    { "label": "Tipo", "value": "Universal" },
+    { "label": "Mecanismo", "value": "Cable flexible (guaya), con motor por ventana" },
+    { "label": "Controles incluidos", "value": "Consola principal de 4 botones y switches individuales" },
+    { "label": "Incluye", "value": "Cableado, conectores y kit de tornillería para la instalación" }
+  ],
+  "features": [
+    "Convierte tus ventanas manuales en eléctricas, subes y bajas con solo presionar un botón",
+    "Su mecanismo de cable flexible se adapta a distintos tipos de puerta, sin necesitar un brazo rígido",
+    "Incluye la consola principal con varios botones para el conductor, más switches individuales para las demás puertas",
+    "Trae todo el cableado, conectores y tornillería necesarios para la instalación, no tienes que buscar piezas sueltas por separado"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Convierte tus ventanas manuales en eléctricas con un mecanismo flexible",
+    "blocks": [
+      {
+        "heading": "Un kit universal con mecanismo de cable",
+        "paragraphs": [
+          "Este kit convierte las ventanas manuales de tu auto en eléctricas usando un mecanismo de cable flexible en lugar de un brazo rígido, lo que facilita su adaptación a distintos tipos de puerta. Incluye los motores, la consola principal con los botones para el conductor, switches individuales para las demás puertas, y todo el cableado y tornillería necesarios para la instalación."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Sirve para cualquier auto?",
+      "answer": "Es un kit universal, pero la compatibilidad exacta depende del espacio disponible dentro de tu puerta. Cuéntanos la marca, modelo y año de tu auto para confirmar antes de la compra."
+    },
+    {
+      "question": "¿Qué diferencia hay con el otro kit elevalunas que tienen en la tienda (Nemesis)?",
+      "answer": "Este kit usa un mecanismo de cable flexible, mientras que el Nemesis usa un mecanismo de brazo tipo tijera. Ambos convierten ventanas manuales en eléctricas; la diferencia principal está en el tipo de mecanismo y cómo se adapta a tu puerta."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Requiere desmontar los paneles de las puertas, instalar los motores con su mecanismo de cable, y conectar el cableado hasta la consola principal. Recomendamos instalación profesional para un resultado duradero.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+{
+  "slug": "mdvr-4-canales-para-camion-bus-monitor-7-pulgadas-gps",
+  "name": "Sistema MDVR de 4 Canales para Camión y Bus con Monitor 7 Pulgadas y GPS",
+  "category": "camara-de-retroceso",
+  "price": 0,
+  "oldPrice": 0,
+                                        "image": [
+      "/camaras/sistema-MDVR-para-camion/sistema-MDVR.webp",
+      "/camaras/sistema-MDVR-para-camion/monitor.webp",
+      "/camaras/sistema-MDVR-para-camion/componente.webp",
+      "/camaras/sistema-MDVR-para-camion/camaras.webp"
+    ],
+    "images": [
+      "/camaras/sistema-MDVR-para-camion/sistema-MDVR-mini.webp",
+      "/camaras/sistema-MDVR-para-camion/monitor-mini.webp",
+      "/camaras/sistema-MDVR-para-camion/componente-mini.webp",
+      "/camaras/sistema-MDVR-para-camion/camaras-mini.webp"
+    ],
+  "productDescription": "Sistema MDVR de 4 canales para camión o bus, con monitor TFT de 7 pulgadas en vista dividida, puerto GPS, 3 cámaras exteriores y 1 cámara domo para cabina.",
+  "stock": true,
+  "marca": "",
+  "sku": "MDVR-4CH-7P-GPS",
+  "filtros": [
+    {
+      "brand": "",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Manejas una flota de camiones o buses y necesitas ver todos los ángulos del vehículo al mismo tiempo? Este sistema MDVR muestra 4 cámaras en una sola pantalla y deja listo el puerto para rastreo GPS.",
+  "specs": [
+    { "label": "Canales de cámara", "value": "4 entradas (AHD1, AHD2, AHD3, AHD4)" },
+    { "label": "Monitor", "value": "TFT a color de 7 pulgadas, vista dividida en 4 (quad view)" },
+    { "label": "Puerto GPS", "value": "Sí, dedicado en el equipo principal" },
+    { "label": "Puerto I/O", "value": "Sí, para entradas y salidas de alarma" },
+    { "label": "Cámaras incluidas", "value": "3 cámaras tipo bala resistentes con visión nocturna IR (exterior) + 1 cámara domo (interior de cabina)" }
+  ],
+  "features": [
+    "Ves hasta 4 cámaras al mismo tiempo en una sola pantalla dividida, cubriendo laterales, parte trasera e interior de cabina en simultáneo",
+    "Incluye cámaras resistentes para exterior con visión nocturna infrarroja, pensadas para trabajar a la intemperie en camiones y buses",
+    "La cámara domo adicional te permite monitorear el interior de la cabina o el área de pasajeros",
+    "Trae un puerto GPS dedicado, listo para integrarse con un sistema de rastreo satelital",
+    "Pensado para flotas de transporte de carga o pasajeros que necesitan visibilidad completa del vehículo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Visibilidad completa de tu camión o bus en una sola pantalla",
+    "blocks": [
+      {
+        "heading": "Un sistema pensado para flotas de transporte",
+        "paragraphs": [
+          "Este sistema MDVR centraliza hasta 4 cámaras en un solo monitor de 7 pulgadas con vista dividida, permitiéndote ver los costados, la parte trasera y el interior de la cabina del vehículo al mismo tiempo. Las 3 cámaras exteriores incluidas son resistentes y cuentan con visión nocturna infrarroja, pensadas para trabajar a la intemperie, mientras que la cámara domo está diseñada para monitorear el interior.",
+          "El equipo principal cuenta con un puerto GPS dedicado, lo que permite integrar rastreo satelital al mismo sistema, además de un puerto I/O para conectar alarmas u otros sensores según la necesidad de tu flota."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Incluye GPS integrado o solo el puerto para conectarlo?",
+      "answer": "El equipo cuenta con un puerto GPS dedicado, listo para conectar un módulo de rastreo. Cuéntanos si necesitas el GPS incluido para confirmar la configuración exacta antes de tu compra."
+    },
+    {
+      "question": "¿Sirve para cualquier tipo de camión o bus?",
+      "answer": "Es un sistema universal, pero la cantidad y ubicación ideal de cámaras depende del tamaño y tipo de tu vehículo. Cuéntanos qué tipo de unidad tienes para recomendarte la mejor distribución de cámaras."
+    },
+    {
+      "question": "¿Las cámaras exteriores funcionan de noche?",
+      "answer": "Sí, las 3 cámaras exteriores incluyen visión nocturna infrarroja, permitiendo grabar con claridad incluso en condiciones de poca luz."
+    },
+    {
+      "question": "¿Para qué sirve la cámara domo adicional?",
+      "answer": "Está pensada para instalarse dentro de la cabina o el área de pasajeros, permitiéndote monitorear lo que ocurre dentro del vehículo además del entorno exterior.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+{
+  "slug": "cierre-centralizado-para-auto-4-puertas-universal-nemesis",
+  "name": "Cierre Centralizado para Auto 4 Puertas Universal 12V - Pestillos Eléctricos Nemesis",
+  "category": "pestillos",
+  "price": 0,
+  "oldPrice": 0,
+                                          "image": [
+      "/cierre-centralizado/nemesis/kit-pestillos.webp",
+      "/cierre-centralizado/nemesis/pestillos-y-modulo.webp",
+      "/cierre-centralizado/nemesis/ramal-pestillo.webp"
+    ],
+    "images": [
+      "/cierre-centralizado/nemesis/kit-pestillos-mini.webp",
+      "/cierre-centralizado/nemesis/pestillos-y-modulo-mini.webp",
+      "/cierre-centralizado/nemesis/ramal-pestillo-mini.webp"
+    ],
+  "productDescription": "Cierre centralizado para auto universal 12V, 4 puertas. Convierte tus seguros manuales en eléctricos. Compatible con alarmas y control remoto. Kit completo.",
+  "stock": true,
+  "marca": "Nemesis",
+  "sku": "NEMESIS-CDL-4P",
+  "filtros": [
+    {
+      "brand": "Nemesis",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Tu auto todavía tiene seguros manuales y tienes que cerrar cada puerta por separado? Este kit de cierre centralizado te permite cerrar las 4 puertas al mismo tiempo, desde un botón o tu alarma.",
+  "specs": [
+    { "label": "Cantidad", "value": "4 pestillos (uno por puerta)" },
+    { "label": "Voltaje", "value": "12V universal" },
+    { "label": "Incluye", "value": "Módulo relé, varillas de conexión, tornillería y arnés de cableado completo" },
+    { "label": "Compatibilidad", "value": "Se integra con alarmas que tengan salida para seguros eléctricos" }
+  ],
+  "features": [
+    "Convierte tus seguros manuales en eléctricos, cierras y abres las 4 puertas con un solo botón o desde tu alarma",
+    "Se conecta directo a la salida de seguros eléctricos de tu alarma, varias de las alarmas que vendemos ya traen esta salida lista de fábrica",
+    "Incluye varillas metálicas ajustables para adaptarse al mecanismo de seguro de tu puerta específica",
+    "Trae todo el cableado, el relé y la tornillería necesarios, instalación completa en un solo kit",
+    "Funciona en cualquier auto de 12V, sin importar la marca o modelo del vehículo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Tu alarma te pide seguros eléctricos para funcionar al 100%?",
+    "blocks": [
+      {
+        "heading": "El problema: tu alarma controla seguros eléctricos, pero tu auto no los tiene",
+        "paragraphs": [
+          "Muchas alarmas (incluidas varias que vendemos) traen una salida dedicada para controlar los seguros eléctricos del auto. El problema es que si tu vehículo todavía usa seguros manuales, esa función de la alarma simplemente no tiene nada que activar, por más completa que sea la alarma."
+        ]
+      },
+      {
+        "heading": "La solución: 4 pestillos listos para conectar a tu alarma",
+        "paragraphs": [
+          "Este kit instala un actuador eléctrico en cada una de las 4 puertas, conectado al mecanismo de seguro existente mediante varillas ajustables. Una vez instalados, se conectan a la salida de seguros eléctricos de tu alarma (o a un switch si no tienes alarma), permitiendo que cierres y abras las 4 puertas al mismo tiempo."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Es compatible con las alarmas que venden en la tienda?",
+      "answer": "Sí, es compatible con la mayoría de nuestras alarmas que incluyen salida dedicada para seguros eléctricos, como la DCAR K245, Master Classic, Master Black y Master Metal."
+    },
+    {
+      "question": "¿Lo necesito si mi auto ya tiene seguros eléctricos de fábrica?",
+      "answer": "No, este kit es para autos que todavía usan seguros manuales y quieren convertirlos a eléctricos. Si tu auto ya trae seguros eléctricos de fábrica, no necesitas este producto."
+    },
+    {
+      "question": "¿Cuántas puertas cubre el kit?",
+      "answer": "Cubre las 4 puertas, incluyendo el relé, el cableado y la tornillería necesarios para instalar los 4 pestillos."
+    },
+    {
+      "question": "¿Puedo usarlo sin alarma, solo con un switch?",
+      "answer": "Sí, puedes conectarlo a un switch independiente si no tienes o no quieres instalar una alarma, aunque la mayoría de clientes lo usan junto con una alarma para aprovechar el armado y desarmado automático.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+{
+  "slug": "dashcam-para-auto-triple-camara-full-hd-baihuo-my-7595",
+  "name": "Dashcam para Auto Triple Cámara Full HD 1080p - Frontal, Interior y Trasera",
+  "category": "dashcam",
+  "price": 0,
+  "oldPrice": 0,
+                                            "image": [
+      "/dashcam/my-7595/camaras-2-lados-mini-camara.webp",
+      "/dashcam/my-7595/camara-2-lados.webp",
+      "/dashcam/my-7595/conectores-y-botones.webp"
+    ],
+    "images": [
+      "/dashcam/my-7595/camaras-2-lados-mini-camara-mini.webp",
+      "/dashcam/my-7595/camara-2-lados-mini.webp",
+      "/dashcam/my-7595/conectores-y-botones-mini.webp"
+    ],
+  "productDescription": "Dashcam para auto con 3 cámaras (frontal, interior y trasera), Full HD 1080p, pantalla de 4 pulgadas, visión nocturna y sensor G. Compatible con microSD hasta 128GB.",
+  "stock": true,
+  "marca": "Baihuo",
+  "sku": "MY-7595",
+  "filtros": [
+    {
+      "brand": "Baihuo",
+      "model": "MY-7595"
+    }
+  ],
+  "painHook": "¿Te gustaría tener pruebas claras de qué pasó en caso de un choque, o ver qué ocurre dentro de tu auto cuando lo prestas o trabajas con pasajeros? Esta dashcam graba al mismo tiempo el frente, el interior y la parte trasera.",
+  "specs": [
+    { "label": "Modelo", "value": "Baihuo MY-7595" },
+    { "label": "Resolución", "value": "Full HD 1080p" },
+    { "label": "Cámaras", "value": "3: frontal, interior y trasera" },
+    { "label": "Pantalla", "value": "LCD integrada de aproximadamente 4 pulgadas" },
+    { "label": "Ángulo de visión", "value": "170°" },
+    { "label": "Visión nocturna", "value": "Sí, con sensores infrarrojos" },
+    { "label": "Almacenamiento", "value": "Tarjeta MicroSD hasta 128GB (no incluida), grabación en bucle" },
+    { "label": "Sensor G", "value": "Sí, protege automáticamente el video al detectar un choque" },
+    { "label": "Alimentación", "value": "Cargador para encendedor 12V/24V" }
+  ],
+  "features": [
+    "Graba al mismo tiempo el frente, el interior y la parte trasera de tu auto, teniendo evidencia completa de cualquier incidente desde varios ángulos",
+    "Empieza a grabar sola si detecta movimiento cerca del auto, incluso estando estacionado, útil si alguien lo golpea o intenta forzarlo mientras no estás",
+    "El sensor G guarda automáticamente el video del momento exacto de un choque, para que no se sobrescriba con el resto de grabaciones",
+    "Pantalla integrada de 4 pulgadas, ves en tiempo real lo que graban las 3 cámaras sin necesitar otro dispositivo",
+    "Visión nocturna infrarroja, mantiene buena calidad de imagen incluso manejando de noche",
+    "Ideal si trabajas con taxi, Uber o manejas una flotilla, ya que también graba el interior del vehículo para mayor seguridad con pasajeros"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Y si pudieras demostrar exactamente qué pasó en un choque o un incidente?",
+    "blocks": [
+      {
+        "heading": "El problema: tu palabra contra la del otro conductor",
+        "paragraphs": [
+          "En un choque o un roce en la calle, muchas veces termina siendo tu versión contra la del otro conductor, sin ninguna prueba clara de quién tuvo la culpa. Si además trabajas con pasajeros (taxi, Uber) o prestas tu auto a otras personas, tampoco tienes forma de saber qué pasó dentro del vehículo mientras no estabas presente o mirando."
+        ]
+      },
+      {
+        "heading": "La solución: 3 cámaras grabando al mismo tiempo",
+        "paragraphs": [
+          "Esta dashcam graba simultáneamente el frente de la vía, el interior del vehículo y la parte trasera, dándote evidencia completa de cualquier situación. El sensor G detecta automáticamente un choque y protege ese video específico para que no se borre con el resto de la grabación en bucle, y el modo de detección de movimiento sigue grabando incluso con el auto apagado y estacionado."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Incluye tarjeta de memoria?",
+      "answer": "No, la tarjeta microSD no está incluida. Es compatible con tarjetas de hasta 128GB, puedes usar una que ya tengas o te recomendamos una al momento de tu compra."
+    },
+    {
+      "question": "¿Graba aunque el auto esté apagado y estacionado?",
+      "answer": "Sí, cuenta con detección de movimiento que activa la grabación automáticamente si detecta algo cerca del auto, incluso estando estacionado y apagado."
+    },
+    {
+      "question": "¿Qué diferencia hay con una cámara de retroceso?",
+      "answer": "Son productos distintos: la cámara de retroceso te ayuda a ver detrás del auto solo al dar reversa para estacionar. Esta dashcam graba de forma continua mientras manejas (frente, interior y trasera), funcionando como evidencia de seguridad y no como asistente de estacionamiento."
+    },
+    {
+      "question": "¿Qué pasa si choco, se borra el video?",
+      "answer": "No, el sensor G detecta el impacto y guarda automáticamente ese video en una carpeta protegida, evitando que se sobrescriba con la grabación en bucle normal."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Incluye soporte de montaje para el parabrisas y cargador para el encendedor. El cableado de la cámara trasera requiere pasarlo por el interior del auto hasta la parte de atrás, por eso recomendamos instalación profesional para un resultado limpio.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "dashcam-para-auto-wifi-app-triple-camara-full-hd-baihuo-my-7596",
+  "name": "Dashcam para Auto con WiFi y App - Triple Cámara Full HD 1080p Baihuo MY-7596",
+  "category": "dashcam",
+  "price": 0,
+  "oldPrice": 0,
+                                              "image": [
+      "/dashcam/my-7596/camara-frontal-y-trasera2.webp",
+      "/dashcam/my-7596/camara-frontal.webp",
+      "/dashcam/my-7596/camara-frontal-y-trasera.webp",
+      "/dashcam/my-7596/camara-ambiente.webp"
+    ],
+    "images": [
+      "/dashcam/my-7596/camara-frontal-y-trasera2-mini.webp",
+      "/dashcam/my-7596/camara-frontal-mini.webp",
+      "/dashcam/my-7596/camara-frontal-y-trasera-mini.webp",
+      "/dashcam/my-7596/camara-ambiente-mini.webp"
+    ],
+  "productDescription": "Dashcam para auto con WiFi y app para transferir videos a tu celular. 3 cámaras (frontal, interior y trasera), Full HD 1080p, visión nocturna y sensor G.",
+  "stock": true,
+  "marca": "Baihuo",
+  "sku": "MY-7596",
+  "filtros": [
+    {
+      "brand": "Baihuo",
+      "model": "MY-7596"
+    }
+  ],
+  "painHook": "¿Te gustaría revisar las grabaciones de tu dashcam directo desde tu celular, sin sacar la tarjeta de memoria cada vez? Esta dashcam se conecta por WiFi a una app para que veas y descargues los videos al instante.",
+  "specs": [
+    { "label": "Modelo", "value": "Baihuo MY-7596" },
+    { "label": "Resolución", "value": "Full HD 1080p" },
+    { "label": "Cámaras", "value": "3: frontal, interior y trasera" },
+    { "label": "Conectividad", "value": "WiFi, con app dedicada para transferencia de archivos" },
+    { "label": "Pantalla", "value": "LCD integrada de aproximadamente 4 pulgadas" },
+    { "label": "Ángulo de visión", "value": "170°" },
+    { "label": "Visión nocturna", "value": "Sí, con sensores infrarrojos (LED)" },
+    { "label": "Almacenamiento", "value": "Tarjeta MicroSD hasta 128GB (no incluida), grabación en bucle" },
+    { "label": "Sensor G", "value": "Sí, protege automáticamente el video al detectar un choque" },
+    { "label": "Alimentación", "value": "Cargador para encendedor 12V/24V" }
+  ],
+  "features": [
+    "Se conecta por WiFi a una app en tu celular, para ver y descargar las grabaciones sin tener que sacar la tarjeta de memoria cada vez",
+    "Graba al mismo tiempo el frente, el interior y la parte trasera de tu auto, teniendo evidencia completa de cualquier incidente",
+    "Empieza a grabar sola si detecta movimiento cerca del auto, incluso estando estacionado",
+    "El sensor G guarda automáticamente el video del momento exacto de un choque, para que no se sobrescriba",
+    "Visión nocturna infrarroja, mantiene buena calidad de imagen incluso manejando de noche",
+    "Ideal si trabajas con taxi, Uber o manejas una flotilla, también graba el interior del vehículo"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Revisa tus grabaciones directo desde el celular, sin sacar la tarjeta de memoria",
+    "blocks": [
+      {
+        "heading": "El problema: revisar los videos de la dashcam puede ser lento y molesto",
+        "paragraphs": [
+          "Con muchas dashcams, para ver un video tienes que sacar la tarjeta microSD, buscar un lector, conectarla a la computadora, y recién ahí revisar la grabación. Si necesitas el video rápido (por ejemplo, justo después de un choque), ese proceso puede tomar más tiempo del que te gustaría."
+        ]
+      },
+      {
+        "heading": "La solución: conexión WiFi directa a tu celular",
+        "paragraphs": [
+          "Esta dashcam se conecta por WiFi a una aplicación en tu celular, permitiéndote ver las grabaciones en tiempo real y descargar los videos que necesites directamente al teléfono, sin sacar la tarjeta de memoria ni usar una computadora.",
+          "Además, mantiene el mismo sistema de triple cámara (frontal, interior y trasera), visión nocturna, sensor G y detección de movimiento con el auto estacionado, dándote la misma protección completa que ya conoces, pero con acceso más rápido a tus videos."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cuál es la diferencia con la otra dashcam Baihuo que tienen (MY-7595)?",
+      "answer": "Ambas comparten el sistema de triple cámara, Full HD y sensor G. La diferencia principal es que esta MY-7596 se conecta por WiFi a una app en tu celular para ver y descargar videos directamente, mientras que la MY-7595 no cuenta con esa función."
+    },
+    {
+      "question": "¿Necesito internet para usar la app?",
+      "answer": "No, la conexión es directa por WiFi entre la cámara y tu celular, no necesitas una red de internet externa para transferir los archivos."
+    },
+    {
+      "question": "¿Incluye tarjeta de memoria?",
+      "answer": "No, la tarjeta microSD no está incluida. Es compatible con tarjetas de hasta 128GB."
+    },
+    {
+      "question": "¿Graba aunque el auto esté apagado y estacionado?",
+      "answer": "Sí, cuenta con detección de movimiento que activa la grabación automáticamente si detecta algo cerca del auto, incluso estando estacionado y apagado."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Incluye soporte de montaje para el parabrisas y cargador para el encendedor. El cableado de la cámara trasera requiere pasarlo por el interior del auto, por eso recomendamos instalación profesional.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "dashcam-para-auto-wifi-dual-camara-full-hd-130-baihuo-my-8065",
+  "name": "Dashcam para Auto con WiFi - Cámara Frontal y Trasera Full HD 1080p Baihuo MY-8065",
+  "category": "dashcam",
+  "price": 0,
+  "oldPrice": 0,
+                                              "image": [
+      "/dashcam/my-8065/camara-frontal-y-trasera.webp",
+      "/dashcam/my-8065/camara-frontal.webp",
+      "/dashcam/my-8065/medidas-camara.webp"
+    ],
+    "images": [
+      "/dashcam/my-8065/camara-frontal-y-trasera-mini.webp",
+      "/dashcam/my-8065/camara-frontal-mini.webp",
+      "/dashcam/my-8065/medidas-camara-mini.webp"
+    ],
+  "productDescription": "Dashcam para auto con WiFi, grabación frontal y trasera Full HD 1080p, lente f/2.0 y 130° de ángulo. Instalación rápida con soporte de ventosa.",
+  "stock": true,
+  "marca": "Baihuo",
+  "sku": "MY-8065",
+  "filtros": [
+    {
+      "brand": "Baihuo",
+      "model": "MY-8065"
+    }
+  ],
+  "painHook": "¿Quieres grabar lo que pasa adelante y atrás de tu auto, con una instalación rápida que no requiera taladrar nada? Esta dashcam se pega con ventosa al parabrisas y se conecta por WiFi a tu celular.",
+  "specs": [
+    { "label": "Modelo", "value": "Baihuo MY-8065" },
+    { "label": "Resolución", "value": "Full HD 1080p" },
+    { "label": "Apertura de lente", "value": "f/2.0" },
+    { "label": "Ángulo de visión", "value": "130°" },
+    { "label": "Cámaras", "value": "Frontal y trasera" },
+    { "label": "Conectividad", "value": "WiFi" },
+    { "label": "Montaje", "value": "Soporte con ventosa para parabrisas" }
+  ],
+  "features": [
+    "Graba al mismo tiempo el frente y la parte trasera de tu auto",
+    "Se conecta por WiFi, permitiendo transferir grabaciones a tu celular",
+    "Lente con apertura f/2.0, capta mejor la luz en condiciones de poca iluminación",
+    "Instalación rápida con soporte de ventosa, sin necesidad de taladrar ni atornillar nada en tu auto"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Graba adelante y atrás, con instalación rápida y sin herramientas",
+    "blocks": [
+      {
+        "heading": "Fácil de instalar, lista para grabar en minutos",
+        "paragraphs": [
+          "Esta dashcam se fija al parabrisas con un soporte de ventosa, sin necesidad de taladrar ni usar herramientas especiales. Graba en Full HD 1080p tanto el frente de la vía como la parte trasera del auto a través de la cámara trasera incluida, y se conecta por WiFi para que puedas revisar las grabaciones desde tu celular."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Graba solo adelante o también atrás?",
+      "answer": "Graba ambas: incluye una cámara trasera conectada por cable a la unidad principal, permitiendo ver y grabar lo que pasa tanto adelante como atrás del auto."
+    },
+    {
+      "question": "¿Necesito tarjeta de memoria, sensor G o visión nocturna?",
+      "answer": "Estamos confirmando estos detalles con el proveedor. Si alguna de estas funciones es importante para tu decisión de compra, contáctanos antes de comprar y te confirmamos la ficha técnica completa."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "No, se instala con el soporte de ventosa incluido directamente en el parabrisas, sin necesidad de taladrar ni modificar nada del auto.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "radio-para-auto-android-auto-carplay-7-pulgadas-gps-bossney",
+  "name": "Radio para Auto con Android Auto y CarPlay - Pantalla 7 Pulgadas con GPS Bossney",
+  "category": "autoradios",
+  "price": 0,
+  "oldPrice": 0,
+                                                "image": [
+      "/autoradios/bs-c5015cad/autoradio.webp",
+      "/autoradios/bs-c5015cad/autoradio-parte-trasera.webp",
+      "/autoradios/bs-c5015cad/autoradio-interior.webp",
+      "/autoradios/bs-c5015cad/kit-autoradio.webp"
+    ],
+    "images": [
+      "/autoradios/bs-c5015cad/autoradio-mini.webp",
+      "/autoradios/bs-c5015cad/autoradio-parte-trasera-mini.webp",
+      "/autoradios/bs-c5015cad/autoradio-interior-mini.webp",
+      "/autoradios/bs-c5015cad/kit-autoradio-mini.webp"
+    ],
+  "productDescription": "Radio para auto con Android Auto y Apple CarPlay, pantalla de 7 pulgadas, GPS integrado, Bluetooth y soporte para cámara de retroceso. 6GB RAM + 64GB.",
+  "stock": true,
+  "marca": "Bossney",
+  "sku": "BS-C5015CAD",
+  "filtros": [
+    {
+      "brand": "Bossney",
+      "model": "BS-C5015CAD"
+    }
+  ],
+  "painHook": "¿Tu radio original no conecta bien con tu celular ni tiene GPS? Esta radio se conecta por Android Auto o CarPlay, trae navegación integrada y hasta soporta cámara de retroceso.",
+  "specs": [
+    { "label": "Pantalla", "value": "7 pulgadas QLED HD (1280p), táctil" },
+    { "label": "Memoria", "value": "6GB RAM + 64GB de almacenamiento interno" },
+    { "label": "Conectividad con celular", "value": "Apple CarPlay y Android Auto (cable e inalámbrico)" },
+    { "label": "Audio", "value": "Procesador de sonido DSP, salida para 4 parlantes" },
+    { "label": "Conexiones", "value": "Bluetooth, WiFi, radio FM, USB, SD, AUX" },
+    { "label": "GPS", "value": "Integrado, compatible con Waze y Google Maps" },
+    { "label": "Cámara", "value": "Soporta entrada para cámara de retroceso AHD" },
+    { "label": "Refrigeración", "value": "Ventilador de enfriamiento incluido" },
+    { "label": "Voltaje", "value": "12V" },
+    { "label": "Incluye", "value": "Control remoto y marco de instalación" }
+  ],
+  "features": [
+    "Conecta tu celular por Android Auto o Apple CarPlay, con cable o de forma inalámbrica, y maneja tus apps directo desde la pantalla de tu auto",
+    "GPS integrado compatible con Waze y Google Maps, no dependes solo de tu celular para navegar",
+    "Pantalla grande de 7 pulgadas con buena resolución, fácil de ver y usar mientras manejas",
+    "Memoria amplia (6GB RAM + 64GB), la interfaz se siente fluida al cambiar entre apps sin trabarse",
+    "Compatible con cámara de retroceso AHD, puedes conectar una y ver la imagen directo en esta pantalla",
+    "Incluye ventilador de enfriamiento, pensado para que el equipo no se recaliente con el uso constante",
+    "Soporta apps como YouTube, Netflix, Spotify y WhatsApp directamente desde la pantalla"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Moderniza la radio de tu auto con pantalla, GPS y conexión directa a tu celular",
+    "blocks": [
+      {
+        "heading": "El problema: la radio original se queda corta",
+        "paragraphs": [
+          "Las radios de fábrica, sobre todo en autos con algunos años de uso, no tienen GPS, no conectan bien con el celular y el sonido suele ser plano. Si quieres navegación, música desde tu celular o simplemente una pantalla más moderna, terminas usando el celular sostenido o pegado al tablero, lo cual no es ni cómodo ni seguro."
+        ]
+      },
+      {
+        "heading": "La solución: todo integrado en una sola pantalla",
+        "paragraphs": [
+          "Esta radio conecta tu celular por Android Auto o Apple CarPlay (con cable o de forma inalámbrica), mostrando tus apps de navegación, música y mensajes directo en la pantalla de 7 pulgadas. Además, trae GPS propio integrado, compatible con Waze y Google Maps, y un procesador de sonido DSP que mejora la calidad del audio hacia tus 4 parlantes.",
+          "También puedes conectar una cámara de retroceso AHD para ver la imagen en esta misma pantalla, y el ventilador de enfriamiento incluido ayuda a que el equipo no se recaliente con el uso diario."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Es compatible con mi auto?",
+      "answer": "Es una radio universal de doble DIN, pero la compatibilidad exacta (marco, conectores) depende de tu modelo de auto. Cuéntanos la marca, modelo y año de tu vehículo para confirmar antes de la compra."
+    },
+    {
+      "question": "¿Incluye cámara de retroceso?",
+      "answer": "No, la radio soporta conectar una cámara de retroceso tipo AHD, pero la cámara se vende por separado. Si necesitas una, tenemos varias opciones compatibles en la tienda."
+    },
+    {
+      "question": "¿Necesito internet para usar el GPS?",
+      "answer": "El GPS integrado funciona con mapas que no requieren internet una vez cargados. Para usar Waze o Google Maps (que sí son apps que necesitan conexión), puedes vincular el WiFi de tu celular como punto de acceso."
+    },
+    {
+      "question": "¿Funciona con Android Auto y Apple CarPlay al mismo tiempo, o tengo que elegir?",
+      "answer": "Funciona con ambos sistemas, pero conectas uno a la vez según el celular que estés usando en ese momento (Android o iPhone)."
+    },
+    {
+      "question": "¿El sonido mejora respecto a mi radio original?",
+      "answer": "Sí, cuenta con un procesador de sonido DSP y salida para 4 parlantes, lo que generalmente da un audio más claro y balanceado que una radio de fábrica básica.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "radio-para-auto-bluetooth-usb-4-rca-bossney-xbass-cdx-c5030br",
+  "name": "Radio para Auto con Bluetooth, USB y 4 Salidas RCA - Bossney Xbass CDX-C5030BR",
+  "category": "autoradios",
+  "price": 0,
+  "oldPrice": 0,
+                                                  "image": [
+      "/autoradios/cdx-c5030br/autoradio.webp",
+      "/autoradios/cdx-c5030br/autoradio-colores.webp",
+      "/autoradios/cdx-c5030br/autoradio-trasera.webp",
+      "/autoradios/cdx-c5030br/kit-autoradio.webp"
+    ],
+    "images": [
+      "/autoradios/cdx-c5030br/autoradio-mini.webp",
+      "/autoradios/cdx-c5030br/autoradio-colores-mini.webp",
+      "/autoradios/cdx-c5030br/autoradio-trasera-mini.webp",
+      "/autoradios/cdx-c5030br/kit-autoradio-mini.webp"
+    ],
+  "productDescription": "Radio para auto con Bluetooth, USB, SD, AUX y radio FM. Incluye 4 salidas RCA para conectar amplificador o subwoofer, control remoto y pantalla LED.",
+  "stock": true,
+  "marca": "Bossney",
+  "sku": "CDX-C5030BR",
+  "filtros": [
+    {
+      "brand": "Bossney",
+      "model": "CDX-C5030BR"
+    }
+  ],
+  "painHook": "¿Quieres mejorar el sonido de tu auto conectando un amplificador o subwoofer más adelante, pero tu radio actual no tiene salidas para eso? Esta radio trae 4 salidas RCA listas para cuando decidas dar ese paso.",
+  "specs": [
+    { "label": "Modelo", "value": "Bossney Xbass CDX-C5030BR" },
+    { "label": "Bluetooth", "value": "Sí, para llamadas y música" },
+    { "label": "Entradas", "value": "USB, tarjeta TF/SD, AUX" },
+    { "label": "Radio", "value": "FM" },
+    { "label": "Pantalla", "value": "LED" },
+    { "label": "Salidas de audio", "value": "4 salidas RCA (para amplificador)" },
+    { "label": "Instalación", "value": "1 DIN" },
+    { "label": "Incluye", "value": "Control remoto" }
+  ],
+  "features": [
+    "Conecta tu celular por Bluetooth para llamadas manos libres y escuchar tu música sin cables",
+    "Trae 4 salidas RCA, ideal si quieres conectar un amplificador o subwoofer más adelante para mejorar el sonido de tu auto",
+    "Reproduce música desde USB, tarjeta SD/TF o por entrada AUX, varias formas de escuchar lo que quieras",
+    "Pantalla LED que muestra la información de lo que estás reproduciendo",
+    "Incluye control remoto, para manejar la radio sin soltar el volante"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Una base sólida si piensas mejorar tu sistema de sonido más adelante",
+    "blocks": [
+      {
+        "heading": "El problema: comprar una radio básica que luego te queda corta",
+        "paragraphs": [
+          "Muchas radios económicas no tienen salidas para amplificador, así que si más adelante decides agregar un subwoofer o mejorar el sonido de tu auto, terminas teniendo que cambiar la radio completa otra vez, gastando doble."
+        ]
+      },
+      {
+        "heading": "La solución: 4 salidas RCA listas desde ya",
+        "paragraphs": [
+          "Esta radio ya viene preparada con 4 salidas RCA, así que aunque hoy solo la uses con los parlantes originales de tu auto, el día que quieras agregar un amplificador o subwoofer no necesitas cambiar la radio, solo conectar el nuevo equipo."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Tiene pantalla táctil o GPS?",
+      "answer": "No, esta es una radio básica con pantalla LED y controles físicos, sin pantalla táctil ni GPS. Si buscas esas funciones, tenemos otra radio Bossney (BS-C5015CAD) con pantalla táctil de 7 pulgadas, Android Auto, CarPlay y GPS integrado."
+    },
+    {
+      "question": "¿Reproduce CD?",
+      "answer": "No, es una radio digital sin reproductor de CD, enfocada en Bluetooth, USB, tarjeta SD y radio FM."
+    },
+    {
+      "question": "¿Para qué sirven las 4 salidas RCA?",
+      "answer": "Son salidas de audio preamplificadas pensadas para conectar un amplificador externo, lo que te permite mejorar el sonido de tu auto agregando un subwoofer o un sistema de parlantes más potente."
+    },
+    {
+      "question": "¿Es compatible con cualquier auto?",
+      "answer": "Es una radio estándar de 1 DIN, compatible con la mayoría de autos que tengan ese espacio de instalación. Cuéntanos tu modelo si no estás seguro.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "radio-para-auto-bluetooth-pantalla-iluminada-bossney-xbass-cdx-c5031br",
+  "name": "Radio para Auto con Bluetooth y Pantalla Iluminada Multicolor - Bossney Xbass CDX-C5031BR",
+  "category": "autoradios",
+  "price": 0,
+  "oldPrice": 0,
+                                                    "image": [
+      "/autoradios/cdx-c5031br/autoradio.webp",
+      "/autoradios/cdx-c5031br/autoradio-colores.webp",
+      "/autoradios/cdx-c5031br/autoradio-trasera.webp",
+      "/autoradios/cdx-c5031br/kit-autoradio.webp"
+    ],
+    "images": [
+      "/autoradios/cdx-c5031br/autoradio-mini.webp",
+      "/autoradios/cdx-c5031br/autoradio-colores-mini.webp",
+      "/autoradios/cdx-c5031br/autoradio-trasera.webp",
+      "/autoradios/cdx-c5031br/kit-autoradio-mini.webp"
+    ],
+  "productDescription": "Radio para auto con Bluetooth, USB, TF, AUX y radio FM. Pantalla iluminada multicolor, 4 salidas RCA para amplificador y control remoto incluido.",
+  "stock": true,
+  "marca": "Bossney",
+  "sku": "CDX-C5031BR",
+  "filtros": [
+    {
+      "brand": "Bossney",
+      "model": "CDX-C5031BR"
+    }
+  ],
+  "painHook": "¿Quieres que tu tablero se vea moderno además de sonar bien? Esta radio tiene una pantalla iluminada multicolor con números grandes y claros, fácil de leer mientras manejas.",
+  "specs": [
+    { "label": "Modelo", "value": "Bossney Xbass CDX-C5031BR" },
+    { "label": "Bluetooth", "value": "Sí, para llamadas y música (Spotify, YouTube, etc.)" },
+    { "label": "Entradas", "value": "USB, tarjeta TF/Micro SD, AUX" },
+    { "label": "Radio", "value": "FM" },
+    { "label": "Pantalla", "value": "LED iluminada, números grandes en azul" },
+    { "label": "Salidas de audio", "value": "4 salidas RCA (para amplificador)" },
+    { "label": "Instalación", "value": "1 DIN" },
+    { "label": "Incluye", "value": "Control remoto con sensor IR" }
+  ],
+  "features": [
+    "Conecta tu celular por Bluetooth para reproducir Spotify, YouTube o la música que quieras, y contestar llamadas en modo manos libres",
+    "Pantalla LED iluminada con números grandes y claros en azul, fácil de leer de un vistazo sin distraerte del camino",
+    "Trae 4 salidas RCA, ideal si quieres conectar un amplificador o subwoofer para mejorar el sonido de tu auto",
+    "Reproduce música desde USB, tarjeta TF/Micro SD o entrada AUX, varias formas de escuchar lo que quieras",
+    "Botones e interfaz pensados para ser fáciles de usar sin complicarte, con un diseño moderno en el tablero"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Dale a tu tablero un diseño moderno sin sacrificar el sonido",
+    "blocks": [
+      {
+        "heading": "Una radio pensada para verse tan bien como suena",
+        "paragraphs": [
+          "Esta radio combina una pantalla LED iluminada con números grandes y un diseño moderno en el panel, con las funciones que realmente usas día a día: Bluetooth para tu música y llamadas, entrada USB y tarjeta TF/Micro SD, radio FM y 4 salidas RCA para cuando quieras agregar un amplificador o subwoofer más adelante."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cuál es la diferencia con la otra radio Bossney Xbass (CDX-C5030BR)?",
+      "answer": "Ambas comparten las mismas funciones básicas (Bluetooth, USB, TF, AUX, FM, 4 salidas RCA). La diferencia está en el diseño: esta CDX-C5031BR tiene una pantalla iluminada con números más grandes y un panel con acentos de luz, mientras que la CDX-C5030BR tiene un diseño más simple con perilla física."
+    },
+    {
+      "question": "¿Reproduce CD?",
+      "answer": "No, es una radio digital sin reproductor de CD, enfocada en Bluetooth, USB, tarjeta TF y radio FM."
+    },
+    {
+      "question": "¿Para qué sirven las 4 salidas RCA?",
+      "answer": "Son salidas de audio preamplificadas pensadas para conectar un amplificador externo, permitiéndote agregar un subwoofer o mejorar el sistema de sonido de tu auto más adelante."
+    },
+    {
+      "question": "¿Es compatible con cualquier auto?",
+      "answer": "Es una radio estándar de 1 DIN, compatible con la mayoría de autos que tengan ese espacio de instalación. Cuéntanos tu modelo si no estás seguro.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "focos-led-para-auto-sykker",
+  "variesBy": ["model"],
+  "name": "Focos LED para Auto Sykker, Más Duración y Menor Consumo que HID",
+  "category": "luces",
+  "price": 0,
+  "oldPrice": 0,
+                                                      "image": [
+      "/luces/foco-sykker/par-focos.webp",
+      "/luces/foco-sykker/focos-empaquetado.webp",
+      "/luces/foco-sykker/caja-sykker.webp"
+    ],
+    "images": [
+      "/luces/foco-sykker/par-focos-mini.webp",
+      "/luces/foco-sykker/focos-empaquetado-mini.webp",
+      "/luces/foco-sykker/caja-sykker-mini.webp"
+    ],
+  "productDescription": "Focos LED para auto Sykker, 4000 lúmenes, consume la mitad que una luz HID y dura más de 30,000 horas. Disponible en H7, H11 y 9005.",
+  "stock": true,
+  "marca": "Sykker",
+  "sku": "SYKKER-LED-BASE",
+  "filtros": [
+    {
+      "brand": "Sykker",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Te cansaste de cambiar focos cada poco tiempo o de pagar de más en consumo eléctrico con un kit HID? Estos focos LED duran más de 30,000 horas y consumen la mitad de energía.",
+  "specs": [
+    { "label": "Flujo luminoso", "value": "4000 lúmenes por foco" },
+    { "label": "Vida útil", "value": "Más de 30,000 horas (10 veces más que una luz HID xenón)" },
+    { "label": "Consumo de energía", "value": "La mitad que una luz HID común" },
+    { "label": "Brillo comparado con halógeno", "value": "300% más brillante" },
+    { "label": "Sockets disponibles", "value": "H7, H11, 9005" }
+  ],
+  "features": [
+    "Hasta 300% más brillo que un foco halógeno tradicional, sin modificar nada más en tu auto",
+    "Consume la mitad de energía que una luz HID, cuidando el sistema eléctrico y la batería de tu auto",
+    "Dura más de 30,000 horas, más de 10 veces lo que dura una luz HID xenón tradicional, no andas cambiando focos a cada rato",
+    "Se instala directo en el socket original de tu auto, sin cortar cables ni modificar la instalación eléctrica",
+    "Disponible en los sockets más comunes (H7, H11 y 9005), cubre una gran parte de los autos en circulación"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "¿Cansado de cambiar focos seguido o de un kit HID que consume de más?",
+    "blocks": [
+      {
+        "heading": "El problema: focos que se queman rápido o consumen mucha energía",
+        "paragraphs": [
+          "Los focos halógenos tradicionales se debilitan y queman con el tiempo, dando cada vez menos luz hasta que hay que cambiarlos. Los kits HID xenón, aunque iluminan bien, consumen bastante energía del sistema eléctrico de tu auto y tienen una vida útil mucho más corta de lo que la gente espera.",
+          "Esto termina en gastos repetidos: cambiar focos cada cierto tiempo, o lidiar con un sistema HID que falla antes de lo esperado."
+        ]
+      },
+      {
+        "heading": "La solución: más brillo, menos consumo y mucha más duración",
+        "paragraphs": [
+          "Estos focos LED iluminan hasta 300% más que un halógeno tradicional, pero consumen solo la mitad de energía comparado con una luz HID, cuidando el sistema eléctrico de tu auto. Además, con más de 30,000 horas de vida útil, duran más de 10 veces lo que dura una luz HID xenón, así que no tienes que estar pendiente de cambiarlos cada poco tiempo.",
+          "La instalación es directa: se conectan en el mismo socket donde iba tu foco original, sin cortar ni empalmar cables."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cómo sé si necesito H7, H11 o 9005?",
+      "answer": "Puedes revisar el código impreso en tu foco actual, buscarlo en el manual de tu auto, o contarnos la marca, modelo y año de tu vehículo para confirmarte el socket exacto antes de la compra."
+    },
+    {
+      "question": "¿Cuánto duran realmente estos focos?",
+      "answer": "Tienen una vida útil de más de 30,000 horas, más de 10 veces lo que dura una luz HID xenón tradicional, lo que en la práctica significa años de uso sin tener que cambiarlos."
+    },
+    {
+      "question": "¿Consumen menos energía que mi foco actual?",
+      "answer": "Sí, consumen la mitad de energía comparado con un kit HID, lo que ayuda a cuidar el sistema eléctrico y la batería de tu auto a largo plazo."
+    },
+    {
+      "question": "¿Cuál es la diferencia con la otra línea de focos LED que tienen (Autorus)?",
+      "answer": "Ambas son buenas opciones de focos LED. Esta línea Sykker destaca por su gran duración (30,000+ horas) y bajo consumo frente a un HID. La línea Autorus suma tecnología CANBUS (evita errores en el tablero) y mayor ángulo de iluminación. Cuéntanos si tu auto es sensible a errores de tablero y te recomendamos la mejor opción."
+    },
+    {
+      "question": "¿El precio incluye los 2 focos (el par)?",
+      "answer": "Sí, cada compra incluye el par completo de focos LED, listos para instalar en ambos lados de tu auto.",
+      "open": true
+    }
+  ],
+  "variants": [
+    {
+      "id": "h7",
+      "label": "H7",
+      "shortName": "Sykker LED H7",
+      "sku": "SYKKER-LED-H7",
+      "model": "H7",
+      "price": 0,
+      "oldPrice": 0,
+      "image": ["", ""],
+      "images": ["", ""]
+    },
+    {
+      "id": "h11",
+      "label": "H11",
+      "shortName": "Sykker LED H11",
+      "sku": "SYKKER-LED-H11",
+      "model": "H11",
+      "price": 0,
+      "oldPrice": 0,
+      "image": ["", ""],
+      "images": ["", ""]
+    },
+    {
+      "id": "9005",
+      "label": "9005",
+      "shortName": "Sykker LED 9005",
+      "sku": "SYKKER-LED-9005",
+      "model": "9005",
+      "price": 0,
+      "oldPrice": 0,
+      "image": ["", ""],
+      "images": ["", ""]
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "kit-xenon-hid-para-auto-880-h85-alsama",
+  "name": "Kit Xenón HID para Auto 35W - Luz de Alta Intensidad con Balastro - Alsama",
+  "variesBy": ["model"],
+  "category": "luces",
+  "price": 0,
+  "oldPrice": 0,
+                                                        "image": [
+      "/luces/luces-hid/kit-luces-hid.webp",
+      "/luces/luces-hid/focos-hid.webp",
+      "/luces/luces-hid/modulo.webp"
+    ],
+    "images": [
+      "/luces/luces-hid/kit-luces-hid-mini.webp",
+      "/luces/luces-hid/focos-hid-mini.webp",
+      "/luces/luces-hid/modulo-mini.webp"
+    ],
+  "productDescription": "Kit de conversión a xenón HID para auto, 35W, con balastro y arnés de relay. Luz de alta intensidad mucho más potente que un foco halógeno. Disponible en 880 y H85.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "ALSAMA-HID-BASE",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Sientes que tus focos halógenos ya no iluminan como antes? Este kit convierte tu sistema a xenón HID, una luz mucho más blanca y potente, con balastro incluido para un encendido estable.",
+  "specs": [
+    { "label": "Potencia", "value": "35W por foco" },
+    { "label": "Tipo de lámpara", "value": "HID (descarga de alta intensidad)" },
+    { "label": "Incluye", "value": "2 focos HID, 2 balastros, soportes de balastro, arnés de relay, tornillería y conectores" },
+    { "label": "Fusible recomendado", "value": "20A (no usar uno de menor amperaje)" },
+    { "label": "Sockets disponibles", "value": "880 y H85" }
+  ],
+  "features": [
+    "Iluminación mucho más blanca y potente que un foco halógeno tradicional, mejorando notablemente la visibilidad nocturna",
+    "Incluye balastro (transformador) por cada foco, necesario para encender y mantener estable la luz de descarga HID",
+    "Trae arnés de relay para asegurar un flujo de corriente estable y evitar que el foco titile o pierda intensidad",
+    "Kit completo con soportes, tornillería y conectores, listo para la instalación sin tener que comprar piezas sueltas",
+    "Disponible en los sockets 880 y H85, revisa cuál corresponde a tu auto antes de comprar"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Una luz mucho más blanca y potente que tu foco halógeno actual",
+    "blocks": [
+      {
+        "heading": "El problema: los focos halógenos dan una luz amarillenta y limitada",
+        "paragraphs": [
+          "Los focos halógenos de fábrica dan una luz amarillenta que, con el uso, se debilita y no ilumina parejo, reduciendo tu visibilidad real en la carretera, sobre todo de noche o en zonas sin alumbrado."
+        ]
+      },
+      {
+        "heading": "La solución: conversión completa a xenón HID",
+        "paragraphs": [
+          "Este kit convierte tu sistema de iluminación a xenón HID, una tecnología de descarga de alta intensidad que entrega una luz mucho más blanca y potente que un halógeno tradicional. Incluye el balastro necesario para cada foco (el componente que enciende y estabiliza la luz HID) y un arnés de relay para asegurar que la corriente llegue de forma estable, evitando parpadeos."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Cómo sé si necesito el socket 880 o H85?",
+      "answer": "Puedes revisar el código impreso en tu foco actual o contarnos la marca, modelo y año de tu auto para confirmar el socket correcto antes de la compra."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Requiere abrir el ensamble del faro, conectar el balastro y el relay correctamente, y en algunos casos perforar la tapa trasera del faro. Por la precisión que exige, recomendamos instalación profesional."
+    },
+    {
+      "question": "¿Por qué el kit trae un relay además del balastro?",
+      "answer": "El relay ayuda a estabilizar el voltaje que llega al balastro. Sin suficiente potencia de entrada, el foco puede titilar o tener un encendido débil; el relay evita ese problema."
+    },
+    {
+      "question": "¿Qué pasa si el foco parpadea o no enciende bien?",
+      "answer": "Generalmente se debe a una conexión floja, polaridad invertida, o un fusible de menor amperaje al recomendado (20A). Revisar estos tres puntos resuelve la mayoría de los casos.",
+      "open": true
+    }
+  ],
+  "variants": [
+    {
+      "id": "880",
+      "label": "880",
+      "shortName": "Kit HID 880",
+      "sku": "ALSAMA-HID-880",
+      "model": "880",
+      "price": 0,
+      "oldPrice": 0,
+      "image": ["", ""],
+      "images": ["", ""]
+    },
+    {
+      "id": "h85",
+      "label": "H85",
+      "shortName": "Kit HID H85",
+      "sku": "ALSAMA-HID-H85",
+      "model": "H85",
+      "price": 0,
+      "oldPrice": 0,
+      "image": ["", ""],
+      "images": ["", ""]
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "slug": "plumilla-limpiaparabrisas-para-auto-18-pulgadas-alsama",
+  "name": "Plumilla Limpiaparabrisas para Auto 18 Pulgadas - Alsama",
+  "category": "accesorios",
+  "price": 0,
+  "oldPrice": 0,
+                                                          "image": [
+      "/plumillas/plumillas.webp",
+      "/plumillas/plumillas2.webp"
+    ],
+    "images": [
+      "/plumillas/plumillas-mini.webp",
+      "/plumillas/plumillas2-mini.webp"
+    ],
+  "productDescription": "Plumilla limpiaparabrisas para auto de 18 pulgadas, marca Alsama. Limpia parejo sin dejar rayas ni rechinar en el parabrisas.",
+  "stock": true,
+  "marca": "Alsama",
+  "sku": "ALSAMA-WIPER-18",
+  "filtros": [
+    {
+      "brand": "Alsama",
+      "model": ""
+    }
+  ],
+  "painHook": "¿Tu plumilla deja rayas, rechina o no limpia parejo cuando llueve? Cambiarla es rápido y barato, y mejora al instante tu visibilidad al manejar.",
+  "specs": [
+    { "label": "Tamaño", "value": "18 pulgadas" },
+    { "label": "Marca", "value": "Alsama" }
+  ],
+  "features": [
+    "Limpia parejo el parabrisas, sin dejar rayas ni zonas sin cubrir",
+    "Fácil de instalar, se adapta al brazo del limpiaparabrisas de tu auto",
+    "Mejora tu visibilidad al manejar con lluvia, evitando el típico rechinido de una plumilla desgastada"
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo sé si necesito 18 pulgadas?",
+      "answer": "Puedes medir tu plumilla actual de punta a punta, o contarnos la marca, modelo y año de tu auto para confirmar la medida correcta."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Es sencillo, se ajusta directo al brazo del limpiaparabrisas. Si prefieres, también podemos instalarla por ti."
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+{
+  "slug": "switch-de-puerta-corrediza-para-auto-sensor-de-puerta",
+  "name": "Switch de Puerta Corrediza para Auto - Sensor de Apertura para Alarma",
+  "category": "accesorios",
+  "price": 0,
+  "oldPrice": 0,
+                                                            "image": [
+      "/shift/shift-de-puerta-corrediza.webp"
+    ],
+    "images": [
+      "/shift/shift-de-puerta-corrediza-mini.webp"
+    ],
+  "productDescription": "Switch sensor para puerta corrediza, detecta si está abierta o cerrada. Se integra a tu sistema de alarma. Ideal para combis, vans y minibuses.",
+  "stock": true,
+  "marca": "",
+  "sku": "SWITCH-PUERTA-CORREDIZA",
+  "painHook": "¿Tu auto tiene puerta corrediza y tu alarma no detecta si quedó abierta? Este switch avisa al sistema de alarma el estado exacto de esa puerta.",
+  "specs": [
+    { "label": "Función", "value": "Detecta apertura/cierre de la puerta corrediza" },
+    { "label": "Uso recomendado", "value": "Combis, vans y minibuses con puerta corrediza" }
+  ],
+  "features": [
+    "Detecta si la puerta corrediza está abierta o cerrada, enviando esa señal a tu sistema de alarma",
+    "Se integra con la mayoría de alarmas que soportan entrada de puertas adicional",
+    "Instalación directa en el marco de la puerta corrediza"
+  ],
+  "faq": [
+    {
+      "question": "¿Es compatible con mi alarma?",
+      "answer": "Se conecta a la entrada de puerta adicional de la mayoría de alarmas. Cuéntanos qué alarma tienes o planeas instalar para confirmar la compatibilidad."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Se instala en el marco de la puerta corrediza. Recomendamos instalación profesional para asegurar el contacto correcto entre las dos piezas."
+    }
+  ]
+},
+
+
+
+
+
+
+{
+  "slug": "dashcam-para-auto-5-camaras-360-wifi-baihuo-my-8026",
+  "name": "Dashcam para Auto 5 Cámaras con Cobertura 360° y WiFi - Baihuo City MY-8026",
+  "category": "dashcam",
+  "price": 0,
+  "oldPrice": 0,
+                                                              "image": [
+      "/dashcam/my-8026/kit-camara.webp",
+      "/dashcam/my-8026/pantalla-camara.webp",
+      "/dashcam/my-8026/medidas-camara.webp"
+    ],
+    "images": [
+      "/dashcam/my-8026/kit-camara-mini.webp",
+      "/dashcam/my-8026/pantalla-camara-mini.webp",
+      "/dashcam/my-8026/medidas-camara-mini.webp"
+    ],
+  "productDescription": "Dashcam para auto con 5 cámaras y cobertura 360°, WiFi, pantalla integrada, sensor G, visión nocturna y vigilancia de estacionamiento 24H.",
+  "stock": true,
+  "marca": "Baihuo",
+  "sku": "MY-8026",
+  "filtros": [
+    {
+      "brand": "Baihuo",
+      "model": "MY-8026"
+    }
+  ],
+  "painHook": "¿Quieres eliminar los puntos ciegos alrededor de tu auto, no solo adelante? Esta dashcam usa 5 cámaras para cubrir prácticamente todos los ángulos de tu vehículo al mismo tiempo.",
+  "specs": [
+    { "label": "Modelo", "value": "Baihuo City MY-8026" },
+    { "label": "Sistema de cámaras", "value": "5 lentes, cobertura de hasta 360°" },
+    { "label": "Conectividad", "value": "WiFi, con app para vincular tu celular" },
+    { "label": "Pantalla", "value": "Integrada" },
+    { "label": "Visión nocturna", "value": "Sí" },
+    { "label": "Sensor G", "value": "Sí, protege la grabación ante un impacto" },
+    { "label": "Grabación en bucle", "value": "Sí, sobrescribe archivos antiguos no protegidos" },
+    { "label": "Monitoreo de estacionamiento", "value": "24 horas (requiere alimentación eléctrica constante compatible)" },
+    { "label": "Uso recomendado", "value": "Autos, SUV y camionetas" }
+  ],
+  "features": [
+    "Sistema de 5 cámaras que cubre distintos ángulos alrededor de tu auto (frontal, trasera, interior/laterales), reduciendo los puntos ciegos mucho más que una dashcam de una sola lente",
+    "Conexión WiFi para vincular la cámara a tu celular y ver o descargar las grabaciones sin complicarte",
+    "El sensor G protege automáticamente el video de un choque o impacto, evitando que se sobrescriba",
+    "Visión nocturna en todas las cámaras, pensada para conducción nocturna, estacionamientos y calles con poca luz",
+    "Vigilancia de estacionamiento 24 horas, sigue cuidando tu auto incluso cuando está apagado (requiere instalación con alimentación constante)",
+    "Pantalla integrada para revisar las cámaras sin depender siempre del celular"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Cobertura 360°: elimina los puntos ciegos alrededor de tu auto",
+    "blocks": [
+      {
+        "heading": "El problema: una sola cámara no cubre todo lo que pasa alrededor de tu auto",
+        "paragraphs": [
+          "La mayoría de dashcams graban solo el frente, o como mucho el frente y la parte trasera. Eso deja fuera muchos ángulos donde también pueden ocurrir incidentes: un golpe lateral, alguien manipulando el auto desde un costado, o lo que pasa dentro del vehículo."
+        ]
+      },
+      {
+        "heading": "La solución: 5 cámaras trabajando al mismo tiempo",
+        "paragraphs": [
+          "La Baihuo City MY-8026 usa un sistema de 5 lentes para cubrir distintas zonas del vehículo a la vez, reduciendo significativamente los puntos ciegos comparado con una dashcam convencional. Cuenta con sensor G para proteger automáticamente el video de un choque, visión nocturna en todas las cámaras, grabación en bucle para administrar el almacenamiento sin que tengas que borrar manualmente, y vigilancia de estacionamiento 24 horas para cuando el auto está apagado.",
+          "Se conecta por WiFi a una app en tu celular, permitiéndote revisar y descargar las grabaciones que necesites sin complicarte."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Realmente graba en 4K?",
+      "answer": "El empaque indica '4K Ultra HD', pero la ficha técnica proporcionada por el fabricante menciona 1080P en otro campo. Por esta inconsistencia, no podemos confirmar que los 5 canales graben simultáneamente en 4K. Si la resolución exacta es decisiva para tu compra, contáctanos antes y te ayudamos a confirmarlo con el proveedor."
+    },
+    {
+      "question": "¿Qué diferencia hay con las otras dashcam Baihuo (MY-7595, MY-7596, MY-8065)?",
+      "answer": "La diferencia principal es la cantidad de cámaras y cobertura: esta MY-8026 usa un sistema de 5 lentes con cobertura de hasta 360°, mientras que las otras manejan entre 2 y 3 cámaras. Es la opción con mayor cobertura de todas las que tenemos."
+    },
+    {
+      "question": "¿El monitoreo de estacionamiento funciona siempre, incluso con el auto apagado por días?",
+      "answer": "El modo de estacionamiento de 24 horas requiere una instalación con alimentación eléctrica constante y compatible. Su funcionamiento continuo puede depender del tipo de instalación, así que te recomendamos confirmar esto con nuestro técnico antes de instalarla."
+    },
+    {
+      "question": "¿Incluye tarjeta de memoria?",
+      "answer": "Según la información del fabricante, el contenido exacto del paquete puede variar según el lote. Te recomendamos confirmar este detalle con nosotros antes de tu compra."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Al ser un sistema de 5 cámaras con cableado hacia distintos puntos del vehículo, recomendamos instalación profesional para un resultado limpio y para configurar correctamente la alimentación del modo de estacionamiento.",
+      "open": true
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+{
+  "slug": "dashcam-para-auto-4-camaras-2k-wifi-cd-y18",
+  "name": "Dashcam para Auto 4 Cámaras 2K con WiFi - Visión Frontal, Lateral y Trasera CD-Y18",
+  "category": "dashcam",
+  "price": 0,
+  "oldPrice": 0,
+                                                                "image": [
+      "/dashcam/cd-y18/kit-camara.webp",
+      "/dashcam/cd-y18/camara-frontal-y-trasera.webp",
+      "/dashcam/cd-y18/camara-frontal.webp",
+      "/dashcam/cd-y18/camara-conectado-celular.webp"
+    ],
+    "images": [
+      "/dashcam/cd-y18/kit-camara-mini.webp",
+      "/dashcam/cd-y18/camara-frontal-y-trasera-mini.webp",
+      "/dashcam/cd-y18/camara-frontal-mini.webp",
+      "/dashcam/cd-y18/camara-conectado-celular-mini.webp"
+    ],
+  "productDescription": "Dashcam para auto con 4 cámaras (frontal 2K, 2 laterales y trasera), WiFi, sensor G, visión nocturna y monitoreo de estacionamiento. Lente frontal giratorio 360°.",
+  "stock": true,
+  "marca": "Baihuo",
+  "sku": "DASHCAM-CD-Y18",
+  "filtros": [
+    {
+      "brand": "Baihuo",
+      "model": "CD-Y18"
+    }
+  ],
+  "painHook": "¿Quieres ver no solo lo que pasa adelante, sino también a los costados y atrás de tu auto? Esta dashcam usa 4 cámaras para cubrir prácticamente todo el perímetro de tu vehículo.",
+  "specs": [
+    { "label": "Modelo", "value": "CD-Y18" },
+    { "label": "Cámaras", "value": "4: frontal, 2 laterales y trasera" },
+    { "label": "Resolución cámara frontal", "value": "2K (2560x1440p)" },
+    { "label": "Rotación del lente frontal", "value": "360°" },
+    { "label": "Conectividad", "value": "WiFi" },
+    { "label": "Visión nocturna", "value": "Sí, cámara trasera con LEDs infrarrojos" },
+    { "label": "Sensor G", "value": "Sí, protege la grabación ante un impacto" },
+    { "label": "Monitoreo de estacionamiento", "value": "24 horas, con detección de movimiento" },
+    { "label": "Grabación en bucle", "value": "Sí" }
+  ],
+  "features": [
+    "Sistema de 4 cámaras (frontal, 2 laterales y trasera) que cubre prácticamente todo el perímetro de tu auto, no solo lo que hay adelante",
+    "La cámara frontal gira 360°, puedes ajustar el ángulo exacto que necesitas sin mover todo el soporte",
+    "Se conecta por WiFi a tu celular para revisar y descargar las grabaciones sin sacar la tarjeta de memoria",
+    "El sensor G protege automáticamente el video de un choque, evitando que se sobrescriba",
+    "Sigue vigilando tu auto estacionado gracias a la detección de movimiento, incluso con el motor apagado",
+    "Visión nocturna infrarroja en la cámara trasera, mantiene buena imagen incluso con poca luz"
+  ],
+  "extendedDescription": {
+    "sectionTitle": "Cobertura completa: frente, costados y atrás de tu auto",
+    "blocks": [
+      {
+        "heading": "El problema: una dashcam normal solo ve lo que tienes adelante",
+        "paragraphs": [
+          "La mayoría de dashcams se concentran solo en el frente del auto, dejando sin registrar lo que pasa a los costados o directamente detrás, justo donde también pueden ocurrir choques, roces o intentos de manipular el vehículo."
+        ]
+      },
+      {
+        "heading": "La solución: 4 cámaras cubriendo todo el perímetro",
+        "paragraphs": [
+          "Este sistema combina una cámara frontal en 2K con rotación de 360°, dos cámaras laterales y una cámara trasera con visión nocturna infrarroja, dándote una cobertura mucho más completa de lo que ocurre alrededor de tu auto. El sensor G protege automáticamente el video de un choque, y la detección de movimiento mantiene la vigilancia activa incluso con el auto estacionado y apagado.",
+          "Se conecta por WiFi a tu celular, permitiéndote revisar y descargar las grabaciones que necesites sin complicarte."
+        ]
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "¿Tiene Bluetooth además de WiFi?",
+      "answer": "El WiFi está confirmado para conectar la cámara a tu celular. La conectividad Bluetooth aparece mencionada en una sola de nuestras fuentes, así que no podemos confirmarlo al 100% todavía. Si es importante para ti, contáctanos antes de tu compra y lo verificamos con el proveedor."
+    },
+    {
+      "question": "¿Las 4 cámaras graban todas en 2K?",
+      "answer": "La resolución 2K está confirmada para la cámara frontal (viene impreso directamente en el lente). Para las cámaras laterales y trasera, confirmamos la resolución exacta antes de tu compra si lo necesitas."
+    },
+    {
+      "question": "¿Incluye tarjeta de memoria?",
+      "answer": "No está confirmado en la información que tenemos. Contáctanos antes de tu compra y te confirmamos este detalle."
+    },
+    {
+      "question": "¿Es difícil de instalar?",
+      "answer": "Al ser un sistema de 4 cámaras con cableado hacia distintos puntos del vehículo, recomendamos instalación profesional para un resultado limpio y una ubicación correcta de cada cámara.",
+      "open": true
+    }
+  ]
+}
+
+]
+
+

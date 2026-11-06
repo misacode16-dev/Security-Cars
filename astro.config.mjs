@@ -1,5 +1,33 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import tailwindcss from "@tailwindcss/vite";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+    site: "https://security-cars.com",
+
+    trailingSlash: "ignore",  //always
+
+
+    integrations: [
+    sitemap({
+      filter: (page) => {
+        // Excluir búsqueda interna y filtros (marca, modelo, etc.)
+        // Detecta URLs con query params: ?q=, ?marca=, ?modelo=, etc.
+        const hasQueryParams = page.includes("?");
+
+        // Excluir la página de búsqueda sin query (por si existe /buscar)
+        const isSearchPage = page.includes("/buscar");
+
+        return !hasQueryParams && !isSearchPage;
+      },
+    }),
+  ],
+
+
+
+    vite: {
+    plugins: [tailwindcss()],
+    },
+});

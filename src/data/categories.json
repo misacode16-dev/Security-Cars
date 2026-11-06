@@ -1,0 +1,13 @@
+[
+  { "slug": "alarma", "name": "Alarmas para auto"},
+  { "slug": "antiasalto", "name": "Antiasalto para auto"},
+  { "slug": "luces", "name": "Focos para Autos"},
+  { "slug": "gps", "name": "GPS para auto"},
+  { "slug": "camara-de-retroceso", "name": "Cámaras de Retroceso"},
+  { "slug": "insonorizante", "name": "Insonorizante para auto"},
+  { "slug": "alzavidrios", "name": "Alzavidrios para auto"},
+  { "slug": "pestillos", "name": "Pestillos electricos para auto"},
+  { "slug": "autoradios", "name": "Radios para auto"},
+  { "slug": "dashcam", "name": "Dashcams para auto"},
+  { "slug": "accesorios", "name": "Accesorios para auto"}
+]

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloquear búsqueda interna y filtros (evita indexación de URLs con parámetros)
+Disallow: /buscar
+Disallow: /*?*
+
+Sitemap: https://security-cars.com/sitemap-index.xml

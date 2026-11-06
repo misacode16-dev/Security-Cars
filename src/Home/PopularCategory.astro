@@ -1,0 +1,28 @@
+---
+const categorias = [
+  { titulo: "Alarmas para Auto", img: "/categoria-alarma.jpeg", link: "/categoria/alarma" },
+  { titulo: "GPS para Auto", img: "/categoria-gps.jpeg", link: "/categoria/gps" },
+  { titulo: "Antiasalto para Auto", img: "/categoria-antiasalto.jpeg", link: "/categoria/antiasalto" },
+  { titulo: "Insonorizante para Auto", img: "/categoria-insonorizante.jpeg", link: "/categoria/insonorizante" },
+];
+---
+
+<div class="grid grid-cols-2 gap-3 px-3 pb-5 md:gap-0 sm:px-5 md:grid-cols-4 md:pt-0 md:px-0 pt-[64px]">
+
+  {categorias.map((cat) => (
+    <a href={cat.link} class="group relative block overflow-hidden rounded-md md:rounded-none shadow-md transition-transform duration-300 ease-in-out hover:scale-[1.01]">
+
+      <img src={cat.img} alt={cat.titulo} class="block aspect-square w-full object-cover md:aspect-auto"/>
+
+      <div
+        class="absolute inset-0 flex items-center justify-center bg-black/40 p-2 transition-colors duration-300 group-hover:bg-black/70 sm:p-4"
+      >
+        <h2 class="text-center text-base font-bold leading-tight text-white sm:text-lg md:text-2xl">
+          {cat.titulo}
+        </h2>
+      </div>
+
+    </a>
+  ))}
+
+</div>

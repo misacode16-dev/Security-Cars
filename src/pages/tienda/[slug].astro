@@ -1,0 +1,555 @@
+---
+// pages/tienda/[slug].astro
+import Layout from '../../layouts/Layout.astro';
+import CartWidget from '../../components/CartWidget.astro';
+import products from '../../data/products.json';
+import categories from '../../data/categories.json';
+import { ShoppingCart, MessageCircle, Store, Truck, MapPin, ShieldCheck } from '@lucide/astro';
+import { generateProductSchemas } from '../../utils/schemas.js';
+import { getCoverImage, getGalleryImages } from '../../utils/product-images.js';
+
+export function getStaticPaths() {
+  return products.map((product) => ({
+    params: { slug: product.slug },
+    props: { product },
+  }));
+}
+
+const { product } = Astro.props;
+const { name, price, oldPrice, productDescription, stock, marca, sku, specs, features, category, variants } = product;
+// Título corto para Google. Si el producto no tiene seoTitle, usa el nombre completo.
+const seoTitle = product.seoTitle || name;
+
+// `image`/`images` pueden venir como string único o como array (varias fotos
+// en distintos ángulos) — estos helpers normalizan cualquiera de los dos formatos.
+// El producto "padre" ya refleja la primera variante (ver products.json),
+// así que `cover`/`gallery` funcionan igual con o sin variantes.
+const cover = getCoverImage(product);
+const gallery = getGalleryImages(product);
+
+// Si una variante no trae fotos propias, usa las del producto principal
+const galleryFor = (v) => {
+  const own = getGalleryImages(v);
+  return own.some((g) => g.full) ? own : gallery;
+};
+
+// Si el producto tiene 2+ variantes (ej. una alarma que solo cambia de
+// modelo/control), se muestra el selector de opciones debajo del precio.
+const hasVariants = Array.isArray(variants) && variants.length > 1;
+const defaultVariant = hasVariants ? variants[0] : null;
+const initialName = defaultVariant
+  ? (defaultVariant.shortName || `${name} - ${defaultVariant.label}`)
+  : name;
+const initialCartId = defaultVariant ? `${product.slug}::${defaultVariant.id}` : product.slug;
+
+// Selector de instalación: siempre
+// visible, no afecta el precio en la web — el costo real se define por WhatsApp.
+const DEFAULT_INSTALACION = 'Sin instalación';
+const fullInitialCartId = `${initialCartId}::${DEFAULT_INSTALACION}`;
+
+const categoryData = categories.find((c) => c.slug === category);
+const relatedProducts = products
+  .filter((p) => p.category === category && p.slug !== product.slug)
+  .slice(0, 4);
+
+const fullUrl = `https://security-cars.com/tienda/${product.slug}`;
+const productSchemas = generateProductSchemas(product, categoryData?.name);
+---
+
+<Layout title={`${seoTitle} | Security Cars`} description={productDescription} image={cover} url={fullUrl} ogType="product" price={price} priceCurrency="PEN" availability={stock ? "in stock" : "out of stock"} structuredData={productSchemas}>
+  <main class="mx-auto px-5 pb-[60px]">
+
+    <!-- MIGAS DE PAN -->
+    <nav aria-label="Migas de pan" class="max-w-[1400px] mx-auto mt-20 text-[12px] text-[#777777]">
+      <ol class="flex flex-wrap items-center gap-2">
+        <li><a href="/" class="hover:text-[#111111] transition-colors">Inicio</a></li>
+        {categoryData && (
+          <>
+            <li aria-hidden="true" class="text-[#aaaaaa]">›</li>
+            <li><a href={`/categoria/${categoryData.slug}`} class="hover:text-[#111111] transition-colors">{categoryData.name}</a></li>
+          </>
+        )}
+        <li aria-hidden="true" class="text-[#aaaaaa]">›</li>
+        <li aria-current="page" class="font-medium text-[#222222]">{name}</li>
+      </ol>
+    </nav>
+
+    <!-- BLOQUE SUPERIOR -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-6 mb-[50px] lg:items-start">
+
+      <!-- GALERÍA -->
+      <div class="flex flex-col items-center lg:sticky lg:top-28">
+<div class="w-full aspect-[4/3] border border-[#f0f0f0] rounded-lg flex items-center justify-center">
+  <img id="main-product-img" src={gallery[0].full} alt={name} fetchpriority="high" decoding="async" class="w-full h-full object-contain" />
+</div>
+
+        <div id="thumbnail-row" class="flex gap-3 mt-5 w-full justify-start">
+          {gallery.length > 1 && gallery.map((g, i) => (
+            <button type="button" class={`thumb-item w-20 h-20 border rounded-md p-1.5 flex items-center justify-center bg-[#fff] transition-colors hover:border-[#cbd5e1] ${i === 0 ? 'border-[#0445ec]' : 'border-[#e2e8f0]'}`} data-src={g.full} data-alt={initialName}>
+              <img src={g.thumb} alt={initialName} class="max-w-full max-h-full object-contain" />
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- INFO Y ACCIONES -->
+      <div class="flex flex-col">
+        <h1 class="text-[1.85rem] font-extrabold text-[#111111] leading-[1.3] mb-3">{name}</h1>
+
+        {product.painHook && (
+          <p class="text-[14px] text-[#555555] border-l-[3px] border-[#0445ec] pl-3 mb-5 leading-[1.6] italic">{product.painHook}</p>
+        )}
+
+        <div class="mb-5">
+          <p class="text-[12px] text-[#9c9c9c] mb-1.5 tracking-[.05em]">PRECIO ACTUAL — OFERTA VIGENTE</p>
+          <div class="flex items-baseline gap-3 flex-wrap">
+            <span id="product-price-value" class="text-[38px] font-black text-[#0445ec] leading-none">S/ {price.toFixed(2)}</span>
+            <span id="product-oldprice-value" class={`text-[18px] text-[#9c9c9c] line-through ${oldPrice ? '' : 'hidden'}`}>
+              S/ {oldPrice ? oldPrice.toFixed(2) : '0.00'}
+            </span>
+            <span id="product-save-badge" class={`bg-[#0445ec] text-white text-[12px] font-bold px-[9px] py-[3px] rounded-full ${oldPrice ? '' : 'hidden'}`}>
+              Ahorras S/ {oldPrice ? (oldPrice - price).toFixed(0) : '0'}
+            </span>
+          </div>
+        </div>
+
+        <!-- Selector de variantes (ej. modelo/control de una alarma) -->
+        {hasVariants && (
+          <div class="mt-5">
+            <p class="text-[0.88rem] font-bold text-[#111111] mb-2.5">Elige una opción:</p>
+            <div class="flex flex-wrap gap-3">
+              {variants.map((v, i) => (
+                <button
+                  type="button"
+                  class={`variant-item flex flex-col items-center gap-1.5 border-2 rounded-md p-2 w-[92px] transition-colors hover:border-[#cbd5e1] ${i === 0 ? 'border-[#0445ec]' : 'border-[#e2e8f0]'}`}
+                  data-variant-id={v.id}
+                  data-label={v.label}
+                  data-sku={v.sku}
+                  data-price={v.price ?? price}
+                  data-old-price={v.oldPrice ?? ''}
+                  data-gallery={JSON.stringify(galleryFor(v))}
+                  data-short-name={v.shortName ?? ''}
+                >
+                  <img src={galleryFor(v)[0].thumb} alt={v.label} class="w-14 h-14 object-contain" />
+                  <span class="text-[0.72rem] text-[#444444] text-center leading-tight">{v.label}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <!-- Descripcion puntual del producto -->
+        <p class="text-[0.92rem] text-[#555555] leading-[1.6] mt-4 mb-4">{productDescription}</p>
+
+        <!-- Caracteristicas del producto -->
+        {features && features.length > 0 && (
+          <ul class="flex flex-col gap-3 mb-6">
+            {features.map((feature) => (
+              <li class="flex items-start gap-3 border-l-4 border-[#0445ec] pl-3 py-0.5">
+                <span class="text-[0.88rem] text-[#333333] leading-[1.55]">{feature}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <div class="flex flex-col gap-3 border-t border-[#f0f0f0] pt-5">
+          <div class="flex items-start text-[0.9rem] leading-[1.4]">
+            <span class="font-bold text-[#111111] w-[170px] flex-shrink-0">Marca:</span>
+            <span class="text-[#444444] font-semibold">{marca}</span>
+          </div>
+          <div class="flex items-start text-[0.9rem] leading-[1.4]">
+            <span class="font-bold text-[#111111] w-[170px] flex-shrink-0">SKU:</span>
+            <span id="product-sku-value" class="text-[#444444] font-semibold">{hasVariants ? defaultVariant.sku : sku}</span>
+          </div>
+          {categoryData && (
+            <div class="flex items-start text-[0.9rem] leading-[1.4]">
+              <span class="font-bold text-[#111111] w-[170px] flex-shrink-0">Categoría:</span>
+              <a href={`/categoria/${category}`} class="font-semibold hover:underline">{categoryData.name}</a>
+            </div>
+          )}
+        </div>
+
+        <!-- Selector de instalación: solo informativo, el precio de la instalación se define por WhatsApp -->
+        <div class="mt-6">
+          <div id="instalacion-selector" class="flex flex-row gap-2.5 w-full mb-[22px]">
+            <label
+              class="instalacion-option flex-1 min-h-[48px] box-border border border-[#e2e8f0] rounded-md px-2.5 py-3 flex items-center justify-center gap-2 text-[13px] font-bold text-[#111111] text-center cursor-pointer transition-colors hover:border-[#0445ec]"
+              data-instalacion="Con instalación"
+            >
+              <input type="radio" name="instalacion" value="con" class="accent-[#0445ec] w-[15px] h-[15px] flex-shrink-0 m-0" />
+              <span>Con instalación</span>
+            </label>
+            <label
+              class="instalacion-option selected flex-1 min-h-[48px] box-border border-2 border-[#0445ec] bg-[#0445ec]/[0.07] rounded-md px-2.5 py-3 flex items-center justify-center gap-2 text-[13px] font-bold text-[#111111] text-center cursor-pointer transition-colors"
+              data-instalacion="Sin instalación"
+            >
+              <input type="radio" name="instalacion" value="sin" checked class="accent-[#0445ec] w-[15px] h-[15px] flex-shrink-0 m-0" />
+              <span>Sin instalación</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Acciones -->
+        <div class="flex items-center flex-wrap gap-3 mt-8">
+          <div class="flex items-center border border-[#e2e8f0] rounded-md overflow-hidden h-[46px]">
+            <button type="button" id="qty-decrease" class="w-10 h-full bg-[#fff] border-none text-[1.1rem] text-[#333] cursor-pointer hover:bg-[#f1f5f9] transition-colors">-</button>
+            <input type="number" id="product-qty" value="1" min="1" readonly class="w-[45px] h-full border-none text-center text-[0.95rem] font-bold text-[#111] outline-none" />
+            <button type="button" id="qty-increase" class="w-10 h-full bg-[#fff] border-none text-[1.1rem] text-[#333] cursor-pointer hover:bg-[#f1f5f9] transition-colors">+</button>
+          </div>
+
+          <div class="flex flex-col gap-3 w-full">
+            <button type="button" id="add-to-cart-btn" class="w-full flex items-center justify-center gap-2 bg-[#0445ec] text-white font-bold px-4 h-[55px] rounded-md hover:brightness-110 transition-all disabled:opacity-40 disabled:cursor-not-allowed" data-add-to-cart data-qty-input-id="product-qty" data-slug={product.slug} data-cart-id={fullInitialCartId} data-base-name={name} data-name={initialName} data-price={price} data-image={cover} disabled={!stock} data-sku={hasVariants ? defaultVariant.sku : sku} data-instalacion={DEFAULT_INSTALACION}>
+              <ShoppingCart class="icon-md" />
+              {stock ? "Agregar al carrito" : "Agotado"}
+            </button>
+
+            <button type="button" id="whatsapp-buy-btn" class="w-full flex items-center justify-center gap-2 bg-transparent border border-[#e2e8f0] text-[#111111] font-bold px-4 h-[55px] rounded-md hover:border-[#0445ec] transition-all disabled:opacity-40 disabled:cursor-not-allowed" data-slug={product.slug} data-name={initialName} data-price={price} disabled={!stock} data-sku={hasVariants ? defaultVariant.sku : sku} data-instalacion={DEFAULT_INSTALACION}>
+              <MessageCircle class="icon-md" />
+              Comprar por WhatsApp
+            </button>
+          </div>
+        </div>
+
+    <!-- Información adicional (retiros, envíos, garantía) -->
+    <!-- Eliminar las que sean necesarias si es tienda online -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6 text-sm text-[#333]">
+  <div class="flex flex-col text-center items-center gap-2">
+    <Store class="w-6 h-6 text-[#0445ec]" />
+    <span>Retiros en tienda</span>
+  </div>
+  <div class="flex flex-col text-center items-center gap-2">
+    <Truck class="w-6 h-6 text-[#0445ec]" />
+    <span>Envíos a zona de Lima Metropolitana</span>
+  </div>
+  <div class="flex flex-col text-center items-center gap-2">
+    <MapPin class="w-6 h-6 text-[#0445ec]" />
+    <span>Despachos a provincia el mismo día</span>
+  </div>
+  <div class="flex flex-col text-center items-center gap-2">
+    <ShieldCheck class="w-6 h-6 text-[#0445ec]" />
+    <span>Garantía 12 meses</span>
+  </div>
+</div>
+
+<!-- Medios de Pago -->
+<div class="mt-6">
+  <p class="font-bold text-sm text-[#111] mb-2">Medios de Pago:</p>
+  <div class="flex flex-wrap gap-4">
+    <img src="/visa.png" alt="Visa" class="h-12 w-auto object-contain" loading="lazy" />
+    <img src="/mastercard.png" alt="Mastercard" class="h-12 w-auto object-contain" loading="lazy" />
+    <img src="/yape.png" alt="Yape" class="h-12 w-auto object-contain" loading="lazy" />
+    <img src="/plin.png" alt="Plin" class="h-12 w-auto object-contain" loading="lazy" />
+  </div>
+</div>
+      </div>
+    </section>
+
+<!-- Descripción extendida (bloques de texto en formato horizontal, sin imágenes) -->
+{product.extendedDescription && (
+  <section class="max-w-[1280px] mx-auto px-6 py-[60px] border-t border-[#e2e8f0]">
+    <div class="text-[22px] font-extrabold mb-7 text-[#111111]">{product.extendedDescription.sectionTitle}</div>
+
+    <div class="flex gap-8">
+      {product.extendedDescription.blocks?.map((block) => (
+        <div class="w-full p-5">
+          <h3 class="text-[20px] font-extrabold mb-3 text-[#111111] leading-[1.3]">{block.heading}</h3>
+          {block.paragraphs?.map((p) => (
+            <p class="text-[14px] text-[#555555] leading-[1.7] mb-3.5">{p}</p>
+          ))}
+        </div>
+      ))}
+    </div>
+
+    <!-- Especificaciones técnicas -->
+    {specs && specs.length > 0 && (
+      <div class="mt-10 border-t border-[#e2e8f0] pt-10">
+        <h3 class="text-[20px] font-extrabold mb-5 text-[#111111]">Especificaciones técnicas</h3>
+        <div class="w-full border border-[#e2e8f0] rounded-lg overflow-hidden">
+          <table class="w-full border-collapse text-left text-[0.9rem]">
+            <tbody>
+              {specs.map((spec, i) => (
+                <tr class={i < specs.length - 1 ? 'border-b border-[#e2e8f0]' : ''}>
+                  <th class="bg-[#f8f9fa] text-[#111111] font-bold py-3.5 px-5 w-[40%]">{spec.label}</th>
+                  <td class="bg-white text-[#444444] py-3.5 px-5">{spec.value}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    )}
+
+    <!-- Videos del producto -->
+    {(() => {
+      const videos = product.extendedDescription?.videos;
+      if (!videos?.length) return null;
+      const singleVideo = videos.length === 1;
+
+      return (
+        <div class="mt-10 border-t border-[#e2e8f0] pt-10">
+          <h3 class="text-[20px] font-extrabold mb-5 text-[#111111]">Videos del producto</h3>
+          <div class={`flex gap-5 ${singleVideo ? 'justify-center' : 'overflow-x-auto pb-2'}`}>
+            {videos.map((video) => (
+              <div class="flex-shrink-0 flex flex-col gap-2 w-[280px] sm:w-[320px]">
+                <video
+                  src={video.src}
+                  poster={video.poster || undefined}
+                  controls
+                  playsinline
+                  preload="metadata"
+                  class="w-full rounded-lg border border-[#e2e8f0] bg-[#f8f9fa]"
+                  style="aspect-ratio: 9/16;"
+                />
+                {video.title && (
+                  <p class="text-[13px] text-[#555555] text-center leading-[1.4]">{video.title}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      );
+    })()}
+
+  </section>
+)}
+
+    <!-- FAQ -->
+    {product.faq && product.faq.length > 0 && (
+      <section class="max-w-[1200px] mx-auto px-6 py-[60px] border-t border-[#e2e8f0]">
+        <div class="text-[22px] font-extrabold mb-7 text-[#111111]">Preguntas frecuentes antes de comprar</div>
+        <div class="flex flex-col">
+          {product.faq.map((item, i) => (
+            <details class={`group border-[#e2e8f0] ${i === 0 ? 'border-t' : ''} border-b`} open={item.open ?? false}>
+              <summary class="w-full text-left py-[18px] text-[15px] font-semibold text-[#111111] flex items-center justify-between gap-4 cursor-pointer list-none hover:text-[#0445ec] transition-colors [&::-webkit-details-marker]:hidden">
+                {item.question}
+                <span class="text-[18px] text-[#0445ec] flex-shrink-0 transition-transform duration-200 group-open:rotate-45">+</span>
+              </summary>
+              <p class="text-[14px] text-[#555555] leading-[1.7] pb-[18px]">{item.answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- PRODUCTOS RELACIONADOS -->
+    {relatedProducts.length > 0 && (
+      <section class="mt-[70px] mb-10">
+        <h2 class="text-[1.5rem] font-bold text-[#111111] mb-6">También te pueden gustar estos</h2>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[18px]">
+          {relatedProducts.map((p) => (
+            <a href={`/tienda/${p.slug}`} class="relative bg-[#ffffff] border border-[#e2e8f0] rounded-lg p-4 flex flex-col justify-between hover:-translate-y-[3px] hover:shadow-[0_10px_20px_rgba(0,0,0,0.05)] transition-all">
+              <div class="w-full h-[150px] flex items-center justify-center mb-4">
+                <img src={getCoverImage(p)} alt={p.name} class="max-w-full max-h-full object-contain" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <h3 class="text-[0.9rem] font-bold text-[#000000] leading-[1.35] line-clamp-2 h-[2.7em] overflow-hidden">{p.name}</h3>
+                <span class="text-[#0445ec] font-extrabold text-[0.98rem]">S/ {p.price.toFixed(2)}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+  </main>
+
+  <CartWidget />
+</Layout>
+
+<script>
+  import { buildSingleProductWhatsAppLink } from '../../utils/whatsapp.js';
+
+  // Cambiar imagen principal desde thumbnails (se reusa tanto para los
+  // thumbnails que vienen del servidor como para los que se regeneran al
+  // cambiar de variante).
+  const mainImg = document.getElementById('main-product-img');
+  const thumbnailRow = document.getElementById('thumbnail-row');
+
+  function selectThumb(btn) {
+    const src = btn.getAttribute('data-src');
+    const alt = btn.getAttribute('data-alt');
+    if (mainImg && src) {
+      mainImg.setAttribute('src', src);
+      mainImg.setAttribute('alt', alt || '');
+    }
+    thumbnailRow?.querySelectorAll('.thumb-item').forEach((t) => {
+      t.classList.remove('border-[#0445ec]');
+      t.classList.add('border-[#e2e8f0]');
+    });
+    btn.classList.remove('border-[#e2e8f0]');
+    btn.classList.add('border-[#0445ec]');
+  }
+
+  function bindThumb(btn) {
+    btn.addEventListener('click', () => selectThumb(btn));
+  }
+
+  document.querySelectorAll('.thumb-item').forEach(bindThumb);
+
+  // Reconstruye la fila de thumbnails con la galería de la variante elegida
+  // (cada variante trae sus propias fotos completas en `image`/`images`).
+  function rebuildThumbnails(gallery, altText) {
+    if (!thumbnailRow) return;
+    thumbnailRow.innerHTML = '';
+    if (!gallery || gallery.length <= 1) return;
+
+    gallery.forEach((g, i) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `thumb-item w-20 h-20 border rounded-md p-1.5 flex items-center justify-center bg-[#fff] transition-colors hover:border-[#cbd5e1] ${i === 0 ? 'border-[#0445ec]' : 'border-[#e2e8f0]'}`;
+      btn.setAttribute('data-src', g.full);
+      btn.setAttribute('data-alt', altText);
+      btn.innerHTML = `<img src="${g.thumb}" alt="${altText}" class="max-w-full max-h-full object-contain" />`;
+      bindThumb(btn);
+      thumbnailRow.appendChild(btn);
+    });
+  }
+
+  // Selector de variantes (ej. modelo/control de una alarma): al elegir una,
+  // se actualiza precio, SKU, la galería completa (imagen principal +
+  // thumbnails), y los datos que usan "Agregar al carrito" y "Comprar por
+  // WhatsApp" — así el nombre que llega al carrito/WhatsApp siempre incluye
+  // la variante elegida (ej. "Alarma Autorus Bluetooth... - BT-A21"), y cada
+  // variante se trata como una línea de carrito independiente (data-cart-id).
+  const addToCartBtn = document.getElementById('add-to-cart-btn');
+  const whatsappBtn = document.getElementById('whatsapp-buy-btn');
+  const priceValueEl = document.getElementById('product-price-value');
+  const oldPriceValueEl = document.getElementById('product-oldprice-value');
+  const saveBadgeEl = document.getElementById('product-save-badge');
+  const skuValueEl = document.getElementById('product-sku-value');
+  const baseName = addToCartBtn?.dataset.baseName;
+  const baseSlug = addToCartBtn?.dataset.slug;
+
+  // Estado compartido para componer el cartId (variante + instalación), así
+  // cada combinación se trata como una línea de carrito independiente.
+  let currentVariantCartBase = baseSlug;
+  let currentInstalacion = addToCartBtn?.dataset.instalacion || '';
+
+  function updateCartId() {
+    if (!addToCartBtn) return;
+    let id = currentVariantCartBase;
+    if (currentInstalacion) id += `::${currentInstalacion}`;
+    addToCartBtn.dataset.cartId = id;
+  }
+
+  document.querySelectorAll('.variant-item').forEach((item) => {
+    item.addEventListener('click', () => {
+      const variantId = item.getAttribute('data-variant-id');
+      const label = item.getAttribute('data-label');
+      const shortName = item.getAttribute('data-short-name');
+      const sku = item.getAttribute('data-sku');
+      const price = parseFloat(item.getAttribute('data-price'));
+      const oldPriceRaw = item.getAttribute('data-old-price');
+      const oldPrice = oldPriceRaw ? parseFloat(oldPriceRaw) : null;
+      let gallery = [];
+      try {
+        gallery = JSON.parse(item.getAttribute('data-gallery') || '[]');
+      } catch {
+        gallery = [];
+      }
+
+      const fullName = baseName && label ? `${baseName} - ${label}` : baseName;
+      const cartId = baseSlug && variantId ? `${baseSlug}::${variantId}` : baseSlug;
+
+      // precio
+      if (priceValueEl && Number.isFinite(price)) {
+        priceValueEl.textContent = `S/ ${price.toFixed(2)}`;
+      }
+      if (oldPriceValueEl) {
+        if (oldPrice && oldPrice > price) {
+          oldPriceValueEl.textContent = `S/ ${oldPrice.toFixed(2)}`;
+          oldPriceValueEl.classList.remove('hidden');
+        } else {
+          oldPriceValueEl.classList.add('hidden');
+        }
+      }
+
+      // sku
+      if (skuValueEl && sku) skuValueEl.textContent = sku;
+
+      // galería completa (imagen principal + thumbnails de esta variante)
+      if (gallery.length > 0 && mainImg) {
+        mainImg.setAttribute('src', gallery[0].full);
+        mainImg.setAttribute('alt', fullName || '');
+      }
+      rebuildThumbnails(gallery, fullName || '');
+
+      // estilo activo del selector
+      document.querySelectorAll('.variant-item').forEach((v) => {
+        v.classList.remove('border-[#0445ec]');
+        v.classList.add('border-[#e2e8f0]');
+      });
+      item.classList.remove('border-[#e2e8f0]');
+      item.classList.add('border-[#0445ec]');
+
+      // botones agregar/whatsapp
+      [addToCartBtn, whatsappBtn].forEach((btn) => {
+        if (!btn) return;
+        const cartName = shortName || fullName;
+        if (cartName) btn.dataset.name = cartName;
+        if (Number.isFinite(price)) btn.dataset.price = String(price);
+        if (gallery[0]?.full) btn.dataset.image = gallery[0].full;
+        if (sku) btn.dataset.sku = sku;
+      });
+      if (cartId) currentVariantCartBase = cartId;
+      updateCartId();
+    });
+  });
+
+  // Selector de instalación: no cambia el precio en la web — el costo de la
+  // instalación se define directo por WhatsApp. Solo viaja como texto en el
+  // mensaje y en el carrito.
+  document.querySelectorAll('.instalacion-option').forEach((option) => {
+    option.addEventListener('click', () => {
+      document.querySelectorAll('.instalacion-option').forEach((o) => {
+        o.classList.remove('selected', 'border-2', 'border-[#0445ec]', 'bg-[#0445ec]/[0.07]');
+        o.classList.add('border', 'border-[#e2e8f0]');
+        const r = o.querySelector('input[type="radio"]');
+        if (r) r.checked = false;
+      });
+      option.classList.add('selected', 'border-2', 'border-[#0445ec]', 'bg-[#0445ec]/[0.07]');
+      option.classList.remove('border', 'border-[#e2e8f0]');
+      const radio = option.querySelector('input[type="radio"]');
+      if (radio) radio.checked = true;
+
+      const instalacion = option.dataset.instalacion || '';
+      [addToCartBtn, whatsappBtn].forEach((btn) => {
+        if (!btn) return;
+        btn.dataset.instalacion = instalacion;
+      });
+
+      currentInstalacion = instalacion;
+      updateCartId();
+    });
+  });
+
+  // Cantidad → el input #product-qty se lee directamente por CartWidget
+  // gracias al atributo data-qty-input-id="product-qty" del botón Agregar.
+  const qtyInput = document.getElementById('product-qty');
+
+  document.getElementById('qty-decrease')?.addEventListener('click', () => {
+    let val = parseInt(qtyInput?.value || '1');
+    if (val > 1) val--;
+    if (qtyInput) qtyInput.value = String(val);
+  });
+  document.getElementById('qty-increase')?.addEventListener('click', () => {
+    let val = parseInt(qtyInput?.value || '1');
+    val++;
+    if (qtyInput) qtyInput.value = String(val);
+  });
+
+whatsappBtn?.addEventListener('click', () => {
+  if (whatsappBtn.hasAttribute('disabled')) return;
+  const qty = parseInt(qtyInput?.value || '1', 10);
+  const link = buildSingleProductWhatsAppLink({
+    slug: whatsappBtn.dataset.slug,
+    name: whatsappBtn.dataset.name,
+    price: parseFloat(whatsappBtn.dataset.price),
+    sku: whatsappBtn.dataset.sku || '',
+    quantity: Number.isFinite(qty) && qty > 0 ? qty : 1,
+    instalacion: whatsappBtn.dataset.instalacion || '',
+  });
+  window.open(link, '_blank', 'noopener');
+});
+</script>
